@@ -6,11 +6,37 @@ from nltk.corpus import stopwords
 import collections
 
 from tutorial_gensim import read_corpus
+from copy import deepcopy
 
 # Set file names for train and test data
 
 train_file = 'cs.AI.txt'
 test_file = 'cs.AI_test.txt'
+
+def test_recursivo(docs):
+
+    if len(docs) == 2:
+        return docs
+
+    sub_docs = {}
+
+    kclusterer = KMeansClusterer(5, avoid_empty_clusters=True, distance=nltk.cluster.util.cosine_distance, repeats=25)
+    assigns = kclusterer.cluster(docs, assign_clusters=True)
+
+    for i in assigns:
+        if i not in sub_docs:
+            sub_docs[i] = []
+        sub_docs[i].append(deepcopy(docs[i]))
+
+    for key, value in sub_docs.items():
+        print(key, len(value))
+
+
+    t = dict()
+    for key, value in sub_docs.items():
+        t[key] = test_recursivo(value)
+
+    return t
 
 def recursive_kmeans(docs, kclusterer ):
 
@@ -64,8 +90,12 @@ def do_kmeans_recursive():
 
     print("Clustering documents with k-means until 2 documents per cluster.")
 
-    kclusterer = KMeansClusterer(2, avoid_empty_clusters=True, distance=nltk.cluster.util.cosine_distance, repeats=25)
-    recursive_kmeans(vectors, kclusterer)
+    #kclusterer = KMeansClusterer(2, avoid_empty_clusters=True, distance=nltk.cluster.util.cosine_distance, repeats=25)
+    #recursive_kmeans(vectors, kclusterer)
+
+    res = test_recursivo(vectors)
+    print("RESULT", res)
+
 
 
 if __name__ == "__main__":
