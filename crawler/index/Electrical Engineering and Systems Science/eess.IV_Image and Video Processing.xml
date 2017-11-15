@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Aeess.IV%26id_list%3D%26start%3D0%26max_results%3D500" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:eess.IV&amp;id_list=&amp;start=0&amp;max_results=500</title>
+  <id>http://arxiv.org/api/8zhhwuvyvTD4sIxRoWJ8N4dptm0</id>
+  <updated>2017-10-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">16</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">500</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07875v1</id>
+    <updated>2017-09-22T21:56:11Z</updated>
+    <published>2017-09-22T21:56:11Z</published>
+    <title>Elliptification of Rectangular Imagery</title>
+    <summary>  We present and discuss different algorithms for converting rectangular
+imagery into elliptical regions. We will focus primarily on methods that use
+mathematical mappings with explicit and invertible equations. We will also
+present different post-processing effects that could be applied to enhance the
+resulting images and minimize distortion.
+</summary>
+    <author>
+      <name>Chamberlain Fong</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages, 13 figures; PDF only -- not generated from TeX</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07875v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07875v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07745v1</id>
+    <updated>2017-09-18T22:55:09Z</updated>
+    <published>2017-09-18T22:55:09Z</published>
+    <title>Measurement of amplitude of the moiré patterns in digital
+  autostereoscopic 3D display</title>
+    <summary>  The article presents the experimental measurements of the amplitude of the
+moir\'e patterns in a digital autostereoscopic barrier-type 3D display across a
+wide angular range with a small increment. The period and orientation of the
+moir\'e patterns were also measured as functions of the angle. Simultaneous
+branches are observed and analyzed. The theoretical interpretation is also
+given. The results can help preventing or minimizing the moir\'e effect in
+displays.
+</summary>
+    <author>
+      <name>Vladimir Saveljev</name>
+    </author>
+    <author>
+      <name>Sung-Kyu Kim</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 14 figures, 12 equations</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07745v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07745v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07041v1</id>
+    <updated>2017-09-20T19:19:58Z</updated>
+    <published>2017-09-20T19:19:58Z</published>
+    <title>Image Acquisition System Using On Sensor Compressed Sampling Technique</title>
+    <summary>  Advances in CMOS technology have made high resolution image sensors possible.
+These image sensor pose significant challenges in terms of the amount of raw
+data generated, energy efficiency and frame rate. This paper presents a new
+design methodology for an imaging system and a simplified novel pixel design to
+be used in such system so that Compressed Sensing technique can be implemented
+easily at the sensor level. This results in significant energy savings as it
+not only cuts the raw data rate but also reduces transistor count per pixel,
+decreases pixel size, increases fill factor, simplifies ADC, JPEG encoder and
+JPEG decoder design and decreases wiring as well as address decoder size by
+half. Thus Compressed Sensing has the potential to increase the resolution of
+image sensors for a given technology and die size while significantly
+decreasing the power consumption and design complexity. We show that it has
+potential to reduce power consumption by about 23%-65%.
+</summary>
+    <author>
+      <name>Pravir Singh Gupta</name>
+    </author>
+    <author>
+      <name>Gwan Seong Choi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07041v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07041v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07406v1</id>
+    <updated>2017-08-29T21:10:07Z</updated>
+    <published>2017-08-29T21:10:07Z</published>
+    <title>Having your cake and eating it too: Scripted workflows for image
+  manipulation</title>
+    <summary>  The reproducibility issue in science has come under increased scrutiny. One
+consistent suggestion lies in the use of scripted methods or workflows for data
+analysis. Image analysis is one area in science in which little can be done in
+scripted methods. The SWIIM Project (Scripted Workflows to Improve Image
+Manipulation) is designed to generate workflows from popular image manipulation
+tools. In the project, 2 approaches are being taken to construct workflows in
+the image analysis area. First, the open-source tool GIMP is being enhanced to
+produce an active log (which can be run on a stand-alone basis to perform the
+same manipulation). Second, the R system Shiny tool is being used to construct
+a graphical user interface (GUI) which works with EBImage code to modify
+images, and to produce an active log which can perform the same operations.
+This process has been successful to date, but is not complete. The basic method
+for each component is discussed, and example code is shown.
+</summary>
+    <author>
+      <name>Paul A. Thompson</name>
+    </author>
+    <author>
+      <name>Norm Matloff</name>
+    </author>
+    <author>
+      <name>Alex Fu</name>
+    </author>
+    <author>
+      <name>Ariel Shin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Written for Work17 Conference</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07406v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07406v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07739v2</id>
+    <updated>2017-10-05T07:56:22Z</updated>
+    <published>2017-09-22T13:32:49Z</published>
+    <title>Single-pixel imaging with Morlet wavelet correlated random patterns</title>
+    <summary>  Single-pixel imaging is an indirect imaging technique which utilizes
+simplified optical hardware and advanced computational methods. It offers novel
+solutions for hyper-spectral imaging, polarimetric imaging, three-dimensional
+imaging, holographic imaging, optical encryption and imaging through scattering
+media. The main limitations for its use come from relatively high measurement
+and reconstruction times. In this paper we propose to reduce the required
+signal acquisition time by using a novel sampling scheme based on a random
+selection of Morlet wavelets convolved with white noise. While such functions
+exhibit random properties, they are locally determined by Morlet wavelet
+parameters. The proposed method is equivalent to random sampling of the
+properly selected part of the feature space, which maps the measured images
+accurately both in the spatial and spatial frequency domains. We compare both
+numerically and experimentally the image quality obtained with our sampling
+protocol against widely-used sampling with Walsh-Hadamard or noiselet
+functions. The results show considerable improvement over the former methods,
+enabling single-pixel imaging at low compression rates on the order of a few
+percent.
+</summary>
+    <author>
+      <name>Krzysztof M. Czajkowski</name>
+    </author>
+    <author>
+      <name>Anna Pastuszczak</name>
+    </author>
+    <author>
+      <name>Rafał Kotyński</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07739v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07739v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09940v2</id>
+    <updated>2017-10-03T07:56:14Z</updated>
+    <published>2017-09-26T07:13:06Z</published>
+    <title>Propagation based phase retrieval using artificial neural networks</title>
+    <summary>  Determining the phase of a wave from intensity measurements has many
+applications in fields such as electron microscopy, visible light optics, and
+medical imaging. Propagation based phase retrieval, where the phase is obtained
+from defocused images, has shown significant promise. There are, however,
+limitations in the accuracy of the retrieved phase arising from such methods.
+Sources of error include shot noise, image misalignment, and diffraction
+artifacts. We explore the use of artificial neural networks (ANNs) to improve
+the accuracy of propagation based phase retrieval algorithms. We employ a phase
+retrieval algorithm based on the transport-of-intensity equation to obtain the
+phase from simulated micrographs of procedurally generated specimens. We then
+train an ANN with pairs of retrieved and exact phases, and use the trained ANN
+to process a test set of retrieved maps. The total error in the phase is
+significantly reduced using this method. We also discuss a variety of potential
+extensions to this work.
+</summary>
+    <author>
+      <name>Zachary David Cleary Kemp</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Added references to Rivenson's work on the same topic, which I was
+  previously unaware of</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.09940v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09940v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00532v1</id>
+    <updated>2017-10-02T08:46:30Z</updated>
+    <published>2017-10-02T08:46:30Z</published>
+    <title>Statistically Segregated k-Space Sampling for Accelerating
+  Multiple-Acquisition MRI</title>
+    <summary>  A central limitation of multiple-acquisition magnetic resonance imaging (MRI)
+is the degradation in scan efficiency as the number of distinct datasets grows.
+Sparse recovery techniques can alleviate this limitation via randomly
+undersampled acquisitions. A frequent sampling strategy is to prescribe for
+each acquisition a different random pattern drawn from a common sampling
+density. However, naive random patterns often contain gaps or clusters across
+the acquisition dimension that in turn can degrade reconstruction quality or
+reduce scan efficiency. To address this problem, a statistically-segregated
+sampling method is proposed for multiple-acquisition MRI. This method generates
+multiple patterns sequentially, while adaptively modifying the sampling density
+to minimize k-space overlap across patterns. As a result, it improves
+incoherence across acquisitions while still maintaining similar sampling
+density across the radial dimension of k-space. Comprehensive simulations and
+in vivo results are presented for phase-cycled balanced steady-state free
+precession and multi-echo T$_2$-weighted imaging. Segregated sampling achieves
+significantly improved quality in both Fourier and compressed-sensing
+reconstructions of multiple-acquisition datasets.
+</summary>
+    <author>
+      <name>L Kerem Senel</name>
+    </author>
+    <author>
+      <name>Toygan Kilic</name>
+    </author>
+    <author>
+      <name>Alper Gungor</name>
+    </author>
+    <author>
+      <name>Emre Kopanoglu</name>
+    </author>
+    <author>
+      <name>H Emre Guven</name>
+    </author>
+    <author>
+      <name>Emine U Saritas</name>
+    </author>
+    <author>
+      <name>Aykut Koc</name>
+    </author>
+    <author>
+      <name>Tolga Cukur</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 9 figures. Submitted to IEEE Transactions on Medical
+  Imaging</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00532v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00532v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06342v1</id>
+    <updated>2017-09-19T10:54:24Z</updated>
+    <published>2017-09-19T10:54:24Z</published>
+    <title>Visual Quality Assessment of Panoramic Video</title>
+    <summary>  In contrast with traditional video, panoramic video enables spherical viewing
+direction with support for head-mounted displays, providing an interactive and
+immersive experience. Unfortunately, to the best of our knowledge, there are
+few visual quality assessment (VQA) methods, either subjective or objective,
+for panoramic video. This paper proposes both subjective and objective methods
+for assessing quality loss in impaired panoramic video. Specifically, we first
+establish a new database, which includes the viewing direction data from
+several subjects watching panoramic video sequences. Then, from our database,
+we find a high consistency in viewing direction across different subjects. The
+viewing directions are normally distributed in the center of the front regions,
+but they sometimes fall into other regions, related to video content. Given
+this finding, we present a subjective VQA method for measuring different mean
+opinion score (DMOS) of the whole and regional panoramic video, in terms of
+overall DMOS (O-DMOS) and vectorized DMOS (V-DMOS), respectively. Moreover, we
+propose two objective VQA methods for panoramic video, in light of human
+perception characteristics of panoramic video. One method weighs the distortion
+of pixels with regard to their distances to the center of front regions, which
+considers human preference in a panorama. The other method predicts viewing
+directions according to video content, and then the predicted viewing
+directions are leveraged to assign weights to the distortion of each pixel in
+our objective VQA method. Finally, our experimental results verify that both
+the subjective and objective methods proposed in this paper advance
+state-of-the-art VQA for panoramic video.
+</summary>
+    <author>
+      <name>Mai Xu</name>
+    </author>
+    <author>
+      <name>Chen Li</name>
+    </author>
+    <author>
+      <name>Zulin Wang</name>
+    </author>
+    <author>
+      <name>Zhenzhong Chen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.06342v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06342v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07747v2</id>
+    <updated>2017-10-02T12:23:41Z</updated>
+    <published>2017-09-19T14:23:24Z</published>
+    <title>SNR-based adaptive acquisition method for fast Fourier ptychographic
+  microscopy</title>
+    <summary>  Fourier ptychographic microscopy (FPM) is a computational imaging technique
+with both high resolution and large field-of-view. However, the effective
+numerical aperture (NA) achievable with a typical LED panel is ambiguous and
+usually relies on the repeated tests of different illumination NAs. The imaging
+quality of each raw image usually depends on the visual assessments, which is
+subjective and inaccurate especially for those dark field images. Moreover, the
+acquisition process is really time-consuming.In this paper, we propose a
+SNR-based adaptive acquisition method for quantitative evaluation and adaptive
+collection of each raw image according to the signal-to-noise ration (SNR)
+value, to improve the FPM's acquisition efficiency and automatically obtain the
+maximum achievable NA, reducing the time of collection, storage and subsequent
+calculation. The widely used EPRY-FPM algorithm is applied without adding any
+algorithm complexity and computational burden. The performance has been
+demonstrated in both USAF targets and biological samples with different imaging
+sensors respectively, which have either Poisson or Gaussian noises model.
+Further combined with the sparse LEDs strategy, the number of collection images
+can be shorten to around 25 frames while the former needs 361 images, the
+reduction ratio can reach over 90%. This method will make FPM more practical
+and automatic, and can also be used in different configurations of FPM.
+</summary>
+    <author>
+      <name>An Pan</name>
+    </author>
+    <author>
+      <name>Yan Zhang</name>
+    </author>
+    <author>
+      <name>Maosen Li</name>
+    </author>
+    <author>
+      <name>Meiling Zhou</name>
+    </author>
+    <author>
+      <name>Junwei Min</name>
+    </author>
+    <author>
+      <name>Ming Lei</name>
+    </author>
+    <author>
+      <name>Baoli Yao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07747v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07747v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08182v1</id>
+    <updated>2017-09-24T11:03:52Z</updated>
+    <published>2017-09-24T11:03:52Z</published>
+    <title>Neuromorphic adaptive edge-preserving denoising filter</title>
+    <summary>  In this paper, we present on-sensor neuromorphic vision hardware
+implementation of denoising spatial filter. The mean or median spatial filters
+with fixed window shape are known for its denoising ability, however, have the
+drawback of blurring the object edges. The effect of blurring increases with an
+increase in window size. To preserve the edge information, we propose an
+adaptive spatial filter that uses neuron's ability to detect similar pixels and
+calculates the mean. The analog input differences of neighborhood pixels are
+converted to the chain of pulses with voltage controlled oscillator and applied
+as neuron input. When the input pulses charge the neuron to equal or greater
+level than its threshold, the neuron will fire, and pixels are identified as
+similar. The sequence of the neuron's responses for pixels is stored in the
+serial-in-parallel-out shift register. The outputs of shift registers are used
+as input to the selector switches of an averaging circuit making this an
+adaptive mean operation resulting in an edge preserving mean filter. System
+level simulation of the hardware is conducted using 150 images from Caltech
+database with added Gaussian noise to test the robustness of edge-preserving
+and denoising ability of the proposed filter. Threshold values of the hardware
+neuron were adjusted so that the proposed edge-preserving spatial filter
+achieves optimal performance in terms of PSNR and MSE, and these results
+outperforms that of the conventional mean and median filters.
+</summary>
+    <author>
+      <name>Aidana Irmanova</name>
+    </author>
+    <author>
+      <name>Olga Krestinskaya</name>
+    </author>
+    <author>
+      <name>Alex Pappachen James</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">IEEE International Conference on Rebooting Computing 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08182v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08182v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01135v1</id>
+    <updated>2017-09-29T20:49:54Z</updated>
+    <published>2017-09-29T20:49:54Z</published>
+    <title>A Graph Signal Processing View on Functional Brain Imaging</title>
+    <summary>  Modern neuroimaging techniques provide us with unique views on brain
+structure and function; i.e., how the brain is wired, and where and when
+activity takes place. These large datasets contain increasingly rich
+information that can be analyzed in terms of network structure to reveal
+organizing principles at the systems level. Graph representations are versatile
+models where nodes are associated to brain regions and edges to structural or
+functional connections. Structural graphs model neural pathways in white matter
+that are the anatomical backbone between regions. Functional graphs are built
+based on functional connectivity, which is a pairwise measure of statistical
+interdependency between activity traces of regions. Therefore, most research to
+date has focussed on analyzing these graphs reflecting structure or function.
+  Graph signal processing (GSP) is an emerging research theme where signals
+recorded at the nodes of the graph are analyzed taking into account the
+underlying graph structure. An increasing number of fundamental operations has
+been generalized to the graph setting, allowing to analyze the signals from a
+new viewpoint. Here, we introduce GSP for functional brain imaging and
+demonstrate its potential to integrate brain structure, contained in the graph
+itself, with brain function, residing in the graph signals. We show how brain
+activity can be meaningfully filtered based on concepts of spectral modes
+derived from brain structure. We also derive other operations such as surrogate
+data generation or decompositions informed by cognitive systems. In sum, GSP
+puts up a novel framework for the analysis of brain imaging data.
+</summary>
+    <author>
+      <name>Weiyu Huang</name>
+    </author>
+    <author>
+      <name>Thomas AW Bolton</name>
+    </author>
+    <author>
+      <name>Alejandro Ribeiro</name>
+    </author>
+    <author>
+      <name>Dimitri Van De Ville</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Weiyu Huang and Thomas AW Bolton contributed equally</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01135v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01135v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.3189v5</id>
+    <updated>2015-09-26T21:26:34Z</updated>
+    <published>2010-11-14T07:53:26Z</published>
+    <title>Warping Peirce Quincuncial Panoramas</title>
+    <summary>  The Peirce quincuncial projection is a mapping of the surface of a sphere to
+the interior of a square. It is a conformal map except for four points on the
+equator. These points of non-conformality cause significant artifacts in
+photographic applications. In this paper, we propose an algorithm and
+user-interface to mitigate these artifacts. Moreover, in order to facilitate an
+interactive user-interface, we present a fast algorithm for calculating the
+Peirce quincuncial projection of spherical imagery. We then promote the Peirce
+quincuncial projection as a viable alternative to the more popular
+stereographic projection in some scenarios.
+</summary>
+    <author>
+      <name>Chamberlain Fong</name>
+    </author>
+    <author>
+      <name>Brian K. Vogel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">updated source code with figures and explanation of the software
+  implementation</arxiv:comment>
+    <link href="http://arxiv.org/abs/1011.3189v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1011.3189v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.05937v1</id>
+    <updated>2017-09-12T13:21:47Z</updated>
+    <published>2017-09-12T13:21:47Z</published>
+    <title>Une véritable approche $\ell_0$ pour l'apprentissage de dictionnaire</title>
+    <summary>  Sparse representation learning has recently gained a great success in signal
+and image processing, thanks to recent advances in dictionary learning. To this
+end, the $\ell_0$-norm is often used to control the sparsity level.
+Nevertheless, optimization problems based on the $\ell_0$-norm are non-convex
+and NP-hard. For these reasons, relaxation techniques have been attracting much
+attention of researchers, by priorly targeting approximation solutions (e.g.
+$\ell_1$-norm, pursuit strategies). On the contrary, this paper considers the
+exact $\ell_0$-norm optimization problem and proves that it can be solved
+effectively, despite of its complexity. The proposed method reformulates the
+problem as a Mixed-Integer Quadratic Program (MIQP) and gets the global optimal
+solution by applying existing optimization software. Because the main
+difficulty of this approach is its computational time, two techniques are
+introduced that improve the computational speed. Finally, our method is applied
+to image denoising which shows its feasibility and relevance compared to the
+state-of-the-art.
+</summary>
+    <author>
+      <name>Yuan Liu</name>
+    </author>
+    <author>
+      <name>Stéphane Canu</name>
+    </author>
+    <author>
+      <name>Paul Honeine</name>
+    </author>
+    <author>
+      <name>Su Ruan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">in French</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.05937v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.05937v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00965v1</id>
+    <updated>2017-10-03T02:45:15Z</updated>
+    <published>2017-10-03T02:45:15Z</published>
+    <title>Automated and Robust Quantification of Colocalization in Dual-Color
+  Fluorescence Microscopy: A Nonparametric Statistical Approach</title>
+    <summary>  Colocalization is a powerful tool to study the interactions between
+fluorescently labeled molecules in biological fluorescence microscopy. However,
+existing techniques for colocalization analysis have not undergone continued
+development especially in regards to robust statistical support. In this paper,
+we examine two of the most popular quantification techniques for colocalization
+and argue that they could be improved upon using ideas from nonparametric
+statistics and scan statistics. In particular, we propose a new colocalization
+metric that is robust, easily implementable, and optimal in a rigorous
+statistical testing framework. Application to several benchmark datasets, as
+well as biological examples, further demonstrates the usefulness of the
+proposed technique.
+</summary>
+    <author>
+      <name>Shulei Wang</name>
+    </author>
+    <author>
+      <name>Ellen T. Arena</name>
+    </author>
+    <author>
+      <name>Kevin W. Eliceiri</name>
+    </author>
+    <author>
+      <name>Ming Yuan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00965v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00965v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09634v1</id>
+    <updated>2017-09-22T21:49:11Z</updated>
+    <published>2017-09-22T21:49:11Z</published>
+    <title>Real time text localization for Indoor Mobile Robot Navigation</title>
+    <summary>  Scene text is an important feature to be extracted, especially in
+vision-based mobile robot navigation as many potential landmarks such as
+nameplates and information signs contain text. In this paper, a novel two-step
+text localization method for Indoor Mobile Robot Navigation is introduced. This
+method is based on morphological operators and machine learning techniques and
+can be used in real time environments. The proposed method has two steps. At
+First, a new set of morphological operators is applied with a particular
+sequence to extract high contrast areas that have high probability of text
+existence. Using of morphological operators has many advantages such as: high
+computation speed, being invariant to several geometrical transformations like
+translation, rotations, and scaling, and being able to extract all areas
+containing text. After extracting text candidate regions, a set of nine
+features are extracted for accurate detection and deletion of the regions that
+don't have text. These features are descriptors for texture properties and are
+computed in real time. Then, we use a SVM classifier to detect the existence of
+text in the region. Performance of the proposed algorithm is compared against a
+number of widely used text localization algorithms and the results show that
+this method can quickly and effectively localize and extract text regions from
+real scenes and can be used in mobile robot navigation under an indoor
+environment to detect text based landmarks.
+</summary>
+    <author>
+      <name>Kazem Qazanfari</name>
+    </author>
+    <author>
+      <name>Saeed Shiri</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">IR Open Robocup Symposium, 7-9 April 2010</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1709.09634v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09634v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02051v1</id>
+    <updated>2017-10-04T13:43:50Z</updated>
+    <published>2017-10-04T13:43:50Z</published>
+    <title>Stochastic model for the 3D microstructure of pristine and cyclically
+  aged cathodes in Li-ion batteries</title>
+    <summary>  It is well-known that the microstructure of electrodes in lithium-ion
+batteries strongly affects their performance. Vice versa, the microstructure
+can exhibit strong changes during the usage of the battery due to aging
+effects. For a better understanding of these effects, mathematical analysis and
+modeling has turned out to be of great help. In particular, stochastic 3D
+microstructure models have proven to be a powerful and very flexible tool to
+generate various kinds of particle-based structures. Recently, such models have
+been proposed for the microstructure of anodes in lithium-ion energy and power
+cells. In the present paper, we describe a stochastic modeling approach for the
+3D microstructure of cathodes in a lithium-ion energy cell, which differs
+significantly from the one observed in anodes. The model for the cathode data
+enhances the ideas of the anode models, which have been developed so far. It is
+calibrated using 3D tomographic image data from pristine as well as two aged
+cathodes. A validation based on morphological image characteristics shows that
+the model is able to realistically describe both, the microstructure of
+pristine and aged cathodes. Thus, we conclude that the model is suitable to
+generate virtual, but realistic microstructures of lithium-ion cathodes.
+</summary>
+    <author>
+      <name>Klaus Kuchler</name>
+    </author>
+    <author>
+      <name>Daniel Westhoff</name>
+    </author>
+    <author>
+      <name>Julian Feinauer</name>
+    </author>
+    <author>
+      <name>Tim Mitsch</name>
+    </author>
+    <author>
+      <name>Ingo Manke</name>
+    </author>
+    <author>
+      <name>Volker Schmidt</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.02051v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.02051v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

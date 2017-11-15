@@ -1,0 +1,3097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Aeess.SP%26id_list%3D%26start%3D0%26max_results%3D500" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:eess.SP&amp;id_list=&amp;start=0&amp;max_results=500</title>
+  <id>http://arxiv.org/api/npTueLvzQhNBLcT/1JSGB+VDHLk</id>
+  <updated>2017-10-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">81</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">500</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06072v1</id>
+    <updated>2017-08-06T10:07:11Z</updated>
+    <published>2017-08-06T10:07:11Z</published>
+    <title>Bounds on Discrete Fourier Transform of Random Mask</title>
+    <summary>  This paper proposes some bounds on the maximum of magnitude of a random mask
+in Fourier domain. The random mask is used in random sampling scheme. Having a
+bound on the maximum value of a random mask in Fourier domain is very useful
+for some iterative recovery methods that use thresholding operator. In this
+paper, we propose some different bounds and compare them with the empirical
+examples.
+</summary>
+    <author>
+      <name>Nematollah Zarmehi</name>
+    </author>
+    <author>
+      <name>Farokh Marvasti</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.06072v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06072v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08085v1</id>
+    <updated>2017-09-23T17:47:21Z</updated>
+    <published>2017-09-23T17:47:21Z</published>
+    <title>Time-Reversal Routing for Dispersion Code Multiple Access (DCMA)
+  Communications</title>
+    <summary>  We present the modeling and characterization of a time-reversal routing
+dispersion code multiple access (TR-DCMA) system. We show that this system
+maintains the low complexity advantage of DCMA transceivers while offering
+dynamic adaptivity for practial communication scenarios. We first derive the
+mathematical model and explain operation principles of the system, and then
+characterize its interference, signal to interference ratio, and bit error
+probability characteristics.
+</summary>
+    <author>
+      <name>Lianfeng Zou</name>
+    </author>
+    <author>
+      <name>Christophe Caloz</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.08085v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08085v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00776v1</id>
+    <updated>2017-08-25T09:14:06Z</updated>
+    <published>2017-08-25T09:14:06Z</published>
+    <title>125 Gbps Pre-Compensated Nonlinear Frequency-Division Multiplexed
+  Transmission</title>
+    <summary>  Record-high data rate of 125 Gb/s and SE over 2 bits/s/Hz in burst-mode
+single-polarization NFDM transmissions were achieved over 976 km of SSMF with
+EDFA-only amplification by transmitting and processing 222 32 QAM-modulated
+nonlinear subcarriers simultaneously
+</summary>
+    <author>
+      <name>Son T. Le</name>
+    </author>
+    <author>
+      <name>Vahid Aref</name>
+    </author>
+    <author>
+      <name>Henning Buelow</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper will be presented at ECOC 2017, Gothenburg, Sweden</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00776v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00776v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00783v1</id>
+    <updated>2017-08-05T07:57:24Z</updated>
+    <published>2017-08-05T07:57:24Z</published>
+    <title>Steepest Descent Multimodulus Algorithm for Blind Signal Retrieval in
+  QAM Systems</title>
+    <summary>  We present steepest descent (SD) implementation of multimodulus algorithm
+(MMA2-2) for blind signal retrieval in digital communication systems. In
+comparison to stochastic approximate (gradient descent) realization, the
+proposed SD implementation of MMA2-2 equalizer mitigates inter-symbol
+interference with relatively smooth convergence and superior steady-state
+performance.
+</summary>
+    <author>
+      <name>Shafayat Abrar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This work was initially submitted in IET Electronics Letters on Feb.
+  06, 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00783v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00783v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.06336v1</id>
+    <updated>2017-08-14T05:50:38Z</updated>
+    <published>2017-08-14T05:50:38Z</published>
+    <title>SER for Optimal Combining in Rician Fading with Co-channel Interference</title>
+    <summary>  Approximate Symbol error rate (SER) expressions are derived for receive
+diversity system employing optimum combining, when both the desired and the
+interfering signals are subjected to Rician fading, for the case of a) equal
+power uncorrelated interferers b) unequal power interferers c) interferer
+correlation. The derived expressions are applicable for an arbitrary number of
+receive antennas and interferers and for any QAM constellation. Furthermore, we
+derive a simple closed form expression for SER in the interference-limited
+regime, for the special case of Rayleigh faded interferers. A close match is
+observed between the SER result obtained through the derived analytical
+expression and the one obtained from Monte-Carlo simulations, for a variety of
+QAM constellations.
+</summary>
+    <author>
+      <name>Muralikrishnan Srinivasan</name>
+    </author>
+    <author>
+      <name>Sheetal Kalyani</name>
+    </author>
+    <link href="http://arxiv.org/abs/1708.06336v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.06336v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06140v1</id>
+    <updated>2017-09-18T19:58:28Z</updated>
+    <published>2017-09-18T19:58:28Z</published>
+    <title>Optimal Training for Residual Self-Interference for Full Duplex One-way
+  Relays</title>
+    <summary>  Optimal training design and maximum likelihood channel estimation for one-way
+amplify-and-forward full duplex relay systems are proposed. The destination
+estimates the residual self-interference (RSI) channel as well as the
+end-to-end channel of the relay system, aiming to cancel the RSI through
+equalization. The log-likelihood function is maximized through a quasi-Newton
+method, with an MMSE-based initialization. The Cramer-Rao bounds are derived to
+evaluate the accuracy of the estimates. By using Szeg\"{o}'s theorems about
+Toeplitz matrices, we minimize the Cramer-Rao bounds and find the corresponding
+optimal training sequences. Extensions of our method to frequency selective
+channels and multiple relays are also presented.
+</summary>
+    <author>
+      <name>Xiaofeng Li</name>
+    </author>
+    <author>
+      <name>Cihan Tepedelenlioğlu</name>
+    </author>
+    <author>
+      <name>Habib Şenol</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.06140v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06140v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06895v1</id>
+    <updated>2017-09-19T17:03:33Z</updated>
+    <published>2017-09-19T17:03:33Z</published>
+    <title>Optimized Sparse Projections for Compressive Sensing</title>
+    <summary>  We consider designing a sparse sensing matrix which contains few non-zero
+entries per row for compressive sensing (CS) systems. By unifying the previous
+approaches for optimizing sensing matrices based on minimizing the mutual
+coherence, we propose a general framework for designing a sparse sensing matrix
+that minimizes the mutual coherence of the equivalent dictionary and is robust
+to sparse representation error. An alternating minimization-based algorithm is
+proposed for designing sparse sensing matrices. Experiments with real images
+show that the obtained sparse sensing matrix (even each row is extremely
+sparse) significantly outperforms a random dense sensing matrix in terms of the
+signal recovery accuracy.
+</summary>
+    <author>
+      <name>Tao Hong</name>
+    </author>
+    <author>
+      <name>Xiao Li</name>
+    </author>
+    <author>
+      <name>Zhihui Zhu</name>
+    </author>
+    <author>
+      <name>Qiuwei Li</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">1 table, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.06895v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06895v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08573v1</id>
+    <updated>2017-09-25T16:22:33Z</updated>
+    <published>2017-09-25T16:22:33Z</published>
+    <title>Coexistence between Communication and Radar Systems - A Survey</title>
+    <summary>  Data traffic demand in cellular networks has been tremendously growing and
+has led to creating congested RF environment. Accordingly, innovative
+approaches for spectrum sharing have been proposed and implemented to
+accommodate several systems within the same frequency band. Spectrum sharing
+between radar and communication systems is one of the important research and
+development areas. In this paper, we present the fundamental spectrum sharing
+concepts and technologies, then we provide an updated and comprehensive survey
+of spectrum sharing techniques that have been developed to enable some of the
+wireless communication systems to coexist in the same band as radar systems.
+</summary>
+    <author>
+      <name>Mina Labib</name>
+    </author>
+    <author>
+      <name>Vuk Marojevic</name>
+    </author>
+    <author>
+      <name>Anthony F. Martone</name>
+    </author>
+    <author>
+      <name>Jeffrey H. Reed</name>
+    </author>
+    <author>
+      <name>Amir I. Zaghloul</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted for publication in Radio Science Bulletin</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08573v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08573v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10246v2</id>
+    <updated>2017-10-03T13:02:12Z</updated>
+    <published>2017-09-29T06:11:17Z</published>
+    <title>Achievable Rate of Relay Assisted Cooperative O-NOMA under Rician Fading
+  Channels</title>
+    <summary>  The achievable rate of an Opportunistic Non-Orthogonal Multiple Access
+(O-NOMA) based Cooperative Relaying System (CRS) with Channel State Information
+(CSI) available at the transmitter end is analyzed under Rician fading
+channels. O-NOMA-based CRS achieves better achievable rate than
+Conventional-NOMA-based CRS and results are verified through Monte Carlo
+simulations.
+</summary>
+    <author>
+      <name>Pranav Kumar Jha</name>
+    </author>
+    <author>
+      <name>D. Sriram Kumar</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10246v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10246v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00625v1</id>
+    <updated>2017-08-22T10:36:20Z</updated>
+    <published>2017-08-22T10:36:20Z</published>
+    <title>Equalization Methods for NLIN Mitigation</title>
+    <summary>  We investigate the potential of adaptive equalization techniques to mitigate
+inter-channel nonlinear interference noise (NLIN). We derive a lower bound on
+the mutual information of a system using adaptive equalization, showing that
+the channel estimation error determines the equalizer's performance. We develop
+an adaptive equalization scheme which uses the statistics of the NLIN to obtain
+optimal detection, based on Kalman filtering and maximum likelihood sequence
+estimation (MLSE). This scheme outperforms commonly used equalizers and
+significantly increases performance.
+</summary>
+    <author>
+      <name>Ori Golani</name>
+    </author>
+    <author>
+      <name>Meir Feder</name>
+    </author>
+    <author>
+      <name>Mark Shtaif</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00625v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00625v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00865v1</id>
+    <updated>2017-09-22T00:00:16Z</updated>
+    <published>2017-09-22T00:00:16Z</published>
+    <title>PSO and CPSO Based Interference Alignment for K-User MIMO Interference
+  Channel</title>
+    <summary>  This paper investigates how to use a metaheuristic based technique, namely
+Particle Swarm Optimization (PSO), in carrying out of Interference Alignment
+(IA) for $K$-User MIMO Interference Channel (IC). Despite its increasing
+popularity, mainly in wireless communications, IA lacks of explicit and
+straightforward design procedures. Indeed, IA design results in complex
+optimization tasks involving a large amount of decision variables, together
+with a problem of convergence of the IA solutions. In this paper the IA
+optimization is performed using PSO and Cooperative PSO (CPSO) more suitable
+for large scale optimization, a comparison between the two versions is also
+carried out. This approach seems to be promising.
+</summary>
+    <author>
+      <name>Lysa AIT Messaoud</name>
+    </author>
+    <author>
+      <name>Fatiha Merazka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00865v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00865v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01955v1</id>
+    <updated>2017-10-05T10:34:10Z</updated>
+    <published>2017-10-05T10:34:10Z</published>
+    <title>Analysis of simultaneous 3D positioning and attitude estimation of a
+  planar coil using inductive coupling</title>
+    <summary>  In this paper, simultaneous estimation of 3D position and attitude of a
+single coil using a set of anchors, with known position and magnetic dipole, is
+analyzed. Effect of noise and geometric properties of the anchors'
+constellation is considered. Several parameters are analyzed and discussed,
+including placement of anchors in a single or in multiple orthogonal planes. It
+is shown that adding space and orientation diversity anchors may lead to a more
+robust performance when the mobile node attitude changes in time.
+</summary>
+    <author>
+      <name>Antonio Moschitta</name>
+    </author>
+    <author>
+      <name>Alessio De Angelis</name>
+    </author>
+    <author>
+      <name>Marco Dionigi</name>
+    </author>
+    <author>
+      <name>Paolo Carbone</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/I2MTC.2017.7969848</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/I2MTC.2017.7969848" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Preprint version. Conference accepted paper</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">2017 IEEE International Instrumentation and Measurement Technology
+  Conference (I2MTC), Turin, 2017. doi: 10.1109/I2MTC.2017.7969848</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1710.01955v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01955v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01998v1</id>
+    <updated>2017-09-13T19:47:36Z</updated>
+    <published>2017-09-13T19:47:36Z</published>
+    <title>Quality factor of a transmission line coupled coplanar waveguide
+  resonator</title>
+    <summary>  We investigate analytically the coupling of a coplanar waveguide resonator to
+a coplanar waveguide feedline. Using a conformal mapping technique we obtain an
+expression for the characteristic mode impedances and coupling coefficients of
+an asymmetric multi-conductor transmission line. Leading order terms for the
+external quality factor and frequency shift are calculated. The obtained
+analytical results are relevant for designing circuit-QED quantum systems and
+frequency division multiplexing of superconducting bolometers, detectors and
+similar microwave-range multi-pixel devices.
+</summary>
+    <author>
+      <name>Ilya Besedin</name>
+    </author>
+    <author>
+      <name>Alexey P. Menushenkov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01998v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01998v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02005v1</id>
+    <updated>2017-10-03T09:05:17Z</updated>
+    <published>2017-10-03T09:05:17Z</published>
+    <title>About attenuation of videopulse in nonlinear transmission lines with
+  ideal dielectric</title>
+    <summary>  The attenuation of the video pulse with monotonically increasing input
+voltage in a transmission lines with an ideal dielectric can be characterized
+by "ohmic" voltage drop $U_\sigma$ along the electrodes with finite
+conductivity. The exact analytical formulas for the calculations $U_\sigma$ in
+coaxial and strip lines with and without taking into account the strong skin
+effect have been obtained. These formulas do not depend on the dispersion and
+the degree of nonlinearity of the dielectric and therefore is suitable for
+evaluating of shock electromagnetic waves attenuation
+</summary>
+    <author>
+      <name>A. S. Kyuregyan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, in Russian, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.02005v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.02005v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02015v1</id>
+    <updated>2017-10-04T07:48:52Z</updated>
+    <published>2017-10-04T07:48:52Z</published>
+    <title>Rigorous Q Factor Formulation and Characterization for Nonlinear
+  Oscillators</title>
+    <summary>  In this paper, we discuss the definition of Q factor for nonlinear
+oscillators. While available definitions of Q are often limited to linear
+resonators or oscillators with specific topologies, our definition is
+applicable to any oscillator as a figure of merit for its amplitude stability.
+It can be formulated rigorously and computed numerically from oscillator
+equations. With this definition, we calculate and analyze the Q factors of
+several oscillators of different types. The results confirm that the proposed Q
+formulation is a useful addition to the characterization techniques for
+oscillators.
+</summary>
+    <author>
+      <name>Tianshi Wang</name>
+    </author>
+    <author>
+      <name>Jaijeet Roychowdhury</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.02015v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.02015v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02016v1</id>
+    <updated>2017-10-04T09:17:25Z</updated>
+    <published>2017-10-04T09:17:25Z</published>
+    <title>Thermal Source Localization Through Infinite-Dimensional Compressed
+  Sensing</title>
+    <summary>  We propose a scheme utilizing ideas from infinite dimensional compressed
+sensing for thermal source localization. Using the soft recovery framework of
+one of the authors, we provide rigorous theoretical guarantees for the recovery
+performance. In particular, we extend the framework in order to also include
+noisy measurements. Further, we conduct numerical experiments, showing that our
+proposed method has strong performance, in a wide range of settings. These
+include scenarios with few sensors, off-grid source positioning and high noise
+levels, both in one and two dimensions.
+</summary>
+    <author>
+      <name>Axel Flinth</name>
+    </author>
+    <author>
+      <name>Ali Hashemi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.02016v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.02016v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65K10, 90C25, 46N99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.08117v1</id>
+    <updated>2017-07-25T07:54:28Z</updated>
+    <published>2017-07-25T07:54:28Z</published>
+    <title>A Novel Sparse recovery based DOA estimation algorithm by relaxing the
+  RIP constraint</title>
+    <summary>  Direction of Arrival (DOA) estimation of mixed uncorrelated and coherent
+sources is a long existing challenge in array signal processing. Application of
+compressive sensing to array signal processing has opened up an exciting class
+of algorithms. The authors investigated the application of orthogonal matching
+pursuit (OMP) for Direction of Arrival (DOA) estimation for different
+scenarios, especially to tackle the case of coherent sources and observed
+inconsistencies in the results. In this paper, a modified OMP algorithm is
+proposed to overcome these deficiencies by exploiting maximum variance based
+criterion using only one snapshot. This criterion relaxes the imposed
+restricted isometry property (RIP) on the measurement matrix to obtain the
+sources. It not only uses one snapshot, but also tackles sources irrespective
+of their coherency. The condition for the weak-1 RIP on decreased sparsity is
+derived and it is shown that how the algorithm gives better result than the OMP
+algorithm. With an addition to this, a simple method is also presented to
+calculate source distance from the reference point in a uniform linear sensor
+array. Numerical analysis demonstrates the effectiveness of the proposed
+algorithm.
+</summary>
+    <author>
+      <name>Abhishek Aich</name>
+    </author>
+    <author>
+      <name>P. Palanisamy</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 6 figures, 1 figures, journal paper</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.08117v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.08117v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.03191v1</id>
+    <updated>2017-09-10T22:49:18Z</updated>
+    <published>2017-09-10T22:49:18Z</published>
+    <title>Data Discovery and Anomaly Detection Using Atypicality: Signal
+  Processing Methods</title>
+    <summary>  The aim of atypicality is to extract small, rare, unusual and interesting
+pieces out of big data. This complements statistics about typical data to give
+insight into data. In order to find such "interesting" parts of data, universal
+approaches are required, since it is not known in advance what we are looking
+for. We therefore base the atypicality criterion on codelength. In a prior
+paper we developed the methodology for discrete-valued data, and the the
+current paper extends this to real-valued data. This is done by using minimum
+description length (MDL). We show that this shares a number of theoretical
+properties with the discrete-valued case. We develop the methodology for a
+number of "universal" signal processing models, and finally apply them to
+recorded hydrophone data.
+</summary>
+    <author>
+      <name>Elyas Sabeti</name>
+    </author>
+    <author>
+      <name>Anders Høst-Madsen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, two columns</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.03191v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.03191v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06074v1</id>
+    <updated>2017-08-06T10:52:35Z</updated>
+    <published>2017-08-06T10:52:35Z</published>
+    <title>Optimal Linear Precoding for Indoor Visible Light Communication System</title>
+    <summary>  Visible light communication (VLC) is an emerging technique that uses
+light-emitting diodes (LED) to combine communication and illumination. It is
+considered as a promising scheme for indoor wireless communication that can be
+deployed at reduced costs while offering high data rate performance. In this
+paper, we focus on the design of the downlink of a multi-user VLC system.
+Inherent to multi-user systems is the interference caused by the broadcast
+nature of the medium. Linear precoding based schemes are among the most popular
+solutions that have recently been proposed to mitigate inter-user interference.
+This paper focuses on the design of the optimal linear precoding scheme that
+solves the max-min signal-to-interference-plus-noise ratio (SINR) problem. The
+performance of the proposed precoding scheme is studied under different working
+conditions and compared with the classical zero-forcing precoding. Simulations
+have been provided to illustrate the high gain of the proposed scheme.
+</summary>
+    <author>
+      <name>Houssem Sifaou</name>
+    </author>
+    <author>
+      <name>Ki-Hong Park</name>
+    </author>
+    <author>
+      <name>Abla Kammoun</name>
+    </author>
+    <author>
+      <name>Mohamed-Slim Alouini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 4 figures, accepted for publication in ICC proceedings 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.06074v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06074v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06402v1</id>
+    <updated>2017-07-12T07:05:56Z</updated>
+    <published>2017-07-12T07:05:56Z</published>
+    <title>SIMO channel performance evaluation on indoor environment at 2.4 GHz</title>
+    <summary>  This work presents an experimental study of Single Input Multiple Output
+(SIMO) channel performance in indoor radio propagation environment. Indoor
+channel measurements at 2.4 GHz ISM frequency band have been performed using a
+versatile channel sounder testbed platform. A single transmitting antenna, four
+receiving antennas with two proposed geometries and a four-branch receiver
+circuitry were used in order to achieve channel sounder measurements exploiting
+baseband signal processing techniques. Deep investigation on SIMO wireless
+channel performance was realized through three types of metrics which are
+signal strength, gain coefficient and capacity. Performance results indicate
+SIMO channel capacity enhancement and illustrate differences between the two
+proposed geometries.
+</summary>
+    <author>
+      <name>Constantinos I. Votis</name>
+    </author>
+    <author>
+      <name>Vasilis Christofilakis</name>
+    </author>
+    <author>
+      <name>Panos Kostarakis</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1080/00207217.2015.1036810</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1080/00207217.2015.1036810" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 18 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">International Journal of Electronics, Volume 103, 2016 - Issue 4</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1709.06402v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06402v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06883v1</id>
+    <updated>2017-09-19T00:43:16Z</updated>
+    <published>2017-09-19T00:43:16Z</published>
+    <title>Modeling and Analysis of Power Line Communications for Application in
+  Smart Grid</title>
+    <summary>  Smart grid is an energy infrastructure that increases energy efficiency by
+using communication infrastructure, smart meters, smart appliances, automated
+control and networking, and more. This paper focuses on the Power Line
+Communication (PLC) aspect and technologies used in the smart grid. There are
+various challenges and advancements in the smart grid; this research discusses
+how PLC can improve smart grid performance. In order to provide applicable
+results, practical PLC system parameters and other required data was obtained
+from Florida Power and Light (FPL). Modeling of the PLC system with different
+types of digital modulations was conducted using MATLAB/Simulink software and
+Python. The benefits and design tradeoffs of Amplitude Shift Keying (ASK),
+Frequency Shift Keying (FSK), and Phase Shift Keying (PSK) are discussed. The
+modulation schemes are compared on the basis of their applicability to a
+practical PLC network by comparing the results of the simulations
+</summary>
+    <author>
+      <name>Moegamat Peck</name>
+    </author>
+    <author>
+      <name>Genesis Alvarez</name>
+    </author>
+    <author>
+      <name>Benjamin Coleman</name>
+    </author>
+    <author>
+      <name>Hadis Moradi</name>
+    </author>
+    <author>
+      <name>Mark Forest</name>
+    </author>
+    <author>
+      <name>Valentine Aalo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 13 figures, LACCEI 2017, Boca Raton, FL</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.06883v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06883v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06930v1</id>
+    <updated>2017-09-15T13:46:35Z</updated>
+    <published>2017-09-15T13:46:35Z</published>
+    <title>Interdependence of Transmission Branch Parameters on the Voltage Levels</title>
+    <summary>  Transformers and transmission lines are critical components of a grid
+network. This paper analyzes the statistical properties of the electrical
+parameters of transmission branches and especially examines their
+interdependence on the voltage levels. Some interesting findings include: (a)
+with appropriate conversion of MVA rating, a transformers per unit reactance
+exhibits consistent statistical pattern independent of voltage levels and
+capacity; (b) the distributed reactance (ohms/km) of transmission lines also
+has some consistent patterns regardless of voltage levels; (c) other parameters
+such as the branch resistance, the MVA ratings, the transmission line length,
+etc, manifest strong interdependence on the voltage levels which can be
+approximated by a power function with different power constants. The results
+will be useful in both creation of synthetic power grid test cases and
+validation of existing grid models.
+</summary>
+    <author>
+      <name>Mir Hadi Athari</name>
+    </author>
+    <author>
+      <name>Zhifang Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To be published (Accepted) in: Proceedings of the 51st Hawaii
+  International Conference on System Sciences (HICSS), Big Island, HI, USA,
+  2018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.06930v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06930v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07518v1</id>
+    <updated>2017-09-21T21:31:30Z</updated>
+    <published>2017-09-21T21:31:30Z</published>
+    <title>An Object Detecting Signal Analysis Method Based on General
+  Approximation Entropy and Wavelet De-noising</title>
+    <summary>  The construction quality of the bolt is directly related to the safety of the
+project. The construction quality of the bolt anchorage must be tested. In this
+paper, the improved complete ensemble empirical mode decomposition (ICEEMD)
+method is introduced into the bolt detection signal analysis. The ICEEMD is
+used to decompose the anchor detection signal according to the approximate
+entropy of each intrinsic mode function (IMF). The noise of the IMFs is
+eliminated by the wavelet soft threshold de-noising technique. Based on the
+approximate entropy and the wavelet de-noising principle, the ICEEMD-De anchor
+signal analysis method is proposed. From the analysis of the vibration analog
+signal, as well as the bolt detection signal, the result shows that the
+ICEEMD-De method is able to correctly separate the different IMFs under the
+noisy condition, and the IMF can effectively identify the reflection signal of
+the end of the bolt.
+</summary>
+    <author>
+      <name>Zhenzhong Shen</name>
+    </author>
+    <author>
+      <name>Zhan Zhang</name>
+    </author>
+    <author>
+      <name>Juncai Xu</name>
+    </author>
+    <author>
+      <name>Xin Xie</name>
+    </author>
+    <author>
+      <name>Zhengyu Yang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07518v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07518v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07744v1</id>
+    <updated>2017-09-20T15:35:28Z</updated>
+    <published>2017-09-20T15:35:28Z</published>
+    <title>Heterogeneous Networked Data Recovery from Compressive Measurements
+  Using a Copula Prior</title>
+    <summary>  Large-scale data collection by means of wireless sensor network and
+internet-of-things technology poses various challenges in view of the
+limitations in transmission, computation, and energy resources of the
+associated wireless devices. Compressive data gathering based on compressed
+sensing has been proven a well-suited solution to the problem. Existing designs
+exploit the spatiotemporal correlations among data collected by a specific
+sensing modality. However, many applications, such as environmental monitoring,
+involve collecting heterogeneous data that are intrinsically correlated. In
+this study, we propose to leverage the correlation from multiple heterogeneous
+signals when recovering the data from compressive measurements. To this end, we
+propose a novel recovery algorithm---built upon belief-propagation
+principles---that leverages correlated information from multiple heterogeneous
+signals. To efficiently capture the statistical dependencies among diverse
+sensor data, the proposed algorithm uses the statistical model of copula
+functions. Experiments with heterogeneous air-pollution sensor measurements
+show that the proposed design provides significant performance improvements
+against state-of-the-art compressive data gathering and recovery schemes that
+use classical compressed sensing, compressed sensing with side information, and
+distributed compressed sensing.
+</summary>
+    <author>
+      <name>Nikos Deligiannis</name>
+    </author>
+    <author>
+      <name>João F. C. Mota</name>
+    </author>
+    <author>
+      <name>Evangelos Zimos</name>
+    </author>
+    <author>
+      <name>Miguel R. D. Rodrigues</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/TCOMM.2017.2746099</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/TCOMM.2017.2746099" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">accepted to IEEE Transactions on Communications</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">IEEE Transactions on Communications, 2017</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1709.07744v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07744v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07970v1</id>
+    <updated>2017-09-22T23:09:47Z</updated>
+    <published>2017-09-22T23:09:47Z</published>
+    <title>Reliability assessment of microgrid with renewable generation and
+  prioritized loads</title>
+    <summary>  With the increase in awareness about the climate change, there has been a
+tremendous shift towards utilizing renewable energy sources (RES). In this
+regard, smart grid technologies have been presented to facilitate higher
+penetration of RES. Microgrids are the key components of the smart grids.
+Microgrids allow integration of various distributed energy resources (DER) such
+as the distributed generation (DGs) and energy storage systems (ESSs) into the
+distribution system and hence remove or delay the need for distribution
+expansion. One of the crucial requirements for utilities is to ensure that the
+system reliability is maintained with the inclusion of microgrid topology.
+Therefore, this paper evaluates the reliability of a microgrid containing
+prioritized loads and distributed RES through a hybrid analytical-simulation
+method. The stochasticity of RES introduces complexity to the reliability
+evaluation. The method takes into account the variability of RES through Monte-
+Carlo state sampling simulation. The results indicate the reliability
+enhancement of the overall system in the presence of the microgrid topology. In
+particular, the highest priority load has the largest improvement in the
+reliability indices. Furthermore, sensitivity analysis is performed to
+understand the effects of the failure of microgrid islanding in the case of a
+fault in the upstream network.
+</summary>
+    <author>
+      <name>O. A. Ansari</name>
+    </author>
+    <author>
+      <name>N. Safar</name>
+    </author>
+    <author>
+      <name>C. Y. Chung</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07970v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07970v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08131v1</id>
+    <updated>2017-09-24T00:19:17Z</updated>
+    <published>2017-09-24T00:19:17Z</published>
+    <title>Magnet-less Circulators Based on Spatio-temporal Modulation of Bandstop
+  Filters in a Delta Topology</title>
+    <summary>  In this paper, we discuss the design rationale and guidelines to build
+magnet-less circulators based on spatio-temporal modulation of resonant
+junctions consisting of first-order bandstop filters connected in a delta
+topology. Without modulation, the junction does not allow transmission between
+its ports, however, when the natural oscillation frequencies of the constituent
+LC filters are modulated in time with a suitable phase pattern, a synthetic
+angular-momentum bias can be effectively imparted to the junction and a
+transmission window opens at one of the output ports, thus realizing a
+circulator. We develop a rigorous small-signal linear model and find analytical
+expressions for the harmonic S-parameters of the proposed circuit, which
+significantly facilitate the design process. We validate the theory with
+simulations and further discuss the large signal response, including power
+handling and non-linearity, and the noise performance. Finally, we present
+measured results with unprecedented performance in all metrics for a PCB
+prototype using a Rogers board and off-the-shelf discrete components.
+</summary>
+    <author>
+      <name>Ahmed Kord</name>
+    </author>
+    <author>
+      <name>Dimitrios L. Sounas</name>
+    </author>
+    <author>
+      <name>Andrea Alù</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 25 figures, TMTT, accepted and to appear soon</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08131v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08131v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08272v1</id>
+    <updated>2017-09-24T22:23:15Z</updated>
+    <published>2017-09-24T22:23:15Z</published>
+    <title>Compressed Air Energy Storage-Part I: An Accurate Bi-linear Cavern Model</title>
+    <summary>  Compressed air energy storage (CAES) is suitable for large-scale energy
+storage and can help to increase the penetration of wind power in power
+systems. A CAES plant consists of compressors, expanders, caverns, and a
+motor/generator set. Currently used cavern models for CAES are either accurate
+but highly non-linear or linear but inaccurate. Highly non-linear cavern models
+cannot be directly utilized in power system optimization problems. In this
+regard, an accurate bi-linear cavern model for CAES is proposed in this first
+paper of a two-part series. The charging and discharging processes in a cavern
+are divided into several virtual states and then the first law of
+thermodynamics and ideal gas law are used to derive a cavern model, i.e., model
+for the variation of temperature and pressure in these processes. Thereafter,
+the heat transfer between the air in the cavern and the cavern wall is
+considered and integrated into the cavern model. By subsequently eliminating
+several negligible terms, the cavern model reduces to a bi-linear (linear)
+model for CAES with multiple (single) time steps. The accuracy of the proposed
+cavern model is verified via comparison with an accurate non-linear model.
+</summary>
+    <author>
+      <name>Junpeng Zhan</name>
+    </author>
+    <author>
+      <name>Osama Aslam Ansari</name>
+    </author>
+    <author>
+      <name>C. Y. Chung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08272v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08272v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08388v2</id>
+    <updated>2017-10-05T05:12:45Z</updated>
+    <published>2017-09-25T09:10:53Z</published>
+    <title>Compressive Sensing by Shortest-Solution Guided Decimation</title>
+    <summary>  Compressed sensing, which reconstructs a signal by finding sparse solutions
+to underdetermined linear systems, is an important problem in many fields of
+science and engineering. In this work we propose a deterministic and
+non-parametric algorithm, Shortest-Solution guided Decimation (SSD), to
+construct support of the sparse solution in an iterative way guided by the
+shortest Euclidean-length solution of the recursively decimated linear equation
+under orthogonal projections. The most significant feature of SSD is its
+insensitivity to correlations in the sampling matrix. Using extensive numerical
+experiments we show that SSD greatly outperforms L1-based methods, Orthogonal
+Matching Pursuit, and Approximate Message Passing when the sampling matrix
+contains strong correlations. This nice property of correlation tolerance makes
+SSD a versatile and robust tool for different types of real-world signal
+acquisition tasks.
+</summary>
+    <author>
+      <name>Mutian Shen</name>
+    </author>
+    <author>
+      <name>Pan Zhang</name>
+    </author>
+    <author>
+      <name>Hai-Jun Zhou</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages including 9 figures and a MATLAB code. References updated and
+  equations (7) and (8) are added. Submitted to IEEE Access</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08388v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08388v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08460v1</id>
+    <updated>2017-09-25T12:52:44Z</updated>
+    <published>2017-09-25T12:52:44Z</published>
+    <title>Simple Signal Extension Method for Discrete Wavelet Transform</title>
+    <summary>  Discrete wavelet transform of finite-length signals must necessarily handle
+the signal boundaries. The state-of-the-art approaches treat such boundaries in
+a complicated and inflexible way, using special prolog or epilog phases. This
+holds true in particular for images decomposed into a number of scales,
+exemplary in JPEG 2000 coding system. In this paper, the state-of-the-art
+approaches are extended to perform the treatment using a compact streaming
+core, possibly in multi-scale fashion. We present the core focused on CDF 5/3
+wavelet and the symmetric border extension method, both employed in the JPEG
+2000. As a result of our work, every input sample is visited only once, while
+the results are produced immediately, i.e. without buffering.
+</summary>
+    <author>
+      <name>David Barina</name>
+    </author>
+    <author>
+      <name>Pavel Zemcik</name>
+    </author>
+    <author>
+      <name>Michal Kula</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/SIPROCESS.2016.7888319</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/SIPROCESS.2016.7888319" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">preprint; presented on ICSIP 2016</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08460v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08460v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08651v1</id>
+    <updated>2017-09-22T09:44:00Z</updated>
+    <published>2017-09-22T09:44:00Z</published>
+    <title>Two asymptotic approaches for the exponential signal and harmonic noise
+  in Singular Spectrum Analysis</title>
+    <summary>  The general theoretical approach to the asymptotic extraction of the signal
+series from the perturbed signal with the help of Singular Spectrum Analysis
+(briefly, SSA) was already outlined in Nekrutkin 2010, SII, v. 3, 297--319.
+  In this paper we consider the example of such an analysis applied to the
+increasing exponential signal and the sinusoidal noise. It is proved that if
+the signal rapidly tends to infinity, then the so-called reconstruction errors
+of SSA do not uniformly tend to zero as the series length tends to infinity.
+More precisely, in this case any finite number of last terms of the error
+series do not tend to any finite or infinite values.
+  On the contrary, for the "discretization" scheme with the bounded from above
+exponential signal, all elements of the error series tend to zero.
+  This effect shows that the discretization model can be an effective tool in
+the theoretical SSA considerations with increasing signals.
+</summary>
+    <author>
+      <name>Elizaveta Ivanova</name>
+    </author>
+    <author>
+      <name>Vladimir Nekrutkin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08651v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08651v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08667v1</id>
+    <updated>2017-09-25T18:43:36Z</updated>
+    <published>2017-09-25T18:43:36Z</published>
+    <title>Asymptotic robustness of Kelly's GLRT and Adaptive Matched Filter
+  detector under model misspecification</title>
+    <summary>  A fundamental assumption underling any Hypothesis Testing (HT) problem is
+that the available data follow the parametric model assumed to derive the test
+statistic. Nevertheless, a perfect match between the true and the assumed data
+models cannot be achieved in many practical applications. In all these cases,
+it is advisable to use a robust decision test, i.e. a test whose statistic
+preserves (at least asymptotically) the same probability density function (pdf)
+for a suitable set of possible input data models under the null hypothesis.
+Building upon the seminal work of Kent (1982), in this paper we investigate the
+impact of the model mismatch in a recurring HT problem in radar signal
+processing applications: testing the mean of a set of Complex Elliptically
+Symmetric (CES) distributed random vectors under a possible misspecified,
+Gaussian data model. In particular, by using this general misspecified
+framework, a new look to two popular detectors, the Kelly's Generalized
+Likelihood Ration Test (GLRT) and the Adaptive Matched Filter (AMF), is
+provided and their robustness properties investigated.
+</summary>
+    <author>
+      <name>S. Fortunati</name>
+    </author>
+    <author>
+      <name>M. S. Greco</name>
+    </author>
+    <author>
+      <name>F. Gini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">ISI World Statistics Congress 2017 (ISI2017), Marrakech, Morocco,
+  16-21 July 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08667v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08667v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10393v1</id>
+    <updated>2017-07-26T20:19:32Z</updated>
+    <published>2017-07-26T20:19:32Z</published>
+    <title>Achievable Information Rates for Fiber Optics: Applications and
+  Computations</title>
+    <summary>  In this paper, achievable information rates (AIR) for fiber optical
+communications are discussed. It is shown that AIRs such as the mutual
+information and generalized mutual information are good design metrics for
+coded optical systems. The theoretical predictions of AIRs are compared to the
+performance of modern codes including low-parity density check (LDPC) and polar
+codes. Two different computation methods for these AIRs are also discussed:
+Monte-Carlo integration and Gauss-Hermite quadrature. Closed-form ready-to-use
+approximations for such computations are provided for arbitrary constellations
+and the multidimensional AWGN channel. The computation of AIRs in optical
+experiments and simulations is also discussed.
+</summary>
+    <author>
+      <name>Alex Alvarado</name>
+    </author>
+    <author>
+      <name>Tobias Fehenberger</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+    <author>
+      <name>Frans M. J. Willems</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10393v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10393v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10396v1</id>
+    <updated>2017-08-23T09:42:17Z</updated>
+    <published>2017-08-23T09:42:17Z</published>
+    <title>Analysis and Design of Cost-Effective, High-Throughput LDPC Decoders</title>
+    <summary>  This paper introduces a new approach to cost-effective, high-throughput
+hardware designs for Low Density Parity Check (LDPC) decoders. The proposed
+approach, called Non-Surjective Finite Alphabet Iterative Decoders (NS-FAIDs),
+exploits the robustness of message-passing LDPC decoders to inaccuracies in the
+calculation of exchanged messages, and it is shown to provide a unified
+framework for several designs previously proposed in the literature. NS-FAIDs
+are optimized by density evolution for regular and irregular LDPC codes, and
+are shown to provide different trade-offs between hardware complexity and
+decoding performance. Two hardware architectures targeting high-throughput
+applications are also proposed, integrating both Min-Sum (MS) and NS-FAID
+decoding kernels. ASIC post synthesis implementation results on 65nm CMOS
+technology show that NS-FAIDs yield significant improvements in the throughput
+to area ratio, by up to 58.75% with respect to the MS decoder, with even better
+or only slightly degraded error correction performance.
+</summary>
+    <author>
+      <name>Thien Truong Nguyen-Ly</name>
+    </author>
+    <author>
+      <name>Valentin Savin</name>
+    </author>
+    <author>
+      <name>Khoa Le</name>
+    </author>
+    <author>
+      <name>David Declercq</name>
+    </author>
+    <author>
+      <name>Fakhreddine Ghaffari</name>
+    </author>
+    <author>
+      <name>Oana Boncalo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Submitted to IEEE Transactions on VLSI</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.10396v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10396v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10411v1</id>
+    <updated>2017-08-21T01:03:04Z</updated>
+    <published>2017-08-21T01:03:04Z</published>
+    <title>Frequency offset tolerant synchronization signal design in NB-IoT</title>
+    <summary>  Timing detection is the first step and very important in wireless
+communication systems. Timing detection performance is usually affected by the
+frequency offset. Therefore, it is a challenge to design the synchronization
+signal in massive narrowband Internet of Things (NB-IoT) scenarios where the
+frequency offset is usually large due to the low cost requirement. In this
+paper, we firstly proposed a new general synchronization signal structure with
+a couple of sequences which are conjugated to remove the potential timing error
+arose from large frequency offset. Then, we analyze the suitable sequence for
+our proposed synchronization signal structure and discuss a special ZC sequence
+as an example. Finally, the simulation results demonstrate our proposed
+synchronization signal can work well when the frequency offset is large. It
+means that our proposed synchronization signal design is very suitable for the
+massive NB-IoT.
+</summary>
+    <author>
+      <name>Jun Zou</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10411v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10411v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00335v1</id>
+    <updated>2017-10-01T11:38:13Z</updated>
+    <published>2017-10-01T11:38:13Z</published>
+    <title>BER Performance of Uplink Massive MIMO With Low-Resolution ADCs</title>
+    <summary>  Massive multiple-input multiple-output (MIMO) is a promising technology for
+next generation wireless communication systems (5G). In this technology, Base
+Station (BS) is equipped with a large number of antennas. Employing high
+resolution analog-to-digital converters (ADCs) for all antennas may cause high
+costs and high power consumption for the BS. By performing numerical results,
+we evaluate the use of low-resolution ADCs for uplink massive MIMO by analyzing
+Bit Error Rate (BER) performance for different detection techniques (MMSE, ZF)
+and different modulations (QPSK, 16-QAM) to find an optimal quantization
+resolution. Our results reveal that the BER performance of uplink massive MIMO
+systems with a few-bit resolution ADCs is comparable to the case of having full
+precision ADCs. We found that the optimum choice of quantization level (number
+of bits in ADCs) depends on the modulation technique and the number of antennas
+at the BS.
+</summary>
+    <author>
+      <name>Azad Azizzadeh</name>
+    </author>
+    <author>
+      <name>Reza Mohammadkhani</name>
+    </author>
+    <author>
+      <name>Seyed Vahab Al-Din Makki</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4 pages, 9 figures; accepted for publication in iccke 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00335v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00335v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00342v1</id>
+    <updated>2017-10-01T12:56:40Z</updated>
+    <published>2017-10-01T12:56:40Z</published>
+    <title>Beam Switching Techniques for Millimeter Wave Vehicle to Infrastructure
+  Communications</title>
+    <summary>  Beam alignment for millimeter wave (mm Wave) vehicular communications is
+challenging due to the high mobility of vehicles. Recent studies have proposed
+some beam switching techniques at Road Side Unit (RSU) for vehicle to
+infrastructure (V2I) communications, employing initial position and speed
+information of vehicles, that are sent through Dedicated Short Range
+Communications (DSRC) to the RSU. However, inaccuracies of the provided
+information lead to beam misalignment. Some beam design parameters are
+suggested in the literature to combat this effect. But how these parameters
+should be tuned? Here, we evaluate the effect of all these parameters, and
+propose a beam design efficiency metric to perform beam alignment in the
+presence of the estimation errors, and to improve the performance by choosing
+the right design parameters.
+</summary>
+    <author>
+      <name>Hamed Mohammadi</name>
+    </author>
+    <author>
+      <name>Reza Mohammadkhani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 7 figures, accepted to be published in iccke 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00342v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00342v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00484v1</id>
+    <updated>2017-10-02T04:56:59Z</updated>
+    <published>2017-10-02T04:56:59Z</published>
+    <title>Performance analysis of FSO using relays and spatial diversity under
+  log-normal fading channel</title>
+    <summary>  The performance analysis of free space optical communication (FSO) systems
+using relays and spatial diversity at the source is studied in this paper. The
+effect of atmospheric turbulence and attenuation has also been considered
+caused by different weather conditions and geometric losses. The exact closed
+form expressions are presented for bit-error rate (BER) for M-ary quadrature
+amplitude modulation (M-QAM) for different types of FSO systems under
+log-normal channel model. The performance of the link of FSO system is compared
+for different system as on-off keying, M-ary pulse amplitude modulation.
+Results shows that M-QAM outperforms other systems with same spectral
+efficiency for each system with the help of relays.
+</summary>
+    <author>
+      <name>Pranav Kumar Jha</name>
+    </author>
+    <author>
+      <name>Nitin Kachare</name>
+    </author>
+    <author>
+      <name>K Kalyani</name>
+    </author>
+    <author>
+      <name>D. Sriram Kumar</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00484v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00484v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00770v1</id>
+    <updated>2017-09-21T19:25:42Z</updated>
+    <published>2017-09-21T19:25:42Z</published>
+    <title>A simple and fast frequency domain analysis method for calculating the
+  frequency response and linearity of electro-optic microring modulators</title>
+    <summary>  A fast and simple frequency domain method is introduced for the analysis of
+microring modulator response using the Jacobi Anger expansion method. Resonance
+frequency modulated microring (FMMR) modulators and coupling modulated
+microring modulators (CMMR) are analyzed using this method. The linearity of
+these modulators is analyzed. The third order intercept point (IP3) is
+calculated for CMMR devices and compared to Mach Zehnder interferometer (MZI)
+modulator devices. It is shown that CMMR devices can achieve a 12dB higher IP3
+compared to MZI devices. CMMR devices have high second order nonlinearity,
+while MZI devices second order nonlinearity is zero. A novel geometry based on
+dual CMMR modulators is introduced to improve the second order nonlinearity of
+CMMR modulators.
+</summary>
+    <author>
+      <name>Payam Rabiei</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00770v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00770v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00772v1</id>
+    <updated>2017-09-25T13:23:22Z</updated>
+    <published>2017-09-25T13:23:22Z</published>
+    <title>Optimal Resource Allocation in Ultra-low Power Fog-computing SWIPT-based
+  Networks</title>
+    <summary>  In this paper, we consider a fog computing system consisting of a
+multi-antenna access point (AP), an ultra-low power (ULP) single antenna device
+and a fog server. The ULP device is assumed to be capable of both energy
+harvesting (EH) and information decoding (ID) using a time-switching
+simultaneous wireless information and power transfer (SWIPT) scheme. The ULP
+device deploys the harvested energy for ID and either local computing or
+offloading the computations to the fog server depending on which strategy is
+most energy efficient. In this scenario, we optimize the time slots devoted to
+EH, ID and local computation as well as the time slot and power required for
+the offloading to minimize the energy cost of the ULP device. Numerical results
+are provided to study the effectiveness of the optimized fog computing system
+and the relevant challenges.
+</summary>
+    <author>
+      <name>Nafiseh Janatian</name>
+    </author>
+    <author>
+      <name>Ivan Stupia</name>
+    </author>
+    <author>
+      <name>Luc Vandendorpe</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00772v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00772v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00779v1</id>
+    <updated>2017-09-05T00:57:07Z</updated>
+    <published>2017-09-05T00:57:07Z</published>
+    <title>GPR signal de-noise method based on variational mode decomposition</title>
+    <summary>  Compared with traditional empirical mode decomposition (EMD) methods,
+variational mode decomposition (VMD) has strong theoretical foundation and high
+operational efficiency. The VMD method is introduced to ground penetrating
+radar (GPR) signal processing. The characteristics of GPR signals validate the
+method of signal de-noising based on the VMD principle. The validity and
+accuracy of the method are further verified via Ricker wavelet and forward
+model GPR de-noising experiments. The method of VMD is evaluated in comparison
+with traditional wavelet transform (WT) and EEMD (ensemble EMD) methods. The
+method is subsequently used to analyze a GPR signal from a practical
+engineering case. The results show that the method can effectively remove the
+noise in the GPR data, and can obtain high signal-to-noise ratios (SNR) even
+under strong background noise.
+</summary>
+    <author>
+      <name>Juncai Xu</name>
+    </author>
+    <author>
+      <name>Zhenzhong Shen</name>
+    </author>
+    <author>
+      <name>Qingwen Ren</name>
+    </author>
+    <author>
+      <name>Xin Xie</name>
+    </author>
+    <author>
+      <name>Zhengyu Yang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00779v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00779v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00780v1</id>
+    <updated>2017-09-11T13:35:15Z</updated>
+    <published>2017-09-11T13:35:15Z</published>
+    <title>Dynamic Uplink/Downlink Resource Management in Flexible Duplex-Enabled
+  Wireless Networks</title>
+    <summary>  Flexible duplex is proposed to adapt to the channel and traffic asymmetry for
+future wireless networks. In this paper, we propose two novel algorithms within
+the flexible duplex framework for joint uplink and downlink resource allocation
+in multi-cell scenario, named SAFP and RMDI, based on the awareness of
+interference coupling among wireless links. Numerical results show significant
+performance gain over the baseline system with fixed uplink/downlink resource
+configuration, and over the dynamic TDD scheme that independently adapts the
+configuration to time-varying traffic volume in each cell. The proposed
+algorithms achieve two-fold increase when compared with the baseline scheme,
+measured by the worst-case quality of service satisfaction level, under a low
+level of traffic asymmetry. The gain is more significant when the traffic is
+highly asymmetric, as it achieves three-fold increase.
+</summary>
+    <author>
+      <name>Qi Liao</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/ICCW.2017.7962728</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/ICCW.2017.7962728" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, 7 figures, ICC 2017 Workshop</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00780v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00780v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00781v1</id>
+    <updated>2017-09-11T13:58:14Z</updated>
+    <published>2017-09-11T13:58:14Z</published>
+    <title>Improving Resource Efficiency with Partial Resource Muting for Future
+  Wireless Networks</title>
+    <summary>  We propose novel resource allocation algorithms that have the objective of
+finding a good tradeoff between resource reuse and interference avoidance in
+wireless networks. To this end, we first study properties of functions that
+relate the resource budget available to network elements to the optimal utility
+and to the optimal resource efficiency obtained by solving max-min utility
+optimization problems. From the asymptotic behavior of these functions, we
+obtain a transition point that indicates whether a network is operating in an
+efficient noise-limited regime or in an inefficient interference-limited regime
+for a given resource budget. For networks operating in the inefficient regime,
+we propose a novel partial resource muting scheme to improve the efficiency of
+the resource utilization. The framework is very general. It can be applied not
+only to the downlink of 4G networks, but also to 5G networks equipped with
+flexible duplex mechanisms. Numerical results show significant performance
+gains of the proposed scheme compared to the solution to the max-min utility
+optimization problem with full frequency reuse.
+</summary>
+    <author>
+      <name>Qi Liao</name>
+    </author>
+    <author>
+      <name>R. L. G. Cavalcante</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 9 figures, to appear in WiMob 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00781v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00781v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00864v1</id>
+    <updated>2017-09-21T22:39:41Z</updated>
+    <published>2017-09-21T22:39:41Z</published>
+    <title>A Novel Mataheuristic based Interference Alignment for K-User
+  Interference Channel : A Comparative Study</title>
+    <summary>  This paper presents a new Interference Alignment (IA) scheme for K-User
+Multiple Input Multiple Output (MIMO) Interference Channel (IC) based on two
+metaheuristics, namely Particle Swarm Optimization (PSO) and Artificial Bee
+Colony (ABC) Algorithm. Tackling interference is an essential issue in wireless
+communications to which Interference Alignment (IA) provides a promising
+solution. However, IA still lacks of explicit and straightforward design
+procedures. In fact, most of IA procedures aim to minimize a certain
+Interference Leakage (IL) which measures the effect of the interference on the
+network, this results in complex optimization tasks involving a large amount of
+decision variables, together with a problem of convergence of the IA solutions.
+In this paper the IA optimization is performed using PSO, ABC and their
+cooperative counterparts, more suitable for large scale optimization. A
+comparison between the four algorithms is also carried out. The cooperative
+proposed approaches seem to be promising.
+</summary>
+    <author>
+      <name>Lysa Ait Messaoud</name>
+    </author>
+    <author>
+      <name>Fatiha Merazka</name>
+    </author>
+    <author>
+      <name>Daniel Massicotte</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00864v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00864v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01107v1</id>
+    <updated>2017-10-03T12:32:08Z</updated>
+    <published>2017-10-03T12:32:08Z</published>
+    <title>Photonic machine learning implementation for signal recovery in optical
+  communications</title>
+    <summary>  Nonlinearities put strict limitations on communication speed and distance in
+fibre-optic transmission systems. We show that some limitations can be overcome
+when converting the standard direct detection process into a pattern
+recognition problem. Machine learning techniques have proven efficient in
+pattern recognition tasks. However, they have not yet been exploited in optical
+communication systems for fast data recovery due to slow algorithmic
+processing. Here we propose photonic implementations of machine learning for
+binary data classification. We demonstrate experimentally their capability to
+improve data recovery of signals that suffer from severe nonlinear distortion
+after extended fibre transmission. The achieved improvement reaches up to two
+orders of magnitude in bit-error-rate compared to directly classifying the
+transmission output. This offers an increase in transmission length over 75%.
+While not yet offering real-time post-processing at telecom rates, we show how
+appropriate designs of the photonic reservoir can greatly reduce the speed
+penalty.
+</summary>
+    <author>
+      <name>Apostolos Argyris</name>
+    </author>
+    <author>
+      <name>Julián Bueno</name>
+    </author>
+    <author>
+      <name>Ingo Fischer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.01107v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01107v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01604v1</id>
+    <updated>2017-10-04T13:46:51Z</updated>
+    <published>2017-10-04T13:46:51Z</published>
+    <title>Cell Detection by Functional Inverse Diffusion and Group Sparsity $-$
+  Part I: Theory</title>
+    <summary>  In this two-part paper, we present a novel framework and methodology to
+analyze data from certain image-based biochemical assays, e.g., ELISPOT and
+Fluorospot assays. In this first part, we start by presenting a physical PDE
+model up to image acquisition for these biochemical assays. Then, we use the
+model's Green function to derive a novel parametrization of the image
+measurements. This parametrization allows us to propose a group-sparsity
+regularized functional optimization problem to address the inversion of the
+model, i.e., the localization and characterization of the biological cells
+involved in the assay. Finally, we derive the results necessary to establish
+the iterations and convergence of an Accelerated Proximal Gradient algorithm
+(FISTA) to address this inverse problem.
+</summary>
+    <author>
+      <name>Pol del Aguila Pla</name>
+    </author>
+    <author>
+      <name>Joakim Jaldén</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 1 figure, 2 algorithms, 2 appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01604v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01604v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="92C55, 94A08, 35R30, 35Q93, 46N10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01622v1</id>
+    <updated>2017-10-04T14:32:39Z</updated>
+    <published>2017-10-04T14:32:39Z</published>
+    <title>Cell Detection by Functional Inverse Diffusion and Group Sparsity $-$
+  Part II: Practice</title>
+    <summary>  In this two-part paper, we present a novel framework and methodology to
+analyze data from certain image-based biochemical assays, e.g., ELISPOT and
+Fluorospot assays. In this second part, we start by fully characterizing the
+model presented in Part I for these assays with respect to physical parameters.
+This yields, as a by-product, a novel methodology to generate synthetic data.
+Then, we present a discretization of the functional inverse diffusion algorithm
+proposed in Part I that yields an algorithm that is easy to parallelize using
+graphical processing units (GPUs). Finally, we provide extensive validation on
+synthetic data and an example of the analysis of real data from a Fluorospot
+assay.
+</summary>
+    <author>
+      <name>Pol del Aguila Pla</name>
+    </author>
+    <author>
+      <name>Joakim Jaldén</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 9 figures, 3 tables, 1 algorithm, 1 appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01622v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01622v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="92C55, 94A08, 35R30, 47-04" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01767v1</id>
+    <updated>2017-10-04T19:12:26Z</updated>
+    <published>2017-10-04T19:12:26Z</published>
+    <title>Eigenspace-Based Minimum Variance Adaptive Beamformer Combined with
+  Delay Multiply and Sum: Experimental Study</title>
+    <summary>  Delay and sum (DAS) is the most common beamforming algorithm in linear-array
+photoacoustic imaging (PAI) as a result of its simple implementation. However,
+it leads to a low resolution and high sidelobes. Delay multiply and sum (DMAS)
+was used to address the incapabilities of DAS, providing a higher image
+quality. However, the resolution improvement is not well enough compared to
+eigenspace-based minimum variance (EIBMV). In this paper, the EIBMV beamformer
+has been combined with DMAS algebra, called EIBMV-DMAS, using the expansion of
+DMAS algorithm. The proposed method is used as the reconstruction algorithm in
+linear-array PAI. EIBMV-DMAS is experimentally evaluated where the quantitative
+and qualitative results show that it outperforms DAS, DMAS and EIBMV. The
+proposed method degrades the sidelobes for about 365 %, 221 % and 40 %,
+compared to DAS, DMAS and EIBMV, respectively. Moreover, EIBMV-DMAS improves
+the SNR about 158 %, 63 % and 20 %, respectively.
+</summary>
+    <author>
+      <name>Moein Mozaffarzadeh</name>
+    </author>
+    <author>
+      <name>Ali Mahloojifar</name>
+    </author>
+    <author>
+      <name>Mohammadreza Nasiriavanaki</name>
+    </author>
+    <author>
+      <name>Mahdi Orooji</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.01767v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01767v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.04834v1</id>
+    <updated>2016-11-15T14:05:34Z</updated>
+    <published>2016-11-15T14:05:34Z</published>
+    <title>Stall Pattern Avoidance in Polynomial Product Codes</title>
+    <summary>  Product codes are a concatenated error-correction scheme that has been often
+considered for applications requiring very low bit-error rates, which demand
+that the error floor be decreased as much as possible. In this work, we
+consider product codes constructed from polynomial algebraic codes, and propose
+a novel low-complexity post-processing technique that is able to improve the
+error-correction performance by orders of magnitude. We provide lower bounds
+for the error rate achievable under post processing, and present simulation
+results indicating that these bounds are tight.
+</summary>
+    <author>
+      <name>Carlo Condo</name>
+    </author>
+    <author>
+      <name>Francois Leduc-Primeau</name>
+    </author>
+    <author>
+      <name>Gabi Sarkis</name>
+    </author>
+    <author>
+      <name>Pascal Giard</name>
+    </author>
+    <author>
+      <name>Warren Gross</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/GlobalSIP.2016.7905932</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/GlobalSIP.2016.7905932" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4 pages, 2 figures, GlobalSiP 2016</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.04834v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.04834v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="94B35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.07625v1</id>
+    <updated>2017-07-21T15:24:06Z</updated>
+    <published>2017-07-21T15:24:06Z</published>
+    <title>Restoring a smooth function from its noisy integrals</title>
+    <summary>  Numerical (and experimental) data analysis often requires the restoration of
+a smooth function from a set of sampled integrals over finite bins. We present
+the bin hierarchy method that efficiently computes the maximally smooth
+function from the sampled integrals using essentially all the information
+contained in the data. We perform extensive tests with different classes of
+functions and levels of data quality, including Monte Carlo data suffering from
+a severe sign problem.
+</summary>
+    <author>
+      <name>Olga Goulko</name>
+    </author>
+    <author>
+      <name>Nikolay Prokof'ev</name>
+    </author>
+    <author>
+      <name>Boris Svistunov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.07625v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.07625v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.00237v1</id>
+    <updated>2017-09-01T10:36:38Z</updated>
+    <published>2017-09-01T10:36:38Z</published>
+    <title>An order optimal policy for exploiting idle spectrum in cognitive radio
+  networks</title>
+    <summary>  In this paper a spectrum sensing policy employing recency-based exploration
+is proposed for cognitive radio networks. We formulate the problem of finding a
+spectrum sensing policy for multi-band dynamic spectrum access as a stochastic
+restless multi-armed bandit problem with stationary unknown reward
+distributions. In cognitive radio networks the multi-armed bandit problem
+arises when deciding where in the radio spectrum to look for idle frequencies
+that could be efficiently exploited for data transmission. We consider two
+models for the dynamics of the frequency bands: 1) the independent model where
+the state of the band evolves randomly independently from the past and 2) the
+Gilbert-Elliot model, where the states evolve according to a 2-state Markov
+chain. It is shown that in these conditions the proposed sensing policy attains
+asymptotically logarithmic weak regret. The policy proposed in this paper is an
+index policy, in which the index of a frequency band is comprised of a sample
+mean term and a recency-based exploration bonus term. The sample mean promotes
+spectrum exploitation whereas the exploration bonus encourages for further
+exploration for idle bands providing high data rates. The proposed recency
+based approach readily allows constructing the exploration bonus such that it
+will grow the time interval between consecutive sensing time instants of a
+suboptimal band exponentially, which then leads to logarithmically increasing
+weak regret. Simulation results confirming logarithmic weak regret are
+presented and it is found that the proposed policy provides often improved
+performance at low complexity over other state-of-the-art policies in the
+literature.
+</summary>
+    <author>
+      <name>Jan Oksanen</name>
+    </author>
+    <author>
+      <name>Visa Koivunen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">IEEE transactions on signal processing, 2015</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.00237v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.00237v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06523v1</id>
+    <updated>2017-09-19T16:43:45Z</updated>
+    <published>2017-09-19T16:43:45Z</published>
+    <title>Photoacoustic Imaging using Combination of Eigenspace-Based Minimum
+  Variance and Delay-Multiply-and-Sum Beamformers: Simulation Study</title>
+    <summary>  Delay and Sum (DAS), as the most common beamforming algorithm in
+Photoacoustic Imaging (PAI), having a simple implementation, results in a
+low-quality image. Delay Multiply and Sum (DMAS) was introduced to improve the
+quality of the reconstructed images using DAS. However, the resolution
+improvement is now well enough compared to high resolution adaptive
+reconstruction methods such as Eigenspace- Based Minimum Variance (EIBMV). We
+proposed to integrate the EIBMV inside the DMAS formula by replacing the
+existing DAS algebra inside the expansion of DMAS, called EIBMV-DMAS. It is
+shown that EIBMV-DMAS outperforms DMAS in the terms of levels of sidelobes and
+width of mainlobe significantly. For instance, at the depth of 35 mm,
+EIBMV-DMAS outperforms DMAS and EIBMV in the term of sidelobes for about 108
+dB, 98 dB and 44 dB compared to DAS, DMAS, and EIBMV, respectively. The
+quantitative comparison has been conducted using Full-Width-Half-Maximum (FWHM)
+and Signal-to-Noise Ratio (SNR), and it was shown that EIBMV-DMAS reduces the
+FWHM about 1.65 mm and improves the SNR about 15 dB, compared to DMAS.
+</summary>
+    <author>
+      <name>Moein Mozaffarzadeh</name>
+    </author>
+    <author>
+      <name>Seyed Amin Ollah Izadi Avanji</name>
+    </author>
+    <author>
+      <name>Ali Mahloojifar</name>
+    </author>
+    <author>
+      <name>Mahdi Orooji</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Submitted in 24th Iranian Conference on Biomedical Engineering (ICBME
+  2017)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.06523v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06523v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07206v1</id>
+    <updated>2017-09-21T08:26:15Z</updated>
+    <published>2017-09-21T08:26:15Z</published>
+    <title>Interconnection Strategies for Self-Calibration of Large Scale Antenna
+  Arrays</title>
+    <summary>  In time-division duplexing (TDD) systems, massive multiple-input
+multiple-output (MIMO) relies on the channel reciprocity to obtain the downlink
+(DL) channel state information (CSI) with the uplink (UL) CSI. In practice, the
+mismatches in the radio frequency (RF) analog circuits among different antennas
+at the base station (BS) break the end-to-end UL and DL channel reciprocity.
+Antenna calibration is necessary to avoid the severe performance degradation
+with massive MIMO. Many calibration schemes are available to compensate the RF
+gain mismatches and restore the channel reciprocity in TDD massive MIMO
+systems. In this paper, we focus on the internal self-calibration scheme where
+different BS antennas are interconnected via hardware transmission lines.
+First, we study the resulting calibration performance for an arbitrary
+interconnection strategy. Next, we obtain closed-form Cramer-Rao lower bound
+(CRLB) expressions for each interconnection strategy at the BS with only (M-1)
+transmission lines and M denotes the total number of BS antennas. Basing on the
+derived results, we further prove that the star interconnection strategy is
+optimal for internal self-calibration due to its lowest CRLB. In addition, we
+also put forward efficient recursive algorithms to derive the corresponding
+maximum-likelihood (ML) estimates of all the calibration coefficients.
+Numerical simulation results are also included to corroborate our theoretical
+analyses and results.
+</summary>
+    <author>
+      <name>Hanyu Zhu</name>
+    </author>
+    <author>
+      <name>Fuqian Yang</name>
+    </author>
+    <author>
+      <name>Zhaowei Zhu</name>
+    </author>
+    <author>
+      <name>Xiliang Luo</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07206v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07206v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07722v1</id>
+    <updated>2017-09-22T12:53:18Z</updated>
+    <published>2017-09-22T12:53:18Z</published>
+    <title>Spectral and Energy Efficiency of Superimposed Pilots in Uplink Massive
+  MIMO</title>
+    <summary>  Next generation wireless networks aim at providing substantial improvements
+in spectral efficiency (SE) and energy efficiency (EE). Massive MIMO has been
+proved to be a viable technology to achieve these goals by spatially
+multiplexing several users using many base station (BS) antennas. A potential
+limitation of Massive MIMO in multicell systems is pilot contamination, which
+arises in the channel estimation process from the interference caused by
+reusing pilots in neighboring cells. A standard method to reduce pilot
+contamination, known as regular pilot (RP), is to adjust the length of pilot
+sequences while transmitting data and pilot symbols disjointly. An alternative
+method, called superimposed pilot (SP), sends a superposition of pilot and data
+symbols. This allows to use longer pilots which, in turn, reduces pilot
+contamination. We consider the uplink of a multicell Massive MIMO network using
+maximum ratio combining detection and compare RP and SP in terms of SE and EE.
+To this end, we derive rigorous closed-form achievable rates with SP under a
+practical random BS deployment. We prove that the reduction of pilot
+contamination with SP is outweighed by the additional coherent and non-coherent
+interference. Numerical results show that when both methods are optimized, RP
+achieves comparable SE and EE to SP in practical scenarios.
+</summary>
+    <author>
+      <name>Daniel Verenzuela</name>
+    </author>
+    <author>
+      <name>Emil Björnson</name>
+    </author>
+    <author>
+      <name>Luca Sanguinetti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 12 figures, 3 tables. Submitted in March 2017 to IEEE
+  Transactions on Wireless Communications</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07722v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07722v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07965v2</id>
+    <updated>2017-09-26T04:57:01Z</updated>
+    <published>2017-09-22T22:13:20Z</published>
+    <title>Linear Array Photoacoustic Imaging Using Minimum Variance-Based Delay
+  Multiply and Sum Adaptive Beamforming Algorithm</title>
+    <summary>  In Photoacoustic imaging (PA), Delay-and-Sum (DAS) beamformer is a common
+beamforming algorithm having a simple implementation. However, it results in a
+poor resolution and high levels of sidelobe. To address these challenges, a new
+algorithm namely Delay-Multiply-and-Sum (DMAS) was introduced having lower
+sidelobes compared to DAS. Improving the resolution of DMAS, a novel beamformer
+is introduced using Minimum Variance (MV) adaptive beamforming combined with
+DMAS, so-called Minimum Variance-Based DMAS (MVB-DMAS). It is shown that
+expanding the DMAS equation results in multiple terms representing a DAS
+algebra. It is proposed to use the MV adaptive beamformer instead of the
+existing DAS inside the DMAS algebra expansion. MVB-DMAS is evaluated
+numerically and experimentally. It is shown that MVB-DMAS outperforms DAS, DMAS
+and MV in terms of the resolution and sidelobes. In particular, at the depth of
+45 mm MVB-DMAS results in about 31 dB, 18 dB and 8 dB levels of sidelobe
+reduction compared to DAS, MV and DMAS, respectively. The quantitative results
+show that MVB-DMAS leads to improvement in full-width-half-maximum (FWHM) about
+95% compared to DMAS, and signal-to-noise ratio (SNR) and contrast ratio (CR)
+enhancement, compared to MV, about 12% and 20%, respectively.
+</summary>
+    <author>
+      <name>Moein Mozaffarzadeh</name>
+    </author>
+    <author>
+      <name>Ali Mahloojifar</name>
+    </author>
+    <author>
+      <name>Mahdi Orooji</name>
+    </author>
+    <author>
+      <name>Saba Adabi</name>
+    </author>
+    <author>
+      <name>Mohammadreza Nasiriavanaki</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07965v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07965v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08133v1</id>
+    <updated>2017-09-24T00:24:27Z</updated>
+    <published>2017-09-24T00:24:27Z</published>
+    <title>Pseudo-Linear-Time-Invariant Magnet-less Circulators Based on
+  Differential Spatio-Temporal Modulation of Resonant Junctions</title>
+    <summary>  In this paper, we present voltage- and current-mode differential magnet-less
+non-reciprocal devices obtained by pairing two single-ended (SE) circulators,
+each consisting of three first-order bandpass or bandstop LC filters, connected
+in either a wye or a delta topology. The resonant poles of each SE circulator
+are modulated in time with 120 deg phase-shifted periodic signals, resulting in
+synthetic angular-momentum biasing achieved through spatio-temporal modulation
+(STM). We tailor the two SE circulators to exhibit a constant 180 deg phase
+difference between their STM biases. Unlike conventional differential
+time-variant circuits, for which only the even or odd spurs are rejected, we
+show that the proposed configuration cancels out all intermodulation (IM)
+products, thus making them operate alike linear time-invariant (LTI) circuits
+for an external observer. In turn, this property enhances all metrics of the
+resulting circulator, overcoming the limitations of SE architectures, and
+improving insertion loss, impedance matching, bandwidth and noise figure. We
+show that this differential architecture also significantly relaxes the
+required modulation parameters, both in frequency and amplitude. We develop a
+rigorous small-signal model to guide the design of the proposed circuits and to
+get insights into their pseudo-LTI characteristics. Then, we validate the
+theory with simulations and measurements showing remarkable performance
+compared to the current state of the art of magnet-less non-reciprocal devices.
+</summary>
+    <author>
+      <name>Ahmed Kord</name>
+    </author>
+    <author>
+      <name>Dimitrios L. Sounas</name>
+    </author>
+    <author>
+      <name>Andrea Alù</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 15 figures, TMTT, under review</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08133v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08133v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08275v1</id>
+    <updated>2017-09-24T22:28:52Z</updated>
+    <published>2017-09-24T22:28:52Z</published>
+    <title>Compressed Air Energy Storage-Part II: Application to Power System Unit
+  Commitment</title>
+    <summary>  Unit commitment (UC) is one of the most important power system operation
+problems. To integrate higher penetration of wind power into power systems,
+more compressed air energy storage (CAES) plants are being built. Existing
+cavern models for the CAES used in power system optimization problems are not
+accurate, which may lead to infeasible solutions, e.g., the air pressure in the
+cavern is outside its operating range. In this regard, an accurate CAES model
+is proposed for the UC problem based on the accurate bi-linear cavern model
+proposed in the first paper of this two-part series. The minimum switch time
+between the charging and discharging processes of CAES is considered. The whole
+model, i.e., the UC model with an accurate CAES model, is a large-scale mixed
+integer bi-linear programming problem. To reduce the complexity of the whole
+model, three strategies are proposed to reduce the number of bi-linear terms
+without sacrificing accuracy. McCormick relaxation and piecewise linearization
+are then used to linearize the whole model. To decrease the solution time, a
+method to obtain an initial solution of the linearized model is proposed. A
+modified RTS-79 system is used to verify the effectiveness of the whole model
+and the solution methodology.
+</summary>
+    <author>
+      <name>Junpeng Zhan</name>
+    </author>
+    <author>
+      <name>Yunfeng Wen</name>
+    </author>
+    <author>
+      <name>Osama Aslam Ansari</name>
+    </author>
+    <author>
+      <name>C. Y. Chung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08275v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08275v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08278v2</id>
+    <updated>2017-09-29T15:04:46Z</updated>
+    <published>2017-09-24T22:58:39Z</published>
+    <title>Massive MIMO 1-Bit DAC Transmission: A Low-Complexity Symbol Scaling
+  Approach</title>
+    <summary>  We study the multi-user massive multiple-input single-output (MISO) systems
+and focus on the downlink transmission, where the base station (BS) employs a
+large antenna array with low-cost 1-bit digital-to-analog converters (DACs). It
+is observed that the direct combination of existing beamforming schemes with
+1-bit DACs will lead to an error floor at medium-to-high SNR regime, due to the
+coarse quantization of the DACs with limited precision. In this paper, based on
+the concept of constructive interference we consider both a quantized linear
+beamforming scheme where we analytically obtain the optimal beamforming matrix,
+and a non-linear mapping scheme where we directly design the transmit signal
+vector. Due to the 1-bit quantization, the formulated optimization for the
+non-linear mapping scheme is shown to be non-convex. To solve this problem, the
+non-convex constraints of 1-bit DACs are firstly relaxed, followed by an
+element-wise normalization to satisfy the 1-bit DAC transmission. We further
+propose a low-complexity symbol scaling scheme that consists of three stages,
+in which the quantized transmit signal on each antenna element is selected
+sequentially. Numerical results show that the proposed symbol scaling scheme
+achieves a comparable performance to the optimization-based non-linear mapping
+approach, while its corresponding complexity is negligible compared to that of
+the non-linear scheme.
+</summary>
+    <author>
+      <name>Ang Li</name>
+    </author>
+    <author>
+      <name>Christos Masouros</name>
+    </author>
+    <author>
+      <name>Fan Liu</name>
+    </author>
+    <author>
+      <name>A. L. Swindlehurst</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08278v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08278v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08328v1</id>
+    <updated>2017-09-25T05:39:12Z</updated>
+    <published>2017-09-25T05:39:12Z</published>
+    <title>Biosignal Analysis with Matching-Pursuit Based Adaptive Chirplet
+  Transform</title>
+    <summary>  Chirping phenomena, in which the instantaneous frequencies of a signal change
+with time, are abundant in signals related to biological systems. Biosignals
+are non-stationary in nature and the time-frequency analysis is a viable tool
+to analyze them. It is well understood that Gaussian chirplet function is
+critical in describing chirp signals. Despite the theory of adaptive chirplet
+transform (ACT) has been established for more than two decades and is well
+accepted in the community of signal processing, application of ACT to
+bio-/biomedical signal analysis is still quite limited, probably because that
+the power of ACT, as an emerging tool for biosignal analysis, has not yet been
+fully appreciated by the researchers in the field of biomedical engineering. In
+this paper, we describe a novel ACT algorithm based on the "coarse-refinement"
+scheme. Namely, the initial estimate of a chirplet is implemented with the
+matching-pursuit (MP) algorithm and subsequently it is refined using the
+expectation-maximization (EM) algorithm, which we coin as MPEM algorithm. We
+emphasize the robustness enhancement of the algorithm in face of noise, which
+is important to biosignal analysis, as they are usually embedded in strong
+background noise. We then demonstrate the capability of our algorithm by
+applying it to the analysis of representative biosignals, including visual
+evoked potentials (bioelectrical signals), audible heart sounds and bat
+ultrasonic echolocation signals (bioacoustic signals), and human speech. The
+results show that the MPEM algorithm provides more compact representation of
+signals under investigation and clearer visualization of their time-frequency
+structures, indicating considerable promise of ACT in biosignal analysis. The
+MATLAB code repository is hosted on GitHub for free download
+(https://github.com/jiecui/mpact).
+</summary>
+    <author>
+      <name>Jie Cui</name>
+    </author>
+    <author>
+      <name>Dinghui Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08328v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08328v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10401v1</id>
+    <updated>2017-09-28T03:19:33Z</updated>
+    <published>2017-09-28T03:19:33Z</published>
+    <title>Compressive Sensing Based Signal Processing in Wireless Sensor Networks:
+  A Survey</title>
+    <summary>  Compressive sensing (CS) has been shown to be promising in a wide variety of
+applications including compressive imaging, video processing, communication,
+and radar to name a few. Out of the many potential applications, in this survey
+paper, our goal is to discuss recent advances of CS based signal processing in
+wireless sensor networks (WSNs) including the main ongoing/recent research
+efforts, challenges and research trends in this area. In a WSN, CS based
+techniques are well motivated by not only the sparsity prior but also by the
+requirement of energy efficient processing even with nonsparse signals. First,
+we address different forms of sparsity including temporal and spatial that are
+exhibited in WSNs. We discuss sparsity aware signal processing techniques
+exploiting such forms of sparsity in centralized as well as
+distributed/decentralized settings from signal reconstruction perspective. We
+then review recent research efforts that exploit CS to solve different types of
+inference problems such as detection, classification, and estimation where
+signal reconstruction is not necessary. We further review the work that takes
+practical considerations such as quantization, physical layer secrecy
+constraints, and imperfect channel conditions into account in the CS based
+signal processing framework. Finally, open research issues and challenges are
+discussed in order to provide perspectives for future research directions. With
+this paper, the readers are expected to gain a thorough understanding of the
+potential of CS in solving distributed inference problems in WSNs with high
+dimensional data under practical constraints.
+</summary>
+    <author>
+      <name>Thakshila Wimalajeewa</name>
+    </author>
+    <author>
+      <name>Pramod K. Varshney</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10401v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10401v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00773v1</id>
+    <updated>2017-09-29T03:25:32Z</updated>
+    <published>2017-09-29T03:25:32Z</published>
+    <title>Sub-Nyquist Sampling for Joint Wideband Spectrum Sensing and
+  Direction-of-Arrival Estimation</title>
+    <summary>  In this paper, we study the problem of joint wideband spectrum sensing and
+direction-of-arrival (DoA) estimation in a sub-Nyquist sampling framework.
+Specifically, considering a scenario where a few uncorrelated narrowband
+signals spread over a wide (say, several GHz) frequency band, our objective is
+to estimate the carrier frequencies and the DoAs associated with the narrowband
+sources, as well as reconstruct the power spectra of these narrowband signals.
+To overcome the sampling rate bottleneck for wideband spectrum sensing, we
+propose a new phased-array based sub-Nyquist sampling architecture with
+variable time delays, where a uniform linear array (ULA) is employed and the
+received signal at each antenna is delayed by a variable factor and then
+sampled by a synchronized low-rate analog-digital converter (ADC). Based on the
+collected sub-Nyquist samples, we calculate a set of cross-correlation matrices
+with different time lags, and develop a CANDECOMP/PARAFAC (CP)
+decomposition-based method for joint DoA, carrier frequency and power spectrum
+recovery. Perfect recovery conditions for the associated parameters and the
+power spectrum are analyzed. Simulation results show that our proposed method
+can reliably perform the wideband spectrum sensing with a sampling rate far
+below the Nyquist rate, and achieves an estimation accuracy close to the
+associated Cram\'{e}r-Rao bounds (CRBs) using only a small number of data
+samples.
+</summary>
+    <author>
+      <name>Feiyu Wang</name>
+    </author>
+    <author>
+      <name>Jun Fang</name>
+    </author>
+    <author>
+      <name>Huiping Duan</name>
+    </author>
+    <author>
+      <name>Hongbin Li</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00773v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00773v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00777v1</id>
+    <updated>2017-08-30T18:43:06Z</updated>
+    <published>2017-08-30T18:43:06Z</published>
+    <title>Performance Analysis of Coherent and Noncoherent Modulation under I/Q
+  Imbalance</title>
+    <summary>  In-phase/quadrature-phase Imbalance (IQI) is considered a major
+performance-limiting impairment in direct-conversion transceivers. Its effects
+become even more pronounced at higher carrier frequencies such as the
+millimeter-wave frequency bands being considered for 5G systems. In this paper,
+we quantify the effects of IQI on the performance of different modulation
+schemes under multipath fading channels. This is realized by developing a
+general framework for the symbol error rate (SER) analysis of coherent phase
+shift keying, noncoherent differential phase shift keying and noncoherent
+frequency shift keying under IQI effects. In this context, the moment
+generating function of the signal-to-interference-plus-noise-ratio is first
+derived for both single-carrier and multi-carrier systems suffering from
+transmitter (TX) IQI only, receiver (RX) IQI only and joint TX/RX IQI.
+Capitalizing on this, we derive analytic expressions for the SER of the
+different modulation schemes. These expressions are corroborated by comparisons
+with corresponding results from computer simulations and they provide insights
+into the dependence of IQI on the system parameters. We demonstrate that the
+effects of IQI differ considerably depending on the considered system as some
+cases of single-carrier transmission appear robust to IQI, whereas
+multi-carrier systems experiencing IQI at the RX require compensation in order
+to achieve a reliable communication link.
+</summary>
+    <author>
+      <name>Bassant Selim</name>
+    </author>
+    <author>
+      <name>Sami Muhaidat</name>
+    </author>
+    <author>
+      <name>Paschalis C. Sofotasios</name>
+    </author>
+    <author>
+      <name>Bayan S. Sharif</name>
+    </author>
+    <author>
+      <name>Thanos Stouraitis</name>
+    </author>
+    <author>
+      <name>George K. Karagiannidis</name>
+    </author>
+    <author>
+      <name>Naofal Al-Dhahir</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00777v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00777v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00778v1</id>
+    <updated>2017-09-14T02:46:31Z</updated>
+    <published>2017-09-14T02:46:31Z</published>
+    <title>Proactive Doppler Shift Compensation in Vehicular Cyber-Physical Systems</title>
+    <summary>  In vehicular cyber-physical systems (CPS), safety information, including
+vehicular speed and location information, is shared among vehicles via wireless
+waves at specific frequency. This helps control vehicle to alleviate traffic
+congestion and road accidents. However, Doppler shift existing between vehicles
+with high relative speed causes an apparent frequency shift for the received
+wireless wave, which consequently decreases the reliability of the recovered
+safety information and jeopardizes the safety of vehicular CPS. Passive
+confrontation of Doppler shift at the receiver side is not applicable due to
+multiple Doppler shifts at each receiver. In this paper, we provide a proactive
+Doppler shift compensation algorithm based on the probabilistic graphical
+model. Each vehicle pre-compensates its carrier frequency individually so that
+there is no frequency shift from the desired carrier frequency between each
+pair of transceiver. The pre-compensated offset for each vehicle is computed in
+a distributed fashion in order to be adaptive to the distributed and dynamic
+topology of vehicular CPS. Besides, the updating procedure is designed in a
+broadcasting fashion to reduce communication burden. It is rigorously proved
+that the proposed algorithm is convergence guaranteed even for systems with
+packet drops and random communication delays. Simulations based on real map and
+transportation data verify the accuracy and convergence property of the
+proposed algorithm. It is shown that this method achieves almost the optimal
+frequency compensation accuracy with an error approaching the Cram\'{e}r-Rao
+lower bound.
+</summary>
+    <author>
+      <name>Jian Du</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Lei Rao</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00778v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00778v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00782v1</id>
+    <updated>2017-09-13T06:05:43Z</updated>
+    <published>2017-09-13T06:05:43Z</published>
+    <title>The Impact of Transceiver Noise on Digital Nonlinearity Compensation</title>
+    <summary>  The efficiency of digital nonlinearity compensation (NLC) is analyzed in the
+presence of noise arising from amplified spontaneous emission noise (ASE) as
+well as from a non-ideal transceiver subsystem. Its impact on signal-to-noise
+ratio (SNR) and reach increase is studied with particular emphasis on split
+NLC, where the digital back-propagation algorithm is divided between
+transmitter and receiver. An analytical model is presented to compute the SNR's
+for non-ideal transmission systems with arbitrary split NLC configurations.
+When signal-signal nonlinearities are compensated, the performance limitation
+arises from residual signal-noise interactions. These interactions consist of
+nonlinear beating between the signal and co-propagating ASE and transceiver
+noise. While transceiver noise-signal beating is usually dominant for short
+transmission distances, ASE noise-signal beating is dominant for larger
+transmission distances. It is shown that both regimes behave differently with
+respect to the optimal NLC split ratio and their respective reach gains.
+Additionally, simple formulas for the prediction of the optimal NLC split ratio
+and the reach increase in those two regimes are reported. It is found that
+split NLC offers negligible gain with respect to conventional digital
+back-propagation (DBP) for distances less than 1000 km using standard
+single-mode fibers and a transceiver (back-to-back) SNR of 26 dB, when
+transmitter and receiver inject the same amount of noise. However, when
+transmitter and receiver inject an unequal amount of noise, reach gains of 56%
+on top of DBP are achievable by properly tailoring the split NLC algorithm. The
+theoretical findings are confirmed by numerical simulations.
+</summary>
+    <author>
+      <name>Daniel Semrau</name>
+    </author>
+    <author>
+      <name>Domanic Lavery</name>
+    </author>
+    <author>
+      <name>Lidia Galdino</name>
+    </author>
+    <author>
+      <name>Robert I. Killey</name>
+    </author>
+    <author>
+      <name>Polina Bayvel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 4 figures, 1 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00782v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00782v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00784v1</id>
+    <updated>2017-08-10T10:13:03Z</updated>
+    <published>2017-08-10T10:13:03Z</published>
+    <title>Cache Placement in Fog-RANs: From Centralized to Distributed Algorithms</title>
+    <summary>  To deal with the rapid growth of high-speed and/or ultra-low latency data
+traffic for massive mobile users, fog radio access networks (Fog-RANs) have
+emerged as a promising architecture for next-generation wireless networks. In
+Fog-RANs, the edge nodes and user terminals possess storage, computation and
+communication functionalities to various degrees, which provides high
+flexibility for network operation, i.e., from fully centralized to fully
+distributed operation. In this paper, we study the cache placement problem in
+Fog-RANs, by taking into account flexible physical-layer transmission schemes
+and diverse content preferences of different users. We develop both centralized
+and distributed transmission aware cache placement strategies to minimize
+users' average download delay subject to the storage capacity constraints. In
+the centralized mode, the cache placement problem is transformed into a matroid
+constrained submodular maximization problem, and an approximation algorithm is
+proposed to find a solution within a constant factor to the optimum. In the
+distributed mode, a belief propagation based distributed algorithm is proposed
+to provide a suboptimal solution, with iterative updates at each BS based on
+locally collected information. Simulation results show that by exploiting
+caching and cooperation gains, the proposed transmission aware caching
+algorithms can greatly reduce the users' average download delay.
+</summary>
+    <author>
+      <name>Juan Liu</name>
+    </author>
+    <author>
+      <name>Bo Bai</name>
+    </author>
+    <author>
+      <name>Jun Zhang</name>
+    </author>
+    <author>
+      <name>Khaled B. Letaief</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00784v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00784v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00790v1</id>
+    <updated>2017-09-20T09:22:55Z</updated>
+    <published>2017-09-20T09:22:55Z</published>
+    <title>User-centric C-RAN Architecture for Ultra-dense 5G Networks: Challenges
+  and Methodologies</title>
+    <summary>  Ultra-dense networks (UDN) constitute one of the most promising techniques of
+supporting the 5G mobile system. By deploying more small cells in a fixed area,
+the average distance between users and access points can be significantly
+reduced, hence a dense spatial frequency reuse can be exploited. However,
+severe interference is the major obstacle in UDN. Most of the contributions
+deal with the interference by relying on cooperative game theory. This paper
+advocates the application of dense user-centric C-RAN philosophy to UDN, thanks
+to the recent development of cloud computing techniques. Under dense C-RAN,
+centralized signal processing can be invoked for supporting CoMP transmission.
+We summarize the main challenges in dense user-centric C-RANs. One of the most
+challenging issues is the requirement of the global CSI for the sake of
+cooperative transmission. We investigate this requirement by only relying on
+partial CSI, namely, on inter-cluster large-scale CSI. Furthermore, the
+estimation of the intra-cluster CSI is considered, including the pilot
+allocation and robust transmission. Finally, we highlight several promising
+research directions to make the dense user-centric C-RAN become a reality, with
+special emphasis on the application of the `big data' techniques.
+</summary>
+    <author>
+      <name>Cunhua Pan</name>
+    </author>
+    <author>
+      <name>Maged Elkashlan</name>
+    </author>
+    <author>
+      <name>Jiangzhou Wang</name>
+    </author>
+    <author>
+      <name>Jinhong Yuan</name>
+    </author>
+    <author>
+      <name>Lajos Hanzo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted in IEEE Communications Magazine, special issue on
+  heterogeneous ultra dense networks</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00790v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00790v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01703v1</id>
+    <updated>2017-10-04T17:12:17Z</updated>
+    <published>2017-10-04T17:12:17Z</published>
+    <title>Lung sound classification using local binary pattern</title>
+    <summary>  Lung sounds contain vital information about pulmonary pathology. In this
+paper, we use short-term spectral characteristics of lung sounds to recognize
+associated diseases. Motivated by the success of auditory perception based
+techniques in speech signal classification, we represent time-frequency
+information of lung sounds using mel-scale warped spectral coefficients, called
+here as mel-frequency spectral coefficients (MFSCs). Next, we employ local
+binary pattern analysis (LBP) to capture texture information of the MFSCs, and
+the feature vectors are subsequently derived using histogram representation.
+The proposed features are used with three well-known classifiers in this field:
+k-nearest neighbor (kNN), artificial neural network (ANN), and support vector
+machine (SVM). Also, the performance was tested with multiple SVM kernels. We
+conduct extensive performance evaluation experiments using two databases which
+include normal and adventitious sounds. Results show that the proposed features
+with SVM and also with kNN classifier outperform commonly used wavelet-based
+features as well as our previously investigated mel-frequency cepstral
+coefficients (MFCCs) based statistical features, specifically in abnormal sound
+detection. Proposed features also yield better results than morphological
+features and energy features computed from rational dilation wavelet
+coefficients. The Bhattacharyya kernel performs considerably better than other
+kernels. Further, we optimize the configuration of the proposed feature
+extraction algorithm. Finally, we have applied mRMR (minimum-redundancy
+maximum-relevancy) based feature selection method to remove redundancy in the
+feature vector which makes the proposed method computationally more efficient
+without any degradation in the performance. The overall performance gain is up
+to 24.5% as compared to the standard wavelet feature based system.
+</summary>
+    <author>
+      <name>Nandini Sengupta</name>
+    </author>
+    <author>
+      <name>Md Sahidullah</name>
+    </author>
+    <author>
+      <name>Goutam Saha</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Working paper (21 pages, 12 figures)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01703v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01703v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06073v1</id>
+    <updated>2017-08-16T09:12:57Z</updated>
+    <published>2017-08-16T09:12:57Z</published>
+    <title>Adaptive Nonlinear RF Cancellation for Improved Isolation in
+  Simultaneous Transmit-Receive Systems</title>
+    <summary>  This paper proposes an active radio frequency (RF) cancellation solution to
+suppress the transmitter (TX) passband leakage signal in radio transceivers
+supporting simultaneous transmission and reception. The proposed technique is
+based on creating an opposite-phase baseband equivalent replica of the TX
+leakage signal in the transceiver digital front-end through adaptive nonlinear
+filtering of the known transmit data, to facilitate highly accurate
+cancellation under a nonlinear TX power amplifier (PA). The active RF
+cancellation is then accomplished by employing an auxiliary transmitter chain,
+to generate the actual RF cancellation signal, and combining it with the
+received signal at the receiver (RX) low noise amplifier (LNA) input. A
+closed-loop parameter learning approach, based on the decorrelation principle,
+is also developed to efficiently estimate the coefficients of the nonlinear
+cancellation filter in the presence of a nonlinear TX PA with memory, finite
+passive isolation, and a nonlinear RX LNA. The performance of the proposed
+cancellation technique is evaluated through comprehensive RF measurements
+adopting commercial LTE-Advanced transceiver hardware components. The results
+show that the proposed technique can provide an additional suppression of up to
+54 dB for the TX passband leakage signal at the RX LNA input, even at
+considerably high transmit power levels and with wide transmission bandwidths.
+Such novel cancellation solution can therefore substantially improve the TX-RX
+isolation, hence reducing the requirements on passive isolation and RF
+component linearity, as well as increasing the efficiency and flexibility of
+the RF spectrum use in the emerging 5G radio networks.
+</summary>
+    <author>
+      <name>Adnan Kiayani</name>
+    </author>
+    <author>
+      <name>Muhammad Zeeshan Waheed</name>
+    </author>
+    <author>
+      <name>Lauri Anttila</name>
+    </author>
+    <author>
+      <name>Mahmoud Abdelaziz</name>
+    </author>
+    <author>
+      <name>Dani Korpi</name>
+    </author>
+    <author>
+      <name>Ville Syrjälä</name>
+    </author>
+    <author>
+      <name>Marko Kosunen</name>
+    </author>
+    <author>
+      <name>Kari Stadius</name>
+    </author>
+    <author>
+      <name>Jussi Ryynänen</name>
+    </author>
+    <author>
+      <name>Mikko Valkama</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">submitted to IEEE Transactions on Microwave Theory and Techniques</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.06073v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06073v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08210v1</id>
+    <updated>2017-09-24T15:36:47Z</updated>
+    <published>2017-09-24T15:36:47Z</published>
+    <title>Performance Bounds for Parameter Estimation under Misspecified Models:
+  Fundamental findings and applications</title>
+    <summary>  Inferring information from a set of acquired data is the main objective of
+any signal processing (SP) method. In particular, the common problem of
+estimating the value of a vector of parameters from a set of noisy measurements
+is at the core of a plethora of scientific and technological advances in the
+last decades; for example, wireless communications, radar and sonar,
+biomedicine, image processing, and seismology, just to name a few. Developing
+an estimation algorithm often begins by assuming a statistical model for the
+measured data, i.e. a probability density function (pdf) which if correct,
+fully characterizes the behaviour of the collected data/measurements.
+Experience with real data, however, often exposes the limitations of any
+assumed data model since modelling errors at some level are always present.
+Consequently, the true data model and the model assumed to derive the
+estimation algorithm could differ. When this happens, the model is said to be
+mismatched or misspecified. Therefore, understanding the possible performance
+loss or regret that an estimation algorithm could experience under model
+misspecification is of crucial importance for any SP practitioner. Further,
+understanding the limits on the performance of any estimator subject to model
+misspecification is of practical interest. Motivated by the widespread and
+practical need to assess the performance of a mismatched estimator, the goal of
+this paper is to help to bring attention to the main theoretical findings on
+estimation theory, and in particular on lower bounds under model
+misspecification, that have been published in the statistical and econometrical
+literature in the last fifty years. Secondly, some applications are discussed
+to illustrate the broad range of areas and problems to which this framework
+extends, and consequently the numerous opportunities available for SP
+researchers.
+</summary>
+    <author>
+      <name>S. Fortunati</name>
+    </author>
+    <author>
+      <name>F. Gini</name>
+    </author>
+    <author>
+      <name>M. S. Greco</name>
+    </author>
+    <author>
+      <name>C. D. Richmond</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/MSP.2017.2738017</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/MSP.2017.2738017" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in the IEEE Signal Processing Magazine</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08210v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08210v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00623v1</id>
+    <updated>2017-08-22T18:49:03Z</updated>
+    <published>2017-08-22T18:49:03Z</published>
+    <title>Shannon information storage in fringe-patterns and fringe-data
+  compression by phase-shifting algorithms</title>
+    <summary>  Standard optical phase-metrology fringe-patterns are digitized with XxY
+pixels and 8 bits/pixel (or higher) gray-levels. The digitized 8 bits/pixel are
+raw-data bits, not Shannon information bits. Here we show that noisy digital
+fringe-patterns store much lower amount of Shannon information than the
+capacity of the digitizing camera. This means that high signal-to-noise ratio
+(S/N) cameras may waste to noise most bits/pixel. On the other hand, one would
+hardly use smartphone cameras for quality phase-metrology, because of their
+lower (S/N) images. However smartphones digitize high-resolution (12 megapixel)
+images. In communications theory, the standard formalism for measuring
+information are the Shannon-entropy H, and Shannon capacity theorem (SCT).
+According to SCT, low (S/N) may be compensated with large fringe-bandwidth to
+obtain high-precision phase measurements. So large bandwidth fringes may be
+used for quality phase-measurements, in spite of low (S/N). Most natural video
+images are highly redundant because they usually have large smooth zones where
+the pixel-value do not change much. So data compression algorithms for image
+and video transmission and storage are paramount. Shannon's capacity is used to
+gauge competing compression algorithms. We also use Kolmogorov's entropy
+theorem, to show that a sequence of phase-shifted fringes, store low amounts of
+information because they are highly correlated. We also show that
+phase-shifting algorithms (PSAs) may be regarded as efficient fringe-data
+compression algorithms. Therefore a large number of phase-shifted fringes may
+be packed into a single complex-valued image. This is very important in
+spaceborne optical/RADAR phase-telemetry where downlink is severely limited by
+huge distance and low-power radio transmission.
+</summary>
+    <author>
+      <name>Manuel Servin</name>
+    </author>
+    <author>
+      <name>Moises Padilla</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 13 figures and 1 table</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00623v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00623v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.03943v1</id>
+    <updated>2017-09-11T07:23:57Z</updated>
+    <published>2017-09-11T07:23:57Z</published>
+    <title>Support Spinor Machine</title>
+    <summary>  We generalize a support vector machine to a support spinor machine by using
+the mathematical structure of wedge product over vector machine in order to
+extend field from vector field to spinor field. The separated hyperplane is
+extended to Kolmogorov space in time series data which allow us to extend a
+structure of support vector machine to a support tensor machine and a support
+tensor machine moduli space. Our performance test on support spinor machine is
+done over one class classification of end point in physiology state of time
+series data after empirical mode analysis and compared with support vector
+machine test. We implement algorithm of support spinor machine by using
+Holo-Hilbert amplitude modulation for fully nonlinear and nonstationary time
+series data analysis.
+</summary>
+    <author>
+      <name>Kabin Kanjamapornkul</name>
+    </author>
+    <author>
+      <name>Richard Pinčák</name>
+    </author>
+    <author>
+      <name>Sanphet Chunithpaisan</name>
+    </author>
+    <author>
+      <name>Erik Bartoš</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.dsp.2017.07.023</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.dsp.2017.07.023" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 12 figures, 6 tables</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Digital Signal Processing 70 (2017) 59-72</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1709.03943v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.03943v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07731v1</id>
+    <updated>2017-09-22T13:20:29Z</updated>
+    <published>2017-09-22T13:20:29Z</published>
+    <title>Estimate Exchange over Network is Good for Distributed Hard Thresholding
+  Pursuit</title>
+    <summary>  We investigate an existing distributed algorithm for learning sparse signals
+or data over networks. The algorithm is iterative and exchanges intermediate
+estimates of a sparse signal over a network. This learning strategy using
+exchange of intermediate estimates over the network requires a limited
+communication overhead for information transmission. Our objective in this
+article is to show that the strategy is good for learning in spite of limited
+communication. In pursuit of this objective, we first provide a restricted
+isometry property (RIP)-based theoretical analysis on convergence of the
+iterative algorithm. Then, using simulations, we show that the algorithm
+provides competitive performance in learning sparse signals vis-a-vis an
+existing alternate distributed algorithm. The alternate distributed algorithm
+exchanges more information including observations and system parameters.
+</summary>
+    <author>
+      <name>Ahmed Zaki</name>
+    </author>
+    <author>
+      <name>Partha P. Mitra</name>
+    </author>
+    <author>
+      <name>Lars K. Rasmussen</name>
+    </author>
+    <author>
+      <name>Saikat Chatterjee</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07731v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07731v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07972v1</id>
+    <updated>2017-09-22T23:38:08Z</updated>
+    <published>2017-09-22T23:38:08Z</published>
+    <title>Cloud-aided collaborative estimation by ADMM-RLS algorithms for
+  connected vehicle prognostics</title>
+    <summary>  As the connectivity of consumer devices is rapidly growing and cloud
+computing technologies are becoming more widespread, cloud-aided techniques for
+parameter estimation can be designed to exploit the theoretically unlimited
+storage memory and computational power of the cloud, while relying on
+information provided by multiple sources. With the ultimate goal of developing
+monitoring and diagnostic strategies, this report focuses on the design of a
+Recursive Least-Squares (RLS) based estimator for identification over a group
+of devices connected to the cloud. The proposed approach, that relies on
+Node-to-Cloud-to-Node (N2C2N) transmissions, is designed so that: (i) estimates
+of the unknown parameters are computed locally and (ii) the local estimates are
+refined on the cloud. The proposed approach requires minimal changes to local
+(pre-existing) RLS estimators.
+</summary>
+    <author>
+      <name>Valentina Breschi</name>
+    </author>
+    <author>
+      <name>Ilya Kolmanovsky</name>
+    </author>
+    <author>
+      <name>Alberto Bemporad</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Extended version, with complete proofs, of a submission to the
+  American Control Conference 2018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07972v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07972v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09219v1</id>
+    <updated>2017-09-26T18:54:06Z</updated>
+    <published>2017-09-26T18:54:06Z</published>
+    <title>A Centralized Power Control and Management Method for Grid-Connected
+  Photovoltaic (PV)-Battery Systems</title>
+    <summary>  Distributed Generation (DG) is an effective way of integrating renewable
+energy sources to conventional power grid, which improves the reliability and
+efficiency of power systems. Photovoltaic (PV) systems are ideal DGs thanks to
+their attractive benefits, such as availability of solar energy and low
+installation costs. Battery groups are used in PV systems to balance the power
+flows and eliminate power fluctuations due to change of operating condition,
+e.g., irradiance and temperature variation. In an attempt to effectively manage
+the power flows, this paper presents a novel power control and management
+system for grid-connected PV-Battery systems. The proposed system realizes the
+maximum power point tracking (MPPT) of the PV panels, stabilization of the DC
+bus voltage for load plug-and-play access, balance among the power flows, and
+quick response of both active and reactive power demands.
+</summary>
+    <author>
+      <name>Zhehan Yi</name>
+    </author>
+    <author>
+      <name>Wanxin Dong</name>
+    </author>
+    <author>
+      <name>Amir H. Etemadi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09219v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09219v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00157v1</id>
+    <updated>2017-09-30T06:55:43Z</updated>
+    <published>2017-09-30T06:55:43Z</published>
+    <title>Enhanced Linear-array Photoacoustic Beamforming using Modified Coherence
+  Factor</title>
+    <summary>  Photoacoustic imaging (PAI) is a promising medical imaging modality providing
+the spatial resolution of ultrasound (US) imaging and the contrast of pure
+optical imaging. For linear-array PAI, a beamformer has to be used as the
+reconstruction algorithm. Delay-and-sum (DAS) is the most prevalent beamforming
+algorithm in PAI. However, using DAS beamformer leads to low resolution images
+along with significant effects of the off-axis signals. Coherence factor (CF)
+is a weighting method in which each pixel of the reconstructed image is
+weighted, based on the spatial spectrum of the aperture, to improve the
+contrast. In this paper, it has been shown that the numerator of the formula of
+CF contains a DAS algebra, and it was proposed to use the
+delay-multiply-and-sum (DMAS) beamformer instead of the available DAS on the
+numerator. The proposed weighting technique, modified CF (MCF), has been
+evaluated numerically and experimentally compared to CF, and it was shown that
+MCF leads to lower sidelobes and better detectable targets. The quantitative
+results of the experiment show that MCF leads to for about 45% and 40%
+improvement, in comparison with CF, in the terms of signal-to-noise ratio and
+full-width-half-maximum, respectively.
+</summary>
+    <author>
+      <name>Moein Mozaffarzadeh</name>
+    </author>
+    <author>
+      <name>Mohammad Mehrmohammadi</name>
+    </author>
+    <author>
+      <name>Bahador Makkiabadi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00157v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00157v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01852v1</id>
+    <updated>2017-10-05T01:27:34Z</updated>
+    <published>2017-10-05T01:27:34Z</published>
+    <title>Finite Time Identification in Unstable Linear Systems</title>
+    <summary>  Identification of the parameters of stable linear dynamical systems is a
+well-studied problem in the literature, both in the low and high-dimensional
+settings. However, there are hardly any results for the unstable case,
+especially regarding finite time bounds. For this setting, classical results on
+least-squares estimation of the dynamics parameters are not applicable and
+therefore new concepts and technical approaches need to be developed to address
+the issue. Unstable linear systems reflect key real applications in control
+theory, econometrics, and finance.
+  This study establishes finite time bounds for the identification error of the
+least-squares estimates for a fairly large class of heavy-tailed noise
+distributions, and transition matrices of such systems. The results relate the
+time length required as a function of the problem dimension and key
+characteristics of the true underlying transition matrix and the noise
+distribution. To obtain them, appropriate concentration inequalities for random
+matrices and for sequences of martingale differences are leveraged.
+</summary>
+    <author>
+      <name>Mohamad Kazem Shirani Faradonbeh</name>
+    </author>
+    <author>
+      <name>Ambuj Tewari</name>
+    </author>
+    <author>
+      <name>George Michailidis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages, 3 appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01852v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01852v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.00384v1</id>
+    <updated>2016-10-03T01:18:12Z</updated>
+    <published>2016-10-03T01:18:12Z</published>
+    <title>Covert Single-hop Communication in a Wireless Network with Distributed
+  Artificial Noise Generation</title>
+    <summary>  Covert communication, also known as low probability of detection (LPD)
+communication, prevents the adversary from knowing that a communication is
+taking place. Recent work has demonstrated that, in a three-party scenario with
+a transmitter (Alice), intended recipient (Bob), and adversary (Warden Willie),
+the maximum number of bits that can be transmitted reliably from Alice to Bob
+without detection by Willie, when additive white Gaussian noise (AWGN) channels
+exist between all parties, is on the order of the square root of the number of
+channel uses. In this paper, we begin consideration of network scenarios by
+studying the case where there are additional "friendly" nodes present in the
+environment that can produce artificial noise to aid in hiding the
+communication. We establish achievability results by considering constructions
+where the system node closest to the warden produces artificial noise and
+demonstrate a significant improvement in the throughput achieved covertly,
+without requiring close coordination between Alice and the noise-generating
+node. Conversely, under mild restrictions on the communication strategy, we
+demonstrate no higher covert throughput is possible. Extensions to the
+consideration of the achievable covert throughput when multiple wardens
+randomly located in the environment collaborate to attempt detection of the
+transmitter are also considered.
+</summary>
+    <author>
+      <name>Ramin Soltani</name>
+    </author>
+    <author>
+      <name>Boulat Bash</name>
+    </author>
+    <author>
+      <name>Dennis Goeckel</name>
+    </author>
+    <author>
+      <name>Saikat Guha</name>
+    </author>
+    <author>
+      <name>Don Towsley</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/ALLERTON.2014.7028575</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/ALLERTON.2014.7028575" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">submitted to Allerton 2014</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.00384v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.00384v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.02111v3</id>
+    <updated>2017-07-18T12:36:34Z</updated>
+    <published>2017-05-05T07:43:52Z</published>
+    <title>Blind Detection of Polar Codes</title>
+    <summary>  Polar codes were recently chosen to protect the control channel information
+in the next-generation mobile communication standard (5G) defined by the 3GPP.
+As a result, receivers will have to implement blind detection of polar coded
+frames in order to keep complexity, latency, and power consumption tractable.
+As a newly proposed class of block codes, the problem of polar-code blind
+detection has received very little attention. In this work, we propose a
+low-complexity blind-detection algorithm for polar-encoded frames. We base this
+algorithm on a novel detection metric with update rules that leverage the a
+priori knowledge of the frozen-bit locations, exploiting the inherent
+structures that these locations impose on a polar-encoded block of data. We
+show that the proposed detection metric allows to clearly distinguish
+polar-encoded frames from other types of data by considering the cumulative
+distribution functions of the detection metric, and the receiver operating
+characteristic. The presented results are tailored to the 5G standardization
+effort discussions, i.e., we consider a short low-rate polar code concatenated
+with a CRC.
+</summary>
+    <author>
+      <name>Pascal Giard</name>
+    </author>
+    <author>
+      <name>Alexios Balatsoukas-Stimming</name>
+    </author>
+    <author>
+      <name>Andreas Burg</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 8 figures, to appear at the IEEE Int. Workshop on Signal
+  Process. Syst. (SiPS) 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.02111v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.02111v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.01703v2</id>
+    <updated>2017-09-07T06:07:30Z</updated>
+    <published>2017-09-06T07:51:18Z</published>
+    <title>Conditional Generative Adversarial Networks for Speech Enhancement and
+  Noise-Robust Speaker Verification</title>
+    <summary>  Improving speech system performance in noisy environments remains a
+challenging task, and speech enhancement (SE) is one of the effective
+techniques to solve the problem. Motivated by the promising results of
+generative adversarial networks (GANs) in a variety of image processing tasks,
+we explore the potential of conditional GANs (cGANs) for SE, and in particular,
+we make use of the image processing framework proposed by Isola et al. [1] to
+learn a mapping from the spectrogram of noisy speech to an enhanced
+counterpart. The SE cGAN consists of two networks, trained in an adversarial
+manner: a generator that tries to enhance the input noisy spectrogram, and a
+discriminator that tries to distinguish between enhanced spectrograms provided
+by the generator and clean ones from the database using the noisy spectrogram
+as a condition. We evaluate the performance of the cGAN method in terms of
+perceptual evaluation of speech quality (PESQ), short-time objective
+intelligibility (STOI), and equal error rate (EER) of speaker verification (an
+example application). Experimental results show that the cGAN method overall
+outperforms the classical short-time spectral amplitude minimum mean square
+error (STSA-MMSE) SE algorithm, and is comparable to a deep neural
+network-based SE approach (DNN-SE).
+</summary>
+    <author>
+      <name>Daniel Michelsanti</name>
+    </author>
+    <author>
+      <name>Zheng-Hua Tan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">INTERSPEECH 2017 August 20-24, 2017, Stockholm, Sweden</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.01703v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.01703v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07096v1</id>
+    <updated>2017-09-20T22:37:00Z</updated>
+    <published>2017-09-20T22:37:00Z</published>
+    <title>Covert Wireless Communication with Artificial Noise Generation</title>
+    <summary>  Covert communication conceals the transmission of the message from an
+attentive adversary. Recent work on the limits of covert communication in
+additive white Gaussian noise (AWGN) channels has demonstrated that a covert
+transmitter (Alice) can reliably transmit a maximum of
+$\mathcal{O}\left(\sqrt{n}\right)$ bits to a covert receiver (Bob) without
+being detected by an adversary (Warden Willie) in $n$ channel uses. This paper
+focuses on the scenario where other friendly nodes distributed according to a
+two-dimensional Poisson point process with density $m$ are present in the
+environment. We propose a strategy where the friendly node closest to the
+adversary, without close coordination with Alice, produces artificial noise. We
+show that this method allows Alice to reliably and covertly send
+$\mathcal{O}(\min\{{n,m^{\gamma/2}\sqrt{n}}\})$ bits to Bob in $n$ channel
+uses, where $\gamma$ is the path-loss exponent. Moreover, we also consider a
+setting where there are $N_{\mathrm{w}}$ collaborating adversaries uniformly
+and randomly located in the environment and show that in $n$ channel uses,
+Alice can reliably and covertly send
+$\mathcal{O}\left(\min\left\{n,\frac{m^{\gamma/2}
+\sqrt{n}}{N_{\mathrm{w}}^{\gamma}}\right\}\right)$ bits to Bob when $\gamma
+&gt;2$, and $\mathcal{O}\left(\min\left\{n,\frac{m
+\sqrt{n}}{N_{\mathrm{w}}^{2}\log^2 {N_{\mathrm{w}}}}\right\}\right)$ when
+$\gamma = 2$. Conversely, under mild restrictions on the communication
+strategy, we demonstrate that no higher covert throughput is possible for
+$\gamma&gt;2$.
+</summary>
+    <author>
+      <name>Ramin Soltani</name>
+    </author>
+    <author>
+      <name>Dennis Goeckel</name>
+    </author>
+    <author>
+      <name>Don Towsley</name>
+    </author>
+    <author>
+      <name>Boulat Bash</name>
+    </author>
+    <author>
+      <name>Saikat Guha</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07096v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07096v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09939v1</id>
+    <updated>2017-07-25T08:48:42Z</updated>
+    <published>2017-07-25T08:48:42Z</published>
+    <title>Modeling Transmission and Radiation Effects when Exploiting Power Line
+  Networks for Communication</title>
+    <summary>  Power distribution grids are exploited by Power Line Communication (PLC)
+technology to convey high frequency data signals. The natural conformation of
+such power line networks causes a relevant part of the high frequency signals
+traveling through them to be radiated instead of being conducted. This causes
+not only electromagnetic interference (EMI) with devices positioned next to
+power line cables, but also a consistent deterioration of the signal integrity.
+Since existing PLC channel models do not take into account losses due to
+radiation phenomena, this paper responds to the need of developing accurate
+network simulators. A thorough analysis is herein presented about the conducted
+and radiated effects on the signal integrity, digging into differential mode to
+common mode signal conversion due to network imbalances. The outcome of this
+work allows each network element to be described by a mixed-mode transmission
+matrix. Furthermore, the classical per-unit-length equivalent circuit of
+transmission lines is extended to incorporate radiation resistances. The
+results of this paper lay the foundations for future developments of
+comprehensive power line network models that incorporate conducted and radiated
+phenomena.
+</summary>
+    <author>
+      <name>Davide Righini</name>
+    </author>
+    <author>
+      <name>Federico Passerini</name>
+    </author>
+    <author>
+      <name>Andrea M. Tonello</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">A version of this article has been accepted for publication on IEEE
+  Transactions on Electromagnetic Compatibility, Special Issue on "Advances in
+  Modeling, Measurement and Design of Discontinuities and Their EMC and SI/PI
+  Effects on Wired Communication Links"</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.09939v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09939v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00045v1</id>
+    <updated>2017-09-15T11:19:58Z</updated>
+    <published>2017-09-15T11:19:58Z</published>
+    <title>Microcomb-based true-time-delay network for microwave beamforming</title>
+    <summary>  Microwave phased array antennas (PAAs) are very attractive to defense
+applications and high-speed wireless communications for their abilities of fast
+beam scanning and complex beam pattern control. However, traditional PAAs based
+on phase shifters suffer from the beam-squint problem and have limited
+bandwidths. True-time-delay (TTD) beamforming based on low-loss photonic delay
+lines can solve this problem. But it is still quite challenging to build
+large-scale photonic TTD beamformers due to their high hardware complexity. In
+this paper, we demonstrate a photonic TTD beamforming network based on a
+miniature microresonator frequency comb (microcomb) source and dispersive time
+delay. We show that microcombs can be promising candidate for TTD beamforming
+due to their compact volume and wide spectra. The experimentally demonstrated
+TTD beamforming network can support a PAA with 21 elements. The microwave
+frequency range is 8~20 GHz; and the beam scanning range is +/- 60.2 degree.
+Limited by the available components in our laboratory, a real antenna array was
+not constructed; however, detailed measurements of the microwave amplitudes and
+phases were performed that allow us to simulate the beamforming performance
+that could be obtained with a real array. The scheme can potentially support
+larger PAAs with hundreds of elements by increasing the number of comb lines
+with broadband microcomb generation. Arbitrary beam pattern control is also
+possible by incorporating optical spectral shaping. Gaussian, rectangular
+beamforming, and beam notch control are evaluated.
+</summary>
+    <author>
+      <name>Xiaoxiao Xue</name>
+    </author>
+    <author>
+      <name>Yi Xuan</name>
+    </author>
+    <author>
+      <name>Chengying Bao</name>
+    </author>
+    <author>
+      <name>Shangyuan Li</name>
+    </author>
+    <author>
+      <name>Xiaoping Zheng</name>
+    </author>
+    <author>
+      <name>Bingkun Zhou</name>
+    </author>
+    <author>
+      <name>Minghao Qi</name>
+    </author>
+    <author>
+      <name>Andrew M. Weiner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00045v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00045v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

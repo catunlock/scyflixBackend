@@ -1,0 +1,2726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Aecon.EM%26id_list%3D%26start%3D0%26max_results%3D500" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:econ.EM&amp;id_list=&amp;start=0&amp;max_results=500</title>
+  <id>http://arxiv.org/api/jjDcncqR1Sgl3tYxuOi4Lt7xlIM</id>
+  <updated>2017-10-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">70</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">500</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08981v1</id>
+    <updated>2017-09-26T12:46:40Z</updated>
+    <published>2017-09-26T12:46:40Z</published>
+    <title>Bounds On Treatment Effects On Transitions</title>
+    <summary>  This paper considers the identification of treatment effects on conditional
+transition probabilities. We show that even under random assignment only the
+instantaneous average treatment effect is point identified. Since treated and
+control units drop out at different rates, randomization only ensures the
+comparability of treatment and controls at the time of randomization, so that
+long-run average treatment effects are not point identified. Instead we derive
+informative bounds on these average treatment effects. Our bounds do not impose
+(semi)parametric restrictions, for example, proportional hazards. We also
+explore various assumptions such as monotone treatment response, common shocks
+and positively correlated outcomes that tighten the bounds.
+</summary>
+    <author>
+      <name>Johan Vikström</name>
+    </author>
+    <author>
+      <name>Geert Ridder</name>
+    </author>
+    <author>
+      <name>Martin Weidner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, 5 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08981v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08981v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09755v1</id>
+    <updated>2017-09-27T22:54:30Z</updated>
+    <published>2017-09-27T22:54:30Z</published>
+    <title>Quasi-random Monte Carlo application in CGE systematic sensitivity
+  analysis</title>
+    <summary>  The uncertainty and robustness of Computable General Equilibrium models can
+be assessed by conducting a Systematic Sensitivity Analysis. Different methods
+have been used in the literature for SSA of CGE models such as Gaussian
+Quadrature and Monte Carlo methods. This paper explores the use of Quasi-random
+Monte Carlo methods based on the Halton and Sobol' sequences as means to
+improve the efficiency over regular Monte Carlo SSA, thus reducing the
+computational requirements of the SSA. The findings suggest that by using
+low-discrepancy sequences, the number of simulations required by the regular MC
+SSA methods can be notably reduced, hence lowering the computational time
+required for SSA of CGE models.
+</summary>
+    <author>
+      <name>Theodoros Chatzivasileiadis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, 6 figures, Submitted</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.09755v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09755v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10024v1</id>
+    <updated>2017-09-28T15:41:48Z</updated>
+    <published>2017-09-28T15:41:48Z</published>
+    <title>Estimation of Peer Effects in Endogenous Social Networks: Control
+  Function Approach</title>
+    <summary>  We propose a method of estimating the linear-in-means model of peer effects
+in which the peer group, defined by a social network, is endogenous in the
+outcome equation for peer effects. Endogeneity is due to unobservable
+individual characteristics that influence both link formation in the network
+and the outcome of interest. We propose two estimators of the peer effect
+equation that control for the endogeneity of the social connections using a
+control function approach. We leave the functional form of the control function
+unspecified and treat it as unknown. To estimate the model, we use a sieve
+semiparametric approach, and we establish asymptotics of the semiparametric
+estimator.
+</summary>
+    <author>
+      <name>Ida Johnsson</name>
+    </author>
+    <author>
+      <name>Hyungsik Roger Moon</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10024v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10024v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10279v1</id>
+    <updated>2017-09-29T08:21:08Z</updated>
+    <published>2017-09-29T08:21:08Z</published>
+    <title>Heterogeneous Employment Effects of Job Search Programmes: A Machine
+  Learning Approach</title>
+    <summary>  We systematically investigate the effect heterogeneity of job search
+programmes for unemployed workers. To investigate possibly heterogeneous
+employment effects, we combine non-experimental causal empirical models with
+Lasso-type estimators. The empirical analyses are based on rich administrative
+data from Swiss social security records. We find considerable heterogeneities
+only during the first six months after the start of training. Consistent with
+previous results of the literature, unemployed persons with fewer employment
+opportunities profit more from participating in these programmes. Furthermore,
+we also document heterogeneous employment effects by residence status. Finally,
+we show the potential of easy-to-implement programme participation rules for
+improving average employment effects of these active labour market programmes.
+</summary>
+    <author>
+      <name>Michael Knaus</name>
+    </author>
+    <author>
+      <name>Michael Lechner</name>
+    </author>
+    <author>
+      <name>Anthony Strittmatter</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10279v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10279v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00377v1</id>
+    <updated>2017-10-01T17:07:08Z</updated>
+    <published>2017-10-01T17:07:08Z</published>
+    <title>A Note on the Multi-Agent Contracts in Continuous Time</title>
+    <summary>  Dynamic contracts with multiple agents is a classical decentralized
+decision-making problem with asymmetric information. In this paper, we extend
+the single-agent dynamic incentive contract model in continuous-time to a
+multi-agent scheme in finite horizon and allow the terminal reward to be
+dependent on the history of actions and incentives. We first derive a set of
+sufficient conditions for the existence of optimal contracts in the most
+general setting and conditions under which they form a Nash equilibrium. Then
+we show that the principal's problem can be converted to solving
+Hamilton-Jacobi-Bellman (HJB) equation requiring a static Nash equilibrium.
+Finally, we provide a framework to solve this problem by solving partial
+differential equations (PDE) derived from backward stochastic differential
+equations (BSDE).
+</summary>
+    <author>
+      <name>Qi Luo</name>
+    </author>
+    <author>
+      <name>Romesh Saigal</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00377v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00377v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.6099v2</id>
+    <updated>2013-06-20T21:15:38Z</updated>
+    <published>2013-05-27T03:27:18Z</published>
+    <title>Supplementary Appendix for "Inference on Treatment Effects After
+  Selection Amongst High-Dimensional Controls"</title>
+    <summary>  In this supplementary appendix we provide additional results, omitted proofs
+and extensive simulations that complement the analysis of the main text
+(arXiv:1201.0224).
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Supplementary material for arXiv:1201.0224</arxiv:comment>
+    <link href="http://arxiv.org/abs/1305.6099v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1305.6099v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08980v1</id>
+    <updated>2017-09-26T12:46:13Z</updated>
+    <published>2017-09-26T12:46:13Z</published>
+    <title>Fixed Effect Estimation of Large T Panel Data Models</title>
+    <summary>  This article reviews recent advances in fixed effect estimation of panel data
+models for long panels, where the number of time periods is relatively large.
+We focus on semiparametric models with unobserved individual and time effects,
+where the distribution of the outcome variable conditional on covariates and
+unobserved effects is specified parametrically, while the distribution of the
+unobserved effects is left unrestricted. Compared to existing reviews on long
+panels (Arellano and Hahn 2007; a section in Arellano and Bonhomme 2011) we
+discuss models with both individual and time effects, split-panel Jackknife
+bias corrections, unbalanced panels, distribution and quantile effects, and
+other extensions. Understanding and correcting the incidental parameter bias
+caused by the estimation of many fixed effects is our main focus, and the
+unifying theme is that the order of this bias is given by the simple formula
+p/n for all models discussed, with p the number of estimated parameters and n
+the total sample size.
+</summary>
+    <author>
+      <name>Iván Fernández-Val</name>
+    </author>
+    <author>
+      <name>Martin Weidner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages, 1 table</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08980v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08980v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09115v1</id>
+    <updated>2017-09-26T16:24:52Z</updated>
+    <published>2017-09-26T16:24:52Z</published>
+    <title>Inference on Estimators defined by Mathematical Programming</title>
+    <summary>  We propose an inference procedure for estimators defined by mathematical
+programming problems, focusing on the important special cases of linear
+programming (LP) and quadratic programming (QP). In these settings, the
+coefficients in both the objective function and the constraints of the
+mathematical programming problem may be estimated from data and hence involve
+sampling error. Our inference approach exploits the characterization of the
+solutions to these programming problems by complementarity conditions; by doing
+so, we can transform the problem of doing inference on the solution of a
+constrained optimization problem (a non-standard inference problem) into one
+involving inference based on a set of inequalities with pre-estimated
+coefficients, which is much better understood. We evaluate the performance of
+our procedure in several Monte Carlo simulations and an empirical application
+to the classic portfolio selection problem in finance.
+</summary>
+    <author>
+      <name>Yu-Wei Hsieh</name>
+    </author>
+    <author>
+      <name>Xiaoxia Shi</name>
+    </author>
+    <author>
+      <name>Matthew Shum</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09115v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09115v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09117v1</id>
+    <updated>2017-09-26T16:31:59Z</updated>
+    <published>2017-09-26T16:31:59Z</published>
+    <title>Discrete Choice and Rational Inattention: a General Equivalence Result</title>
+    <summary>  This paper establishes a general equivalence between discrete choice and
+rational inattention models. Matejka and McKay (2015, AER) showed that when
+information costs are modelled using the Shannon entropy function, the
+resulting choice probabilities in the rational inattention model take the
+multinomial logit form. By exploiting convex-analytic properties of the
+discrete choice model, we show that when information costs are modelled using a
+class of generalized entropy functions, the choice probabilities in any
+rational inattention model are observationally equivalent to some additive
+random utility discrete choice model and vice versa. Thus any additive random
+utility model can be given an interpretation in terms of boundedly rational
+behavior. This includes empirically relevant specifications such as the probit
+and nested logit models.
+</summary>
+    <author>
+      <name>Mogens Fosgerau</name>
+    </author>
+    <author>
+      <name>Emerson Melo</name>
+    </author>
+    <author>
+      <name>Andre de Palma</name>
+    </author>
+    <author>
+      <name>Matthew Shum</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09117v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09117v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09284v1</id>
+    <updated>2017-09-26T23:25:35Z</updated>
+    <published>2017-09-26T23:25:35Z</published>
+    <title>Sharp bounds for the Roy model</title>
+    <summary>  We analyze the empirical content of the Roy model, stripped down to its
+essential features, namely sector specific unobserved heterogeneity and
+self-selection on the basis of potential outcomes. We characterize sharp bounds
+on the joint distribution of potential outcomes and the identifying power of
+exclusion restrictions. The latter include variables that affect market
+conditions only in one sector and variables that affect sector selection only.
+Special emphasis is put on the case of binary outcomes, which has received
+little attention in the literature to date. For richer sets of outcomes, we
+emphasize the distinction between pointwise sharp bounds and functional sharp
+bounds, and its importance, when constructing sharp bounds on functional
+features, such as inequality measures. We analyze a Roy model of college major
+choice in Canada within this framework, and we take a new look at the
+under-representation of women in Science, Technology, Engineering or
+Mathematics (STEM).
+</summary>
+    <author>
+      <name>Ismael Mourifie</name>
+    </author>
+    <author>
+      <name>Marc Henry</name>
+    </author>
+    <author>
+      <name>Romuald Meango</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09284v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09284v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09334v1</id>
+    <updated>2017-09-27T04:51:32Z</updated>
+    <published>2017-09-27T04:51:32Z</published>
+    <title>Differential Pricing of Traffic in the Internet</title>
+    <summary>  The ongoing net neutrality debate has generated a lot of heated discussions
+on whether or not monetary interactions should be regulated between content and
+access providers. Among the several topics discussed, `differential pricing'
+has recently received attention due to `zero-rating' platforms proposed by some
+service providers. In the differential pricing scheme, Internet Service
+Providers (ISPs) can exempt data traffic charges for accessing content from
+certain CPs or applications (zero-rated) and apply regular charges for
+accessing content from other CPs. This allows the possibility for Content
+Providers (CPs) to make `sponsorship' agreements to zero-rate their content and
+attract more user traffic. In this paper, we study the effect of differential
+pricing on various players in the Internet. We consider a model with a single
+ISP and multiple CPs where users select CPs based on the quality of service
+(QoS) and applicable traffic charges. We show that in a differential pricing
+regime 1) a CP offering low QoS can make more revenues than a CP offering
+better QoS through sponsorships. 2) QoS (mean delay) for end users can degrade
+compared to the case where no differential pricing is allowed.
+</summary>
+    <author>
+      <name>Manjesh K. Hanawal</name>
+    </author>
+    <author>
+      <name>Shashank Mishra</name>
+    </author>
+    <author>
+      <name>Yezekael Hayel</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09334v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09334v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09570v1</id>
+    <updated>2017-09-27T15:07:36Z</updated>
+    <published>2017-09-27T15:07:36Z</published>
+    <title>Single market nonparametric identification of multi-attribute hedonic
+  equilibrium models</title>
+    <summary>  This paper derives conditions under which preferences and technology are
+nonparametrically identified in hedonic equilibrium models, where products are
+differentiated along more than one dimension and agents are characterized by
+several dimensions of unobserved heterogeneity. With products differentiated
+along a quality index and agents characterized by scalar unobserved
+heterogeneity, single crossing conditions on preferences and technology provide
+identifying restrictions. We develop similar shape restrictions in the
+multi-attribute case. These shape restrictions, which are based on optimal
+transport theory and generalized convexity, allow us to identify preferences
+for goods differentiated along multiple dimensions, from the observation of a
+single market. We thereby extend identification results in Matzkin (2003) and
+Heckman, Matzkin and Nesheim (2004) to accommodate multiple dimensions of
+unobserved heterogeneity. One of our results is a proof of absolute continuity
+of the distribution of endogenously traded qualities, which is of independent
+interest.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Alfred Galichon</name>
+    </author>
+    <author>
+      <name>Marc Henry</name>
+    </author>
+    <author>
+      <name>Brendan Pass</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09570v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09570v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10038v2</id>
+    <updated>2017-10-01T21:32:41Z</updated>
+    <published>2017-09-28T16:15:30Z</published>
+    <title>Estimation of Graphical Models using the $L_{1,2}$ Norm</title>
+    <summary>  Gaussian graphical models are recently used in economics to obtain networks
+of dependence among agents. A widely-used estimator is the Graphical Lasso
+(GLASSO), which amounts to a maximum likelihood estimation regularized using
+the $L_{1,1}$ matrix norm on the precision matrix $\Omega$. The $L_{1,1}$ norm
+is a lasso penalty that controls for sparsity, or the number of zeros in
+$\Omega$. We propose a new estimator called Structured Graphical Lasso
+(SGLASSO) that uses the $L_{1,2}$ mixed norm. The use of the $L_{1,2}$ penalty
+controls for the structure of the sparsity in $\Omega$. We show that when the
+network size is fixed, SGLASSO is asymptotically equivalent to an infeasible
+GLASSO problem which prioritizes the sparsity-recovery of high-degree nodes.
+Monte Carlo simulation shows that SGLASSO outperforms GLASSO in terms of
+estimating the overall precision matrix and in terms of estimating the
+structure of the graphical model. In an empirical illustration using a classic
+firms' investment dataset, we obtain a network of firms' dependence that
+exhibits the core-periphery structure, with General Motors, General Electric
+and U.S. Steel forming the core group of firms.
+</summary>
+    <author>
+      <name>Khai X. Chiong</name>
+    </author>
+    <author>
+      <name>Hyungsik Roger Moon</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10038v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10038v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10193v1</id>
+    <updated>2017-09-28T22:46:48Z</updated>
+    <published>2017-09-28T22:46:48Z</published>
+    <title>Forecasting with Dynamic Panel Data Models</title>
+    <summary>  This paper considers the problem of forecasting a collection of short time
+series using cross sectional information in panel data. We construct point
+predictors using Tweedie's formula for the posterior mean of heterogeneous
+coefficients under a correlated random effects distribution. This formula
+utilizes cross-sectional information to transform the unit-specific (quasi)
+maximum likelihood estimator into an approximation of the posterior mean under
+a prior distribution that equals the population distribution of the random
+coefficients. We show that the risk of a predictor based on a non-parametric
+estimate of the Tweedie correction is asymptotically equivalent to the risk of
+a predictor that treats the correlated-random-effects distribution as known
+(ratio-optimality). Our empirical Bayes predictor performs well compared to
+various competitors in a Monte Carlo study. In an empirical application we use
+the predictor to forecast revenues for a large panel of bank holding companies
+and compare forecasts that condition on actual and severely adverse
+macroeconomic conditions.
+</summary>
+    <author>
+      <name>Laura Liu</name>
+    </author>
+    <author>
+      <name>Hyungsik Roger Moon</name>
+    </author>
+    <author>
+      <name>Frank Schorfheide</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10193v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10193v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10196v1</id>
+    <updated>2017-09-28T23:25:13Z</updated>
+    <published>2017-09-28T23:25:13Z</published>
+    <title>Inference for VARs Identified with Sign Restrictions</title>
+    <summary>  There is a fast growing literature that set-identifies structural vector
+autoregressions (SVARs) by imposing sign restrictions on the responses of a
+subset of the endogenous variables to a particular structural shock
+(sign-restricted SVARs). Most methods that have been used to construct
+pointwise coverage bands for impulse responses of sign-restricted SVARs are
+justified only from a Bayesian perspective. This paper demonstrates how to
+formulate the inference problem for sign-restricted SVARs within a
+moment-inequality framework. In particular, it develops methods of constructing
+confidence bands for impulse response functions of sign-restricted SVARs that
+are valid from a frequentist perspective. The paper also provides a comparison
+of frequentist and Bayesian coverage bands in the context of an empirical
+application - the former can be substantially wider than the latter.
+</summary>
+    <author>
+      <name>Eleonora Granziera</name>
+    </author>
+    <author>
+      <name>Hyungsik Roger Moon</name>
+    </author>
+    <author>
+      <name>Frank Schorfheide</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.10196v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10196v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00643v1</id>
+    <updated>2017-10-02T13:53:13Z</updated>
+    <published>2017-10-02T13:53:13Z</published>
+    <title>A Justification of Conditional Confidence Intervals</title>
+    <summary>  To quantify uncertainty around point estimates of conditional objects such as
+conditional means or variances, parameter uncertainty has to be taken into
+account. Attempts to incorporate parameter uncertainty are typically based on
+the unrealistic assumption of observing two independent processes, where one is
+used for parameter estimation, and the other for conditioning upon. Such
+unrealistic foundation raises the question whether these intervals are
+theoretically justified in a realistic setting. This paper presents an
+asymptotic justification for this type of intervals that does not require such
+an unrealistic assumption, but relies on a sample-split approach instead. By
+showing that our sample-split intervals coincide asymptotically with the
+standard intervals, we provide a novel, and realistic, justification for
+confidence intervals of conditional objects. The analysis is carried out for a
+general class of Markov chains nesting various time series models.
+</summary>
+    <author>
+      <name>Eric Beutner</name>
+    </author>
+    <author>
+      <name>Alexander Heinemann</name>
+    </author>
+    <author>
+      <name>Stephan Smeekes</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00643v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00643v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.5242v2</id>
+    <updated>2011-09-02T02:20:42Z</updated>
+    <published>2011-06-26T18:21:14Z</published>
+    <title>High Dimensional Sparse Econometric Models: An Introduction</title>
+    <summary>  In this chapter we discuss conceptually high dimensional sparse econometric
+models as well as estimation of these models using L1-penalization and
+post-L1-penalization methods. Focusing on linear and nonparametric regression
+frameworks, we discuss various econometric examples, present basic theoretical
+results, and illustrate the concepts and methods with Monte Carlo simulations
+and an empirical application. In the application, we examine and confirm the
+empirical validity of the Solow-Swan model for international economic growth.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Inverse Problems and High-Dimensional Estimation, Lecture Notes in
+  Statistics, Vol. 203, 2011, pp. 121-156</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1106.5242v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1106.5242v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.7050v1</id>
+    <updated>2013-03-28T06:32:37Z</updated>
+    <published>2013-03-28T06:32:37Z</published>
+    <title>Quantile Models with Endogeneity</title>
+    <summary>  In this article, we review quantile models with endogeneity. We focus on
+models that achieve identification through the use of instrumental variables
+and discuss conditions under which partial and point identification are
+obtained. We discuss key conditions, which include monotonicity and
+full-rank-type conditions, in detail. In providing this review, we update the
+identification results of Chernozhukov and Hansen (2005, Econometrica). We
+illustrate the modeling assumptions through economically motivated examples. We
+also briefly review the literature on estimation and inference.
+  Key Words: identification, treatment effects, structural models, instrumental
+variables
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1146/annurev-economics-080511-110952</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1146/annurev-economics-080511-110952" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Annual Review of Economics, vol 5, 2013</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1303.7050v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.7050v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62P20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.7065v4</id>
+    <updated>2015-11-30T21:49:06Z</updated>
+    <published>2013-11-27T18:37:37Z</published>
+    <title>Individual and Time Effects in Nonlinear Panel Models with Large N, T</title>
+    <summary>  We derive fixed effects estimators of parameters and average partial effects
+in (possibly dynamic) nonlinear panel data models with individual and time
+effects. They cover logit, probit, ordered probit, Poisson and Tobit models
+that are important for many empirical applications in micro and macroeconomics.
+Our estimators use analytical and jackknife bias corrections to deal with the
+incidental parameter problem, and are asymptotically unbiased under asymptotic
+sequences where $N/T$ converges to a constant. We develop inference methods and
+show that they perform well in numerical examples.
+</summary>
+    <author>
+      <name>Ivan Fernandez-Val</name>
+    </author>
+    <author>
+      <name>Martin Weidner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">84 pages, 10 tables, includes supplementary appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/1311.7065v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1311.7065v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.06436v1</id>
+    <updated>2017-08-21T22:20:31Z</updated>
+    <published>2017-08-21T22:20:31Z</published>
+    <title>Applications of James-Stein Shrinkage (I): Variance Reduction without
+  Bias</title>
+    <summary>  In a linear regression model with homoscedastic Normal noise, I consider
+James-Stein type shrinkage in the estimation of nuisance parameters associated
+with control variables. For at least three control variables and exogenous
+treatment, I show that the standard least-squares estimator is dominated with
+respect to squared-error loss in the treatment effect even among unbiased
+estimators and even when the target parameter is low-dimensional. I construct
+the dominating estimator by a variant of James-Stein shrinkage in an
+appropriate high-dimensional Normal-means problem; it can be understood as an
+invariant generalized Bayes estimator with an uninformative (improper) Jeffreys
+prior in the target parameter.
+</summary>
+    <author>
+      <name>Jann Spiess</name>
+    </author>
+    <link href="http://arxiv.org/abs/1708.06436v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.06436v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.06443v1</id>
+    <updated>2017-08-21T22:38:21Z</updated>
+    <published>2017-08-21T22:38:21Z</published>
+    <title>Applications of James-Stein Shrinkage (II): Bias Reduction in
+  Instrumental Variable Estimation</title>
+    <summary>  In a two-stage linear regression model with Normal noise, I consider
+James-Stein type shrinkage in the estimation of the first-stage instrumental
+variable coefficients. For at least four instrumental variables and a single
+endogenous regressor, I show that the standard two-stage least-squares
+estimator is dominated with respect to bias. I construct the dominating
+estimator by a variant of James-Stein shrinkage in a first-stage
+high-dimensional Normal-means problem followed by a control-function approach
+in the second stage; it preserves invariances of the structural instrumental
+variable equations.
+</summary>
+    <author>
+      <name>Jann Spiess</name>
+    </author>
+    <link href="http://arxiv.org/abs/1708.06443v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.06443v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09583v1</id>
+    <updated>2017-09-27T15:35:17Z</updated>
+    <published>2017-09-27T15:35:17Z</published>
+    <title>Inference for Impulse Responses under Model Uncertainty</title>
+    <summary>  In many macroeconomic applications, impulse responses and their (bootstrap)
+confidence intervals are constructed by estimating a VAR model in levels - thus
+ignoring uncertainty regarding the true (unknown) cointegration rank. While it
+is well known that using a wrong cointegration rank leads to invalid
+(bootstrap) inference, we demonstrate that even if the rank is consistently
+estimated, ignoring uncertainty regarding the true rank can make inference
+highly unreliable for sample sizes encountered in macroeconomic applications.
+We investigate the effects of rank uncertainty in a simulation study, comparing
+several methods designed for handling model uncertainty. We propose a new
+method - Weighted Inference by Model Plausibility (WIMP) - that takes rank
+uncertainty into account in a fully data-driven way and outperforms all other
+methods considered in the simulation study. The WIMP method is shown to deliver
+intervals that are robust to rank uncertainty, yet allow for meaningful
+inference, approaching fixed rank intervals when evidence for a particular rank
+is strong. We study the potential ramifications of rank uncertainty on applied
+macroeconomic analysis by re-assessing the effects of fiscal policy shocks
+based on a variety of identification schemes that have been considered in the
+literature. We demonstrate how sensitive the results are to the treatment of
+the cointegration rank, and show how formally accounting for rank uncertainty
+can affect the conclusions.
+</summary>
+    <author>
+      <name>Lenard Lieb</name>
+    </author>
+    <author>
+      <name>Stephan Smeekes</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.09583v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09583v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01423v1</id>
+    <updated>2017-10-04T00:02:22Z</updated>
+    <published>2017-10-04T00:02:22Z</published>
+    <title>Rate-Optimal Estimation of the Intercept in a Semiparametric
+  Sample-Selection Model</title>
+    <summary>  This paper presents a new estimator of the intercept of a sample-selection
+model in which the joint distribution of the unobservables is unspecified. The
+intercept is often in this context of inherent interest; for example, in a
+program evaluation context, the difference between the intercepts in outcome
+equations for participants and non-participants can be interpreted as the
+difference in average outcomes of participants and their counterfactual average
+outcomes if they had chosen not to participate. The new estimator can under
+mild conditions exhibit a rate of convergence in probability equal to
+$n^{-(p-1)/(2p-1)}$, where $p\ge 2$ is an integer that indexes the strength of
+certain smoothness assumptions. This rate of convergence is in this context the
+optimal rate of convergence for estimation of the intercept parameter in terms
+of a minimax criterion. The new estimator is an adaptation of a
+nearest-neighbours estimator of a conditional mean (Yang, 1981; Stute, 1984),
+and is under mild conditions consistent and asymptotically normal with a rate
+of convergence that is the same regardless of the degree to which selection
+depends on unobservables in the outcome equation. The first-order behaviour of
+the new estimator, unlike those of other proposals in the literature, does not
+depend on explicit assumptions regarding the relative tail behaviours of the
+determinants of selection. Simulation evidence and an empirical example are
+included.
+</summary>
+    <author>
+      <name>Chuan Goh</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.01423v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01423v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505639v1</id>
+    <updated>2005-05-30T09:57:15Z</updated>
+    <published>2005-05-30T09:57:15Z</published>
+    <title>Extremal quantile regression</title>
+    <summary>  Quantile regression is an important tool for estimation of conditional
+quantiles of a response Y given a vector of covariates X. It can be used to
+measure the effect of covariates not only in the center of a distribution, but
+also in the upper and lower tails. This paper develops a theory of quantile
+regression in the tails. Specifically, it obtains the large sample properties
+of extremal (extreme order and intermediate order) quantile regression
+estimators for the linear quantile regression model with the tails restricted
+to the domain of minimum attraction and closed under tail equivalence across
+regressor values. This modeling setup combines restrictions of extreme value
+theory with leading homoscedastic and heteroscedastic linear specifications of
+regression analysis. In large samples, extreme order regression quantiles
+converge weakly to \argmin functionals of stochastic integrals of Poisson
+processes that depend on regressors, while intermediate regression quantiles
+and their functionals converge to normal vectors with variance matrices
+dependent on the tail parameters and the regressor design.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1214/009053604000001165</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1214/009053604000001165" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Published at http://dx.doi.org/10.1214/009053604000001165 in the
+  Annals of Statistics (http://www.imstat.org/aos/) by the Institute of
+  Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Annals of Statistics 2005, Vol. 33, No. 2, 806-839</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0505639v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0505639v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62G32, 62G30, 62P20 (Primary) 62E30, 62J05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.3132v4</id>
+    <updated>2014-04-23T01:24:41Z</updated>
+    <published>2009-04-20T22:41:12Z</published>
+    <title>Posterior Inference in Curved Exponential Families under Increasing
+  Dimensions</title>
+    <summary>  This work studies the large sample properties of the posterior-based
+inference in the curved exponential family under increasing dimension. The
+curved structure arises from the imposition of various restrictions on the
+model, such as moment restrictions, and plays a fundamental role in
+econometrics and others branches of data analysis. We establish conditions
+under which the posterior distribution is approximately normal, which in turn
+implies various good properties of estimation and inference procedures based on
+the posterior. In the process we also revisit and improve upon previous results
+for the exponential family under increasing dimension by making use of
+concentration of measure. We also discuss a variety of applications to
+high-dimensional versions of the classical econometric models including the
+multinomial model with moment restrictions, seemingly unrelated regression
+equations, and single structural equation models. In our analysis, both the
+parameter dimension and the number of moments are increasing with the sample
+size.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <link href="http://arxiv.org/abs/0904.3132v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0904.3132v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.1297v2</id>
+    <updated>2011-02-23T23:39:28Z</updated>
+    <published>2010-12-06T20:04:51Z</published>
+    <title>LASSO Methods for Gaussian Instrumental Variables Models</title>
+    <summary>  In this note, we propose to use sparse methods (e.g. LASSO, Post-LASSO,
+sqrt-LASSO, and Post-sqrt-LASSO) to form first-stage predictions and estimate
+optimal instruments in linear instrumental variables (IV) models with many
+instruments in the canonical Gaussian case. The methods apply even when the
+number of instruments is much larger than the sample size. We derive asymptotic
+distributions for the resulting IV estimators and provide conditions under
+which these sparsity-based IV estimators are asymptotically oracle-efficient.
+In simulation experiments, a sparsity-based IV estimator with a data-driven
+penalty performs well compared to recently advocated many-instrument-robust
+procedures. We illustrate the procedure in an empirical example using the
+Angrist and Krueger (1991) schooling data.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1012.1297v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1012.1297v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0220v1</id>
+    <updated>2011-12-31T04:31:00Z</updated>
+    <published>2011-12-31T04:31:00Z</published>
+    <title>Inference for High-Dimensional Sparse Econometric Models</title>
+    <summary>  This article is about estimation and inference methods for high dimensional
+sparse (HDS) regression models in econometrics. High dimensional sparse models
+arise in situations where many regressors (or series terms) are available and
+the regression function is well-approximated by a parsimonious, yet unknown set
+of regressors. The latter condition makes it possible to estimate the entire
+regression function effectively by searching for approximately the right set of
+regressors. We discuss methods for identifying this set of regressors and
+estimating their coefficients based on $\ell_1$-penalization and describe key
+theoretical results. In order to capture realistic practical situations, we
+expressly allow for imperfect selection of regressors and study the impact of
+this imperfect selection on estimation and inference results. We focus the main
+part of the article on the use of HDS models and methods in the instrumental
+variables model and the partially linear model. We present a set of novel
+inference results for these models and illustrate their use with applications
+to returns to schooling and growth regression.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Advances in Economics and Econometrics, 10th World Congress of
+  Econometric Society, 2011</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1201.0220v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1201.0220v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.0282v4</id>
+    <updated>2014-12-30T04:46:58Z</updated>
+    <published>2013-04-01T02:29:25Z</published>
+    <title>Uniform Post Selection Inference for LAD Regression and Other
+  Z-estimation problems</title>
+    <summary>  We develop uniformly valid confidence regions for regression coefficients in
+a high-dimensional sparse median regression model with homoscedastic errors.
+Our methods are based on a moment equation that is immunized against
+non-regular estimation of the nuisance part of the median regression function
+by using Neyman's orthogonalization. We establish that the resulting
+instrumental median regression estimator of a target regression coefficient is
+asymptotically normally distributed uniformly with respect to the underlying
+sparse model and is semi-parametrically efficient. We also generalize our
+method to a general non-smooth Z-estimation framework with the number of target
+parameters $p_1$ being possibly much larger than the sample size $n$. We extend
+Huber's results on asymptotic normality to this setting, demonstrating uniform
+asymptotic normality of the proposed estimators over $p_1$-dimensional
+rectangles, constructing simultaneous confidence bands on all of the $p_1$
+target parameters, and establishing asymptotic validity of the bands uniformly
+over underlying approximately sparse models.
+  Keywords: Instrument; Post-selection inference; Sparsity; Neyman's Orthogonal
+Score test; Uniformly valid inference; Z-estimation.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Kengo Kato</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1093/biomet/asu056</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1093/biomet/asu056" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">includes supplementary material; 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.0282v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.0282v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62F03, 62F12, 62F40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.0412v1</id>
+    <updated>2013-11-02T21:25:13Z</updated>
+    <published>2013-11-02T21:25:13Z</published>
+    <title>Optimal Uniform Convergence Rates for Sieve Nonparametric Instrumental
+  Variables Regression</title>
+    <summary>  We study the problem of nonparametric regression when the regressor is
+endogenous, which is an important nonparametric instrumental variables (NPIV)
+regression in econometrics and a difficult ill-posed inverse problem with
+unknown operator in statistics. We first establish a general upper bound on the
+sup-norm (uniform) convergence rate of a sieve estimator, allowing for
+endogenous regressors and weakly dependent data. This result leads to the
+optimal sup-norm convergence rates for spline and wavelet least squares
+regression estimators under weakly dependent data and heavy-tailed error terms.
+This upper bound also yields the sup-norm convergence rates for sieve NPIV
+estimators under i.i.d. data: the rates coincide with the known optimal
+$L^2$-norm rates for severely ill-posed problems, and are power of $\log(n)$
+slower than the optimal $L^2$-norm rates for mildly ill-posed problems. We then
+establish the minimax risk lower bound in sup-norm loss, which coincides with
+our upper bounds on sup-norm rates for the spline and wavelet sieve NPIV
+estimators. This sup-norm rate optimality provides another justification for
+the wide application of sieve NPIV estimators. Useful results on
+weakly-dependent random matrices are also provided.
+</summary>
+    <author>
+      <name>Xiaohong Chen</name>
+    </author>
+    <author>
+      <name>Timothy Christensen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1311.0412v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1311.0412v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.7186v4</id>
+    <updated>2016-06-23T17:27:01Z</updated>
+    <published>2013-12-27T04:31:35Z</published>
+    <title>Valid Post-Selection Inference in High-Dimensional Approximately Sparse
+  Quantile Regression Models</title>
+    <summary>  This work proposes new inference methods for a regression coefficient of
+interest in a (heterogeneous) quantile regression model. We consider a
+high-dimensional model where the number of regressors potentially exceeds the
+sample size but a subset of them suffice to construct a reasonable
+approximation to the conditional quantile function. The proposed methods are
+(explicitly or implicitly) based on orthogonal score functions that protect
+against moderate model selection mistakes, which are often inevitable in the
+approximately sparse model considered in the present paper. We establish the
+uniform validity of the proposed confidence regions for the quantile regression
+coefficient. Importantly, these methods directly apply to more than one
+variable and a continuum of quantile indices. In addition, the performance of
+the proposed methods is illustrated through Monte-Carlo experiments and an
+empirical example, dealing with risk factors in childhood malnutrition.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Kengo Kato</name>
+    </author>
+    <link href="http://arxiv.org/abs/1312.7186v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.7186v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.5647v1</id>
+    <updated>2014-12-17T22:10:01Z</updated>
+    <published>2014-12-17T22:10:01Z</published>
+    <title>Nonlinear Panel Models with Interactive Effects</title>
+    <summary>  This paper considers estimation and inference on semiparametric nonlinear
+panel single index models with predetermined explanatory variables and
+interactive individual and time effects. These include static and dynamic
+probit, logit, and Poisson models. Fixed effects conditional maximum likelihood
+estimation is challenging because the log likelihood function is not concave in
+the individual and time effects. We propose an iterative two-step procedure to
+maximize the likelihood that is concave in each step. Under asymptotic
+sequences where both the cross section and time series dimensions of the panel
+pass to infinity at the same rate, we show that the fixed effects conditional
+maximum likelihood estimator is consistent, but it has bias in the asymptotic
+distribution due to the incidental parameter problem. We characterize the bias
+and develop analytical and jackknife bias corrections that remove the bias from
+the asymptotic distribution without increasing variance. In numerical examples,
+we find that the corrections substantially reduce the bias and rmse of the
+estimator in small samples, and produce confidence intervals with coverages
+that are close to their nominal levels.
+</summary>
+    <author>
+      <name>Mingli Chen</name>
+    </author>
+    <author>
+      <name>Ivan Fernandez-Val</name>
+    </author>
+    <author>
+      <name>Martin Weidner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages, 2 tables. arXiv admin note: substantial text overlap with
+  arXiv:1311.7065</arxiv:comment>
+    <link href="http://arxiv.org/abs/1412.5647v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1412.5647v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.8434v4</id>
+    <updated>2015-09-21T20:55:12Z</updated>
+    <published>2014-12-29T19:32:34Z</published>
+    <title>Monge-Kantorovich Depth, Quantiles, Ranks, and Signs</title>
+    <summary>  We propose new concepts of statistical depth, multivariate quantiles, ranks
+and signs, based on canonical transportation maps between a distribution of
+interest on $R^d$ and a reference distribution on the $d$-dimensional unit
+ball. The new depth concept, called Monge-Kantorovich depth, specializes to
+halfspace depth in the case of spherical distributions, but, for more general
+distributions, differs from the latter in the ability for its contours to
+account for non convex features of the distribution of interest. We propose
+empirical counterparts to the population versions of those Monge-Kantorovich
+depth contours, quantiles, ranks and signs, and show their consistency by
+establishing a uniform convergence property for empirical transport maps, which
+is of independent interest.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Alfred Galichon</name>
+    </author>
+    <author>
+      <name>Marc Hallin</name>
+    </author>
+    <author>
+      <name>Marc Henry</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1412.8434v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1412.8434v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62M15, 62G35, 46N10, 62H12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.03185v1</id>
+    <updated>2015-01-13T21:48:46Z</updated>
+    <published>2015-01-13T21:48:46Z</published>
+    <title>Post-Selection and Post-Regularization Inference in Linear Models with
+  Many Controls and Instruments</title>
+    <summary>  In this note, we offer an approach to estimating causal/structural parameters
+in the presence of many instruments and controls based on methods for
+estimating sparse high-dimensional models. We use these high-dimensional
+methods to select both which instruments and which control variables to use.
+The approach we take extends BCCH2012, which covers selection of instruments
+for IV models with a small number of controls, and extends BCH2014, which
+covers selection of controls in models where the variable of interest is
+exogenous conditional on observables, to accommodate both a large number of
+controls and a large number of instruments. We illustrate the approach with a
+simulation and an empirical example. Technical supporting material is available
+in a supplementary online appendix.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <author>
+      <name>Martin Spindler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">American Economic Review 2015, Papers and Proceedings</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.03185v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.03185v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.05270v1</id>
+    <updated>2015-07-19T10:04:41Z</updated>
+    <published>2015-07-19T10:04:41Z</published>
+    <title>Nonparametric instrumental variable estimation under monotonicity</title>
+    <summary>  The ill-posedness of the inverse problem of recovering a regression function
+in a nonparametric instrumental variable model leads to estimators that may
+suffer from a very slow, logarithmic rate of convergence. In this paper, we
+show that restricting the problem to models with monotone regression functions
+and monotone instruments significantly weakens the ill-posedness of the
+problem. In stark contrast to the existing literature, the presence of a
+monotone instrument implies boundedness of our measure of ill-posedness when
+restricted to the space of monotone functions. Based on this result we derive a
+novel non-asymptotic error bound for the constrained estimator that imposes
+monotonicity of the regression function. For a given sample size, the bound is
+independent of the degree of ill-posedness as long as the regression function
+is not too steep. As an implication, the bound allows us to show that the
+constrained estimator converges at a fast, polynomial rate, independently of
+the degree of ill-posedness, in a large, but slowly shrinking neighborhood of
+constant functions. Our simulation study demonstrates significant finite-sample
+performance gains from imposing monotonicity even when the regression function
+is rather far from being a constant. We apply the constrained estimator to the
+problem of estimating gasoline demand functions from U.S. data.
+</summary>
+    <author>
+      <name>Denis Chetverikov</name>
+    </author>
+    <author>
+      <name>Daniel Wilhelm</name>
+    </author>
+    <link href="http://arxiv.org/abs/1507.05270v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1507.05270v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.03675v4</id>
+    <updated>2016-08-22T08:11:03Z</updated>
+    <published>2016-03-11T16:06:03Z</published>
+    <title>Optimal Data Collection for Randomized Control Trials</title>
+    <summary>  In a randomized control trial, the precision of an average treatment effect
+estimator can be improved either by collecting data on additional individuals,
+or by collecting additional covariates that predict the outcome variable. We
+propose the use of pre-experimental data such as a census, or a household
+survey, to inform the choice of both the sample size and the covariates to be
+collected. Our procedure seeks to minimize the resulting average treatment
+effect estimator's mean squared error, subject to the researcher's budget
+constraint. We rely on a modification of an orthogonal greedy algorithm that is
+conceptually simple and easy to implement in the presence of a large number of
+potential covariates, and does not require any tuning parameters. In two
+empirical applications, we show that our procedure can lead to substantial
+gains of up to 58%, measured either in terms of reductions in data collection
+costs or in terms of improvements in the precision of the treatment effect
+estimator.
+</summary>
+    <author>
+      <name>Pedro Carneiro</name>
+    </author>
+    <author>
+      <name>Sokbae Lee</name>
+    </author>
+    <author>
+      <name>Daniel Wilhelm</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">54 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1603.03675v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.03675v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62P20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.07041v1</id>
+    <updated>2016-03-23T01:38:24Z</updated>
+    <published>2016-03-23T01:38:24Z</published>
+    <title>Robust Factor Models with Explanatory Proxies</title>
+    <summary>  We provide an econometric analysis for the factor models when the latent
+factors can be explained partially by several observed explanatory proxies. In
+financial factor models for instance, the unknown factors can be reasonably
+well predicted by a few observable proxies, such as the Fama-French factors. In
+diffusion index forecasts, identified factors are strongly related to several
+directly measurable economic variables such as consumption-wealth variable,
+financial ratios, and term spread. To incorporate the explanatory power of
+these observed characteristics, we propose a new two-step estimation procedure:
+(i) regress the data onto the observables, and (ii) take the principal
+components of the fitted data to estimate the loadings and factors. The
+proposed estimator is robust to possibly heavy-tailed distributions, which are
+encountered by many macroeconomic and financial time series. With those
+proxies, the factors can be estimated accurately even if the cross-sectional
+dimension is mild. Empirically, we apply the model to forecast US bond risk
+premia, and find that the observed macroeconomic characteristics contain strong
+explanatory powers of the factors. The gain of forecast is more substantial
+when these characteristics are incorporated to estimate the common factors than
+directly used for forecasts.
+</summary>
+    <author>
+      <name>Jianqing Fan</name>
+    </author>
+    <author>
+      <name>Yuan Ke</name>
+    </author>
+    <author>
+      <name>Yuan Liao</name>
+    </author>
+    <link href="http://arxiv.org/abs/1603.07041v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.07041v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.02642v1</id>
+    <updated>2016-04-10T06:14:33Z</updated>
+    <published>2016-04-10T06:14:33Z</published>
+    <title>Program Evaluation with Right-Censored Data</title>
+    <summary>  In a unified framework, we provide estimators and confidence bands for a
+variety of treatment effects when the outcome of interest, typically a
+duration, is subjected to right censoring. Our methodology accommodates
+average, distributional, and quantile treatment effects under different
+identifying assumptions including unconfoundedness, local treatment effects,
+and nonlinear differences-in-differences. The proposed estimators are easy to
+implement, have close-form representation, are fully data-driven upon
+estimation of nuisance parameters, and do not rely on parametric distributional
+assumptions, shape restrictions, or on restricting the potential treatment
+effect heterogeneity across different subpopulations. These treatment effects
+results are obtained as a consequence of more general results on two-step
+Kaplan-Meier estimators that are of independent interest: we provide conditions
+for applying (i) uniform law of large numbers, (ii) functional central limit
+theorems, and (iii) we prove the validity of the ordinary nonparametric
+bootstrap in a two-step estimation procedure where the outcome of interest may
+be randomly censored.
+</summary>
+    <author>
+      <name>Pedro H. C. Sant'Anna</name>
+    </author>
+    <link href="http://arxiv.org/abs/1604.02642v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.02642v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.04819v1</id>
+    <updated>2016-06-15T15:28:29Z</updated>
+    <published>2016-06-15T15:28:29Z</published>
+    <title>Nonparametric Analysis of Random Utility Models</title>
+    <summary>  This paper develops and implements a nonparametric test of Random Utility
+Models. The motivating application is to test the null hypothesis that a sample
+of cross-sectional demand distributions was generated by a population of
+rational consumers. We test a necessary and sufficient condition for this that
+does not rely on any restriction on unobserved heterogeneity or the number of
+goods. We also propose and implement a control function approach to account for
+endogenous expenditure. An econometric result of independent interest is a test
+for linear inequality constraints when these are represented as the vertices of
+a polyhedron rather than its faces. An empirical application to the U.K.
+Household Expenditure Survey illustrates computational feasibility of the
+method in demand problems with 5 goods.
+</summary>
+    <author>
+      <name>Yuichi Kitamura</name>
+    </author>
+    <author>
+      <name>Jörg Stoye</name>
+    </author>
+    <link href="http://arxiv.org/abs/1606.04819v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.04819v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62G10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00033v1</id>
+    <updated>2016-07-29T21:32:27Z</updated>
+    <published>2016-07-29T21:32:27Z</published>
+    <title>Locally Robust Semiparametric Estimation</title>
+    <summary>  This paper shows how to construct locally robust semiparametric GMM
+estimators, meaning equivalently moment conditions have zero derivative with
+respect to the first step and the first step does not affect the asymptotic
+variance. They are constructed by adding to the moment functions the adjustment
+term for first step estimation. Locally robust estimators have several
+advantages. They are vital for valid inference with machine learning in the
+first step, see Belloni et. al. (2012, 2014), and are less sensitive to the
+specification of the first step. They are doubly robust for affine moment
+functions, so moment conditions continue to hold when one first step component
+is incorrect. Locally robust moment conditions also have smaller bias that is
+flatter as a function of first step smoothing leading to improved small sample
+properties. Series first step estimators confer local robustness on any moment
+conditions and are doubly robust for affine moments, in the direction of the
+series approximation. Many new locally and doubly robust estimators are given
+here, including for economic structural models. We give simple asymptotic
+theory for estimators that use cross-fitting in the first step, including
+machine learning.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Juan Carlos Escanciano</name>
+    </author>
+    <author>
+      <name>Hidehiko Ichimura</name>
+    </author>
+    <author>
+      <name>Whitney K. Newey</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.00033v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.00033v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62G05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00354v1</id>
+    <updated>2016-08-01T08:51:31Z</updated>
+    <published>2016-08-01T08:51:31Z</published>
+    <title>hdm: High-Dimensional Metrics</title>
+    <summary>  In this article the package High-dimensional Metrics (\texttt{hdm}) is
+introduced. It is a collection of statistical methods for estimation and
+quantification of uncertainty in high-dimensional approximately sparse models.
+It focuses on providing confidence intervals and significance testing for
+(possibly many) low-dimensional subcomponents of the high-dimensional parameter
+vector. Efficient estimators and uniformly valid confidence intervals for
+regression coefficients on target variables (e.g., treatment or policy
+variable) in a high-dimensional approximately sparse regression model, for
+average treatment effect (ATE) and average treatment effect for the treated
+(ATET), as well for extensions of these parameters to the endogenous setting
+are provided. Theory grounded, data-driven methods for selecting the
+penalization parameter in Lasso regressions under heteroscedastic and
+non-Gaussian errors are implemented. Moreover, joint/ simultaneous confidence
+intervals for regression coefficients of a high-dimensional sparse regression
+are implemented. Data sets which have been used in the literature and might be
+useful for classroom demonstration and for testing new estimators are included.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Chris Hansen</name>
+    </author>
+    <author>
+      <name>Martin Spindler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: substantial text overlap with arXiv:1603.01700</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.00354v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.00354v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.01532v2</id>
+    <updated>2017-05-25T13:54:30Z</updated>
+    <published>2016-08-04T13:44:45Z</published>
+    <title>Fixed-Effect Regressions on Network Data</title>
+    <summary>  This paper studies inference on fixed effects in a linear regression model
+estimated from network data. An important special case of our setup is the
+two-way regression model, which is a workhorse method in the analysis of
+matched data sets. Networks are typically quite sparse and it is difficult to
+see how the data carry information about certain parameters. We derive bounds
+on the variance of the fixed-effect estimator that uncover the importance of
+the structure of the network. These bounds depend on the smallest non-zero
+eigenvalue of the (normalized) Laplacian of the network and on the degree
+structure of the network. The Laplacian is a matrix that describes the network
+and its smallest non-zero eigenvalue is a measure of connectivity, with smaller
+values indicating less-connected networks. These bounds yield conditions for
+consistent estimation and convergence rates, and allow to evaluate the accuracy
+of first-order approximations to the variance of the fixed-effect estimator.
+The bounds are also used to assess the bias and variance of estimators of
+moments of the fixed effects.
+</summary>
+    <author>
+      <name>Koen Jochmans</name>
+    </author>
+    <author>
+      <name>Martin Weidner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages main text (including bibliography), 29 pages supplementary
+  material, 3 Figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.01532v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.01532v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.06217v1</id>
+    <updated>2016-11-18T20:21:16Z</updated>
+    <published>2016-11-18T20:21:16Z</published>
+    <title>Specification Tests for the Propensity Score</title>
+    <summary>  This paper introduces new nonparametric diagnostic tools for detecting
+propensity score misspecification. These tests may be applied to assess the
+validity of different treatment effects estimators that rely on the correct
+specification of the propensity score. Our tests do not suffer from the "curse
+of dimensionality" when the vector of covariates is of high-dimensionality, are
+fully data-driven, do not require tuning parameters such as bandwidths, and are
+able to detect a broad class of local alternatives converging to the null at
+the parametric rate $n^{-1/2}$, with $n$ the sample size. We show that the use
+of an orthogonal projection on the tangent space of nuisance parameters both
+improves power and facilitates the simulation of critical values by means of a
+multiplier bootstrap procedure. The finite sample performance of the tests are
+examined by means of a Monte Carlo experiment and an empirical application.
+Open-source software is available for implementing the proposed tests.
+</summary>
+    <author>
+      <name>Pedro H. C. Sant'Anna</name>
+    </author>
+    <author>
+      <name>Xiaojung Song</name>
+    </author>
+    <link href="http://arxiv.org/abs/1611.06217v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.06217v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.02090v3</id>
+    <updated>2017-09-30T21:39:23Z</updated>
+    <published>2016-12-07T01:35:01Z</published>
+    <title>Nonparametric Tests for Treatment Effect Heterogeneity with Duration
+  Outcomes</title>
+    <summary>  This article proposes different tests for treatment effect heterogeneity when
+the outcome of interest, typically a duration variable, may be right-censored.
+The proposed tests study whether a policy 1) has zero distributional (average)
+effect for all subpopulations defined by covariate values, and 2) has
+homogeneous average effect across different subpopulations. The proposed tests
+are based on two-step Kaplan-Meier integrals, and do not rely on parametric
+distributional assumptions, shape restrictions, nor on restricting the
+potential treatment effect heterogeneity across different subpopulations. Our
+framework is suitable not only to exogenous treatment allocation, but can also
+account for treatment noncompliance, an important feature in many applications.
+The proposed tests are consistent against fixed alternatives, and can detect
+nonparametric alternatives converging to the null at the parametric
+$n^{-1/2}$-rate, $n$ being the sample size. Critical values are computed with
+the assistance of a multiplier bootstrap. The finite sample properties of the
+proposed tests are examined by means of a Monte Carlo study, and an application
+about the effect of labor market programs on unemployment duration. Open-source
+software is available for implementing all proposed tests.
+</summary>
+    <author>
+      <name>Pedro H. C. Sant'Anna</name>
+    </author>
+    <link href="http://arxiv.org/abs/1612.02090v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.02090v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06850v2</id>
+    <updated>2017-02-08T16:49:01Z</updated>
+    <published>2016-12-20T20:55:07Z</published>
+    <title>Extremal Quantile Regression: An Overview</title>
+    <summary>  Extremal quantile regression, i.e. quantile regression applied to the tails
+of the conditional distribution, counts with an increasing number of economic
+and financial applications such as value-at-risk, production frontiers,
+determinants of low infant birth weights, and auction models. This chapter
+provides an overview of recent developments in the theory and empirics of
+extremal quantile regression. The advances in the theory have relied on the use
+of extreme value approximations to the law of the Koenker and Bassett (1978)
+quantile regression estimator. Extreme value laws not only have been shown to
+provide more accurate approximations than Gaussian laws at the tails, but also
+have served as the basis to develop bias corrected estimators and inference
+methods using simulation and suitable variations of bootstrap and subsampling.
+The applicability of these methods is illustrated with two empirical examples
+on conditional value-at-risk and financial contagion.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Iván Fernández-Val</name>
+    </author>
+    <author>
+      <name>Tetsuya Kaji</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 4 tables, 7 figures, forthcoming in the Handbook of
+  Quantile Regression</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.06850v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.06850v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.08418v1</id>
+    <updated>2017-06-26T14:46:45Z</updated>
+    <published>2017-06-26T14:46:45Z</published>
+    <title>Nonseparable Multinomial Choice Models in Cross-Section and Panel Data</title>
+    <summary>  Multinomial choice models are fundamental for empirical modeling of economic
+choices among discrete alternatives. We analyze identification of binary and
+multinomial choice models when the choice utilities are nonseparable in
+observed attributes and multidimensional unobserved heterogeneity with
+cross-section and panel data. We show that derivatives of choice probabilities
+with respect to continuous attributes are weighted averages of utility
+derivatives in cross-section models with exogenous heterogeneity. In the
+special case of random coefficient models with an independent additive effect,
+we further characterize that the probability derivative at zero is proportional
+to the population mean of the coefficients. We extend the identification
+results to models with endogenous heterogeneity using either a control function
+or panel data. In time stationary panel models with two periods, we find that
+differences over time of derivatives of choice probabilities identify utility
+derivatives "on the diagonal," i.e. when the observed attributes take the same
+values in the two periods. We also show that time stationarity does not
+identify structural derivatives "off the diagonal" both in continuous and
+multinomial choice panel models.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Iván Fernández-Val</name>
+    </author>
+    <author>
+      <name>Whitney Newey</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1706.08418v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.08418v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08238v1</id>
+    <updated>2017-09-24T18:53:41Z</updated>
+    <published>2017-09-24T18:53:41Z</published>
+    <title>Counterparty credit limits: An effective tool for mitigating
+  counterparty risk?</title>
+    <summary>  A counterparty credit limit (CCL) is a limit imposed by a financial
+institution to cap its maximum possible exposure to a specified counterparty.
+Although CCLs are designed to help institutions mitigate counterparty risk by
+selective diversification of their exposures, their implementation restricts
+the liquidity that institutions can access in an otherwise centralized pool. We
+address the question of how this mechanism impacts trade prices and volatility,
+both empirically and via a new model of trading with CCLs. We find empirically
+that CCLs cause little impact on trade. However, our model highlights that in
+extreme situations, CCLs could serve to destabilize prices and thereby
+influence systemic risk.
+</summary>
+    <author>
+      <name>Martin D. Gould</name>
+    </author>
+    <author>
+      <name>Nikolaus Hautsch</name>
+    </author>
+    <author>
+      <name>Sam D. Howison</name>
+    </author>
+    <author>
+      <name>Mason A. Porter</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.08238v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08238v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01852v1</id>
+    <updated>2017-10-05T01:27:34Z</updated>
+    <published>2017-10-05T01:27:34Z</published>
+    <title>Finite Time Identification in Unstable Linear Systems</title>
+    <summary>  Identification of the parameters of stable linear dynamical systems is a
+well-studied problem in the literature, both in the low and high-dimensional
+settings. However, there are hardly any results for the unstable case,
+especially regarding finite time bounds. For this setting, classical results on
+least-squares estimation of the dynamics parameters are not applicable and
+therefore new concepts and technical approaches need to be developed to address
+the issue. Unstable linear systems reflect key real applications in control
+theory, econometrics, and finance.
+  This study establishes finite time bounds for the identification error of the
+least-squares estimates for a fairly large class of heavy-tailed noise
+distributions, and transition matrices of such systems. The results relate the
+time length required as a function of the problem dimension and key
+characteristics of the true underlying transition matrix and the noise
+distribution. To obtain them, appropriate concentration inequalities for random
+matrices and for sequences of martingale differences are leveraged.
+</summary>
+    <author>
+      <name>Mohamad Kazem Shirani Faradonbeh</name>
+    </author>
+    <author>
+      <name>Ambuj Tewari</name>
+    </author>
+    <author>
+      <name>George Michailidis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages, 3 appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01852v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01852v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.3649v3</id>
+    <updated>2014-07-15T01:40:35Z</updated>
+    <published>2007-04-27T18:58:35Z</published>
+    <title>Quantile and Probability Curves Without Crossing</title>
+    <summary>  This paper proposes a method to address the longstanding problem of lack of
+monotonicity in estimation of conditional and structural quantile functions,
+also known as the quantile crossing problem. The method consists in sorting or
+monotone rearranging the original estimated non-monotone curve into a monotone
+rearranged curve. We show that the rearranged curve is closer to the true
+quantile curve in finite samples than the original curve, establish a
+functional delta method for rearrangement-related operators, and derive
+functional limit theory for the entire rearranged curve and its functionals. We
+also establish validity of the bootstrap for estimating the limit law of the
+the entire rearranged curve and its functionals. Our limit results are generic
+in that they apply to every estimator of a monotone econometric function,
+provided that the estimator satisfies a functional central limit theorem and
+the function satisfies some smoothness conditions. Consequently, our results
+apply to estimation of other econometric functions with monotonicity
+restrictions, such as demand, production, distribution, and structural
+distribution functions. We illustrate the results with an application to
+estimation of structural quantile functions using data on Vietnam veteran
+status and earnings.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ivan Fernandez-Val</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Boston University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alfred Galichon</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Ecole Polytechnique</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.3982/ECTA7880</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.3982/ECTA7880" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, 4 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Econometrica (2010) 78 (3): 1093-1125</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0704.3649v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0704.3649v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0224v3</id>
+    <updated>2012-05-09T15:28:20Z</updated>
+    <published>2011-12-31T04:37:19Z</published>
+    <title>Inference on Treatment Effects After Selection Amongst High-Dimensional
+  Controls</title>
+    <summary>  We propose robust methods for inference on the effect of a treatment variable
+on a scalar outcome in the presence of very many controls. Our setting is a
+partially linear model with possibly non-Gaussian and heteroscedastic
+disturbances. Our analysis allows the number of controls to be much larger than
+the sample size. To make informative inference feasible, we require the model
+to be approximately sparse; that is, we require that the effect of confounding
+factors can be controlled for up to a small approximation error by conditioning
+on a relatively small number of controls whose identities are unknown. The
+latter condition makes it possible to estimate the treatment effect by
+selecting approximately the right set of controls. We develop a novel
+estimation and uniformly valid inference method for the treatment effect in
+this setting, called the "post-double-selection" method. Our results apply to
+Lasso-type methods used for covariate selection as well as to any other model
+selection method that is able to find a sparse model with good approximation
+properties.
+  The main attractive feature of our method is that it allows for imperfect
+selection of the controls and provides confidence intervals that are valid
+uniformly across a large class of models. In contrast, standard post-model
+selection estimators fail to provide uniform inference even in simple cases
+with a small, fixed number of controls. Thus our method resolves the problem of
+uniform inference after model selection for a large, interesting class of
+models. We illustrate the use of the developed methods with numerical
+simulations and an application to the effect of abortion on crime rates.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1201.0224v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1201.0224v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.3267v2</id>
+    <updated>2013-11-22T16:30:34Z</updated>
+    <published>2012-12-13T18:58:43Z</published>
+    <title>Semi-parametric Bayesian Partially Identified Models based on Support
+  Function</title>
+    <summary>  We provide a comprehensive semi-parametric study of Bayesian partially
+identified econometric models. While the existing literature on Bayesian
+partial identification has mostly focused on the structural parameter, our
+primary focus is on Bayesian credible sets (BCS's) of the unknown identified
+set and the posterior distribution of its support function. We construct a
+(two-sided) BCS based on the support function of the identified set. We prove
+the Bernstein-von Mises theorem for the posterior distribution of the support
+function. This powerful result in turn infers that, while the BCS and the
+frequentist confidence set for the partially identified parameter are
+asymptotically different, our constructed BCS for the identified set has an
+asymptotically correct frequentist coverage probability. Importantly, we
+illustrate that the constructed BCS for the identified set does not require a
+prior on the structural parameter. It can be computed efficiently for subset
+inference, especially when the target of interest is a sub-vector of the
+partially identified parameter, where projecting to a low-dimensional subset is
+often required. Hence, the proposed methods are useful in many applications.
+  The Bayesian partial identification literature has been assuming a known
+parametric likelihood function. However, econometric models usually only
+identify a set of moment inequalities, and therefore using an incorrect
+likelihood function may result in misleading inferences. In contrast, with a
+nonparametric prior on the unknown likelihood function, our proposed Bayesian
+procedure only requires a set of moment conditions, and can efficiently make
+inference about both the partially identified parameter and its identified set.
+This makes it widely applicable in general moment inequality models. Finally,
+the proposed method is illustrated in a financial asset pricing problem.
+</summary>
+    <author>
+      <name>Yuan Liao</name>
+    </author>
+    <author>
+      <name>Anna Simoni</name>
+    </author>
+    <link href="http://arxiv.org/abs/1212.3267v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.3267v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.3969v3</id>
+    <updated>2016-03-21T15:44:23Z</updated>
+    <published>2013-04-15T02:20:57Z</published>
+    <title>Post-Selection Inference for Generalized Linear Models with Many
+  Controls</title>
+    <summary>  This paper considers generalized linear models in the presence of many
+controls. We lay out a general methodology to estimate an effect of interest
+based on the construction of an instrument that immunize against model
+selection mistakes and apply it to the case of logistic binary choice model.
+More specifically we propose new methods for estimating and constructing
+confidence regions for a regression parameter of primary interest $\alpha_0$, a
+parameter in front of the regressor of interest, such as the treatment variable
+or a policy variable. These methods allow to estimate $\alpha_0$ at the
+root-$n$ rate when the total number $p$ of other regressors, called controls,
+potentially exceed the sample size $n$ using sparsity assumptions. The sparsity
+assumption means that there is a subset of $s&lt;n$ controls which suffices to
+accurately approximate the nuisance part of the regression function.
+Importantly, the estimators and these resulting confidence regions are valid
+uniformly over $s$-sparse models satisfying $s^2\log^2 p = o(n)$ and other
+technical conditions. These procedures do not rely on traditional consistent
+model selection arguments for their validity. In fact, they are robust with
+respect to moderate model selection mistakes in variable selection. Under
+suitable conditions, the estimators are semi-parametrically efficient in the
+sense of attaining the semi-parametric efficiency bounds for the class of
+models in this paper.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Ying Wei</name>
+    </author>
+    <link href="http://arxiv.org/abs/1304.3969v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.3969v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.2645v7</id>
+    <updated>2016-12-21T18:57:37Z</updated>
+    <published>2013-11-11T23:36:44Z</published>
+    <title>Program Evaluation and Causal Inference with High-Dimensional Data</title>
+    <summary>  In this paper, we provide efficient estimators and honest confidence bands
+for a variety of treatment effects including local average (LATE) and local
+quantile treatment effects (LQTE) in data-rich environments. We can handle very
+many control variables, endogenous receipt of treatment, heterogeneous
+treatment effects, and function-valued outcomes. Our framework covers the
+special case of exogenous receipt of treatment, either conditional on controls
+or unconditionally as in randomized control trials. In the latter case, our
+approach produces efficient estimators and honest bands for (functional)
+average treatment effects (ATE) and quantile treatment effects (QTE). To make
+informative inference possible, we assume that key reduced form predictive
+relationships are approximately sparse. This assumption allows the use of
+regularization and selection methods to estimate those relations, and we
+provide methods for post-regularization and post-selection inference that are
+uniformly valid (honest) across a wide-range of models. We show that a key
+ingredient enabling honest inference is the use of orthogonal or doubly robust
+moment conditions in estimating certain reduced form functional parameters. We
+illustrate the use of the proposed methods with an application to estimating
+the effect of 401(k) eligibility and participation on accumulated assets.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Ivan Fernández-Val</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">119 pages, 3 tables, 11 figures, includes supplementary appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/1311.2645v7" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1311.2645v7" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.6507v1</id>
+    <updated>2014-11-24T16:10:40Z</updated>
+    <published>2014-11-24T16:10:40Z</published>
+    <title>Inference in High Dimensional Panel Models with an Application to Gun
+  Control</title>
+    <summary>  We consider estimation and inference in panel data models with additive
+unobserved individual specific heterogeneity in a high dimensional setting. The
+setting allows the number of time varying regressors to be larger than the
+sample size. To make informative estimation and inference feasible, we require
+that the overall contribution of the time varying variables after eliminating
+the individual specific heterogeneity can be captured by a relatively small
+number of the available variables whose identities are unknown. This
+restriction allows the problem of estimation to proceed as a variable selection
+problem. Importantly, we treat the individual specific heterogeneity as fixed
+effects which allows this heterogeneity to be related to the observed time
+varying variables in an unspecified way and allows that this heterogeneity may
+be non-zero for all individuals. Within this framework, we provide procedures
+that give uniformly valid inference over a fixed subset of parameters in the
+canonical linear fixed effects model and over coefficients on a fixed vector of
+endogenous variables in panel data instrumental variables models with fixed
+effects and many instruments. An input to developing the properties of our
+proposed procedures is the use of a variant of the Lasso estimator that allows
+for a grouped data structure where data across groups are independent and
+dependence within groups is unrestricted. We provide formal conditions within
+this structure under which the proposed Lasso variant selects a sparse model
+with good approximation properties. We present simulation results in support of
+the theoretical developments and illustrate the use of the methods in an
+application aimed at estimating the effect of gun prevalence on crime rates.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <author>
+      <name>Damian Kozbur</name>
+    </author>
+    <link href="http://arxiv.org/abs/1411.6507v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.6507v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03155v2</id>
+    <updated>2015-03-25T00:09:24Z</updated>
+    <published>2015-02-11T00:29:16Z</published>
+    <title>A lava attack on the recovery of sums of dense and sparse signals</title>
+    <summary>  Common high-dimensional methods for prediction rely on having either a sparse
+signal model, a model in which most parameters are zero and there are a small
+number of non-zero parameters that are large in magnitude, or a dense signal
+model, a model with no large parameters and very many small non-zero
+parameters. We consider a generalization of these two basic models, termed here
+a "sparse+dense" model, in which the signal is given by the sum of a sparse
+signal and a dense signal. Such a structure poses problems for traditional
+sparse estimators, such as the lasso, and for traditional dense estimation
+methods, such as ridge estimation. We propose a new penalization-based method,
+called lava, which is computationally efficient. With suitable choices of
+penalty parameters, the proposed method strictly dominates both lasso and
+ridge. We derive analytic expressions for the finite-sample risk function of
+the lava estimator in the Gaussian sequence model. We also provide an deviation
+bound for the prediction risk in the Gaussian regression model with fixed
+design. In both cases, we provide Stein's unbiased estimator for lava's
+prediction risk. A simulation example compares the performance of lava to
+lasso, ridge, and elastic net in a regression example using feasible,
+data-dependent penalty parameters and illustrates lava's improved performance
+relative to these benchmarks.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <author>
+      <name>Yuan Liao</name>
+    </author>
+    <link href="http://arxiv.org/abs/1502.03155v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.03155v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.00934v1</id>
+    <updated>2016-01-05T18:45:22Z</updated>
+    <published>2016-01-05T18:45:22Z</published>
+    <title>Confidence Intervals for Projections of Partially Identified Parameters</title>
+    <summary>  This paper proposes a bootstrap-based procedure to build confidence intervals
+for single components of a partially identified parameter vector, and for
+smooth functions of such components, in moment (in)equality models. The extreme
+points of our confidence interval are obtained by maximizing/minimizing the
+value of the component (or function) of interest subject to the sample analog
+of the moment (in)equality conditions properly relaxed. The novelty is that the
+amount of relaxation, or critical level, is computed so that the component of
+$\theta$, instead of $\theta$ itself, is uniformly asymptotically covered with
+prespecified probability. Calibration of the critical level is based on
+repeatedly checking feasibility of linear programming problems, rendering it
+computationally attractive. Computation of the extreme points of the confidence
+interval is based on a novel application of the response surface method for
+global optimization, which may prove of independent interest also for
+applications of other methods of inference in the moment (in)equalities
+literature. The critical level is by construction smaller (in finite sample)
+than the one used if projecting confidence regions designed to cover the entire
+parameter vector $\theta $. Hence, our confidence interval is weakly shorter
+than the projection of established confidence sets (Andrews and Soares, 2010),
+if one holds the choice of tuning parameters constant. We provide simple
+conditions under which the comparison is strict. Our inference method controls
+asymptotic coverage uniformly over a large class of data generating processes.
+Our assumptions and those used in the leading alternative approach (a profiling
+based method) are not nested. We explain why we employ some restrictions that
+are not required by other methods and provide examples of models for which our
+method is uniformly valid but profiling based methods are not.
+</summary>
+    <author>
+      <name>Hiroaki Kaido</name>
+    </author>
+    <author>
+      <name>Francesca Molinari</name>
+    </author>
+    <author>
+      <name>Jörg Stoye</name>
+    </author>
+    <link href="http://arxiv.org/abs/1601.00934v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.00934v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.08927v2</id>
+    <updated>2016-11-05T14:35:38Z</updated>
+    <published>2016-02-29T12:05:53Z</published>
+    <title>High-Dimensional $L_2$Boosting: Rate of Convergence</title>
+    <summary>  Boosting is one of the most significant developments in machine learning.
+This paper studies the rate of convergence of $L_2$Boosting, which is tailored
+for regression, in a high-dimensional setting. Moreover, we introduce so-called
+\textquotedblleft post-Boosting\textquotedblright. This is a post-selection
+estimator which applies ordinary least squares to the variables selected in the
+first stage by $L_2$Boosting. Another variant is \textquotedblleft Orthogonal
+Boosting\textquotedblright\ where after each step an orthogonal projection is
+conducted. We show that both post-$L_2$Boosting and the orthogonal boosting
+achieve the same rate of convergence as LASSO in a sparse, high-dimensional
+setting. We show that the rate of convergence of the classical $L_2$Boosting
+depends on the design matrix described by a sparse eigenvalue constant. To show
+the latter results, we derive new approximation results for the pure greedy
+algorithm, based on analyzing the revisiting behavior of $L_2$Boosting. We also
+introduce feasible rules for early stopping, which can be easily implemented
+and used in applied work. Our results also allow a direct comparison between
+LASSO and boosting which has been missing from the literature. Finally, we
+present simulation studies and applications to illustrate the relevance of our
+theoretical results and to provide insights into the practical aspects of
+boosting. In these simulation studies, post-$L_2$Boosting clearly outperforms
+LASSO.
+</summary>
+    <author>
+      <name>Ye Luo</name>
+    </author>
+    <author>
+      <name>Martin Spindler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 4 tables; AMS 2000 subject classifications: Primary 62J05,
+  62J07, 41A25; secondary 49M15, 68Q32</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.08927v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.08927v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62J05, 62J07, 41A25, 49M15, 68Q32" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01700v2</id>
+    <updated>2016-08-01T12:20:09Z</updated>
+    <published>2016-03-05T08:57:26Z</published>
+    <title>High-Dimensional Metrics in R</title>
+    <summary>  The package High-dimensional Metrics (\Rpackage{hdm}) is an evolving
+collection of statistical methods for estimation and quantification of
+uncertainty in high-dimensional approximately sparse models. It focuses on
+providing confidence intervals and significance testing for (possibly many)
+low-dimensional subcomponents of the high-dimensional parameter vector.
+Efficient estimators and uniformly valid confidence intervals for regression
+coefficients on target variables (e.g., treatment or policy variable) in a
+high-dimensional approximately sparse regression model, for average treatment
+effect (ATE) and average treatment effect for the treated (ATET), as well for
+extensions of these parameters to the endogenous setting are provided. Theory
+grounded, data-driven methods for selecting the penalization parameter in Lasso
+regressions under heteroscedastic and non-Gaussian errors are implemented.
+Moreover, joint/ simultaneous confidence intervals for regression coefficients
+of a high-dimensional sparse regression are implemented, including a joint
+significance test for Lasso regression. Data sets which have been used in the
+literature and might be useful for classroom demonstration and for testing new
+estimators are included. \R and the package \Rpackage{hdm} are open-source
+software projects and can be freely downloaded from CRAN:
+\texttt{http://cran.r-project.org}.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Chris Hansen</name>
+    </author>
+    <author>
+      <name>Martin Spindler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages; vignette for the R package hdm, available at
+  http://cran.r-project.org/web/packages/hdm/ and
+  http://r-forge.r-project.org/R/?group_id=2084 (development version)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1603.01700v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.01700v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62-01, 62-04, 62J07, 62G05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00499v3</id>
+    <updated>2017-09-26T00:14:19Z</updated>
+    <published>2016-05-02T14:18:33Z</published>
+    <title>Monte Carlo Confidence Sets for Identified Sets</title>
+    <summary>  In complicated/nonlinear parametric models, it is generally hard to know
+whether the model parameters are point identified. We provide computationally
+attractive procedures to construct confidence sets (CSs) for identified sets of
+full parameters and of subvectors in models defined through a likelihood or a
+vector of moment equalities or inequalities. These CSs are based on level sets
+of optimal sample criterion functions (such as likelihood or optimally-weighted
+or continuously-updated GMM criterions). The level sets are constructed using
+cutoffs that are computed via Monte Carlo (MC) simulations directly from the
+quasi-posterior distributions of the criterions. We establish new Bernstein-von
+Mises (or Bayesian Wilks) type theorems for the quasi-posterior distributions
+of the quasi-likelihood ratio (QLR) and profile QLR in partially-identified
+regular models and some non-regular models. These results imply that our MC CSs
+have exact asymptotic frequentist coverage for identified sets of full
+parameters and of subvectors in partially-identified regular models, and have
+valid but potentially conservative coverage in models with reduced-form
+parameters on the boundary. Our MC CSs for identified sets of subvectors are
+shown to have exact asymptotic coverage in models with singularities. We also
+provide results on uniform validity of our CSs over classes of DGPs that
+include point and partially identified models. We demonstrate good
+finite-sample coverage properties of our procedures in two simulation
+experiments. Finally, our procedures are applied to two non-trivial empirical
+examples: an airline entry game and a model of trade flows.
+</summary>
+    <author>
+      <name>Xiaohong Chen</name>
+    </author>
+    <author>
+      <name>Timothy Christensen</name>
+    </author>
+    <author>
+      <name>Elie Tamer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1605.00499v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00499v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00286v1</id>
+    <updated>2016-07-01T15:19:25Z</updated>
+    <published>2016-07-01T15:19:25Z</published>
+    <title>Quantile Graphical Models: Prediction and Conditional Independence with
+  Applications to Financial Risk Management</title>
+    <summary>  We propose Quantile Graphical Models (QGMs) to characterize predictive and
+conditional independence relationships within a set of random variables of
+interest. This framework is intended to quantify the dependence in non-Gaussian
+settings which are ubiquitous in many econometric applications. We consider two
+distinct QGMs. First, Condition Independence QGMs characterize conditional
+independence at each quantile index revealing the distributional dependence
+structure. Second, Predictive QGMs characterize the best linear predictor under
+asymmetric loss functions. Under Gaussianity these notions essentially coincide
+but non-Gaussian settings lead us to different models as prediction and
+conditional independence are fundamentally different properties. Combined the
+models complement the methods based on normal and nonparanormal distributions
+that study mean predictability and use covariance and precision matrices for
+conditional independence.
+  We also propose estimators for each QGMs. The estimators are based on
+high-dimension techniques including (a continuum of) $\ell_{1}$-penalized
+quantile regressions and low biased equations, which allows us to handle the
+potentially large number of variables. We build upon recent results to obtain
+valid choice of the penalty parameters and rates of convergence. These results
+are derived without any assumptions on the separation from zero and are
+uniformly valid across a wide-range of models. With the additional assumptions
+that the coefficients are well-separated from zero, we can consistently
+estimate the graph associated with the dependence structure by hard
+thresholding the proposed estimators. Further we show how QGM can be used in
+measuring systemic risk contributions and the impact of downside movement in
+the market on the dependence structure of assets' return.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Mingli Chen</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <link href="http://arxiv.org/abs/1607.00286v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.00286v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.09420v2</id>
+    <updated>2016-12-06T18:50:04Z</updated>
+    <published>2016-11-28T23:04:36Z</published>
+    <title>The Factor-Lasso and K-Step Bootstrap Approach for Inference in
+  High-Dimensional Economic Applications</title>
+    <summary>  We consider inference about coefficients on a small number of variables of
+interest in a linear panel data model with additive unobserved individual and
+time specific effects and a large number of additional time-varying confounding
+variables. We allow the number of these additional confounding variables to be
+larger than the sample size, and suppose that, in addition to unrestricted time
+and individual specific effects, these confounding variables are generated by a
+small number of common factors and high-dimensional weakly-dependent
+disturbances. We allow that both the factors and the disturbances are related
+to the outcome variable and other variables of interest. To make informative
+inference feasible, we impose that the contribution of the part of the
+confounding variables not captured by time specific effects, individual
+specific effects, or the common factors can be captured by a relatively small
+number of terms whose identities are unknown. Within this framework, we provide
+a convenient computational algorithm based on factor extraction followed by
+lasso regression for inference about parameters of interest and show that the
+resulting procedure has good asymptotic properties. We also provide a simple
+k-step bootstrap procedure that may be used to construct inferential statements
+about parameters of interest and prove its asymptotic validity. The proposed
+bootstrap may be of substantive independent interest outside of the present
+context as the proposed bootstrap may readily be adapted to other contexts
+involving inference after lasso variable selection and the proof of its
+validity requires some new technical arguments. We also provide simulation
+evidence about performance of our procedure and illustrate its use in two
+empirical applications.
+</summary>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <author>
+      <name>Yuan Liao</name>
+    </author>
+    <link href="http://arxiv.org/abs/1611.09420v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.09420v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.03244v1</id>
+    <updated>2017-02-10T16:35:06Z</updated>
+    <published>2017-02-10T16:35:06Z</published>
+    <title>$L_2$Boosting for Economic Applications</title>
+    <summary>  In the recent years more and more high-dimensional data sets, where the
+number of parameters $p$ is high compared to the number of observations $n$ or
+even larger, are available for applied researchers. Boosting algorithms
+represent one of the major advances in machine learning and statistics in
+recent years and are suitable for the analysis of such data sets. While Lasso
+has been applied very successfully for high-dimensional data sets in Economics,
+boosting has been underutilized in this field, although it has been proven very
+powerful in fields like Biostatistics and Pattern Recognition. We attribute
+this to missing theoretical results for boosting. The goal of this paper is to
+fill this gap and show that boosting is a competitive method for inference of a
+treatment effect or instrumental variable (IV) estimation in a high-dimensional
+setting. First, we present the $L_2$Boosting with componentwise least squares
+algorithm and variants which are tailored for regression problems which are the
+workhorse for most Econometric problems. Then we show how $L_2$Boosting can be
+used for estimation of treatment effects and IV estimation. We highlight the
+methods and illustrate them with simulations and empirical examples. For
+further results and technical details we refer to Luo and Spindler (2016, 2017)
+and to the online supplement of the paper.
+</summary>
+    <author>
+      <name>Ye Luo</name>
+    </author>
+    <author>
+      <name>Martin Spindler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Submitted to American Economic Review, Papers and Proceedings 2017.
+  arXiv admin note: text overlap with arXiv:1602.08927</arxiv:comment>
+    <link href="http://arxiv.org/abs/1702.03244v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.03244v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.01473v1</id>
+    <updated>2017-07-05T17:13:08Z</updated>
+    <published>2017-07-05T17:13:08Z</published>
+    <title>Machine Learning Tests for Effects on Multiple Outcomes</title>
+    <summary>  A core challenge in the analysis of experimental data is that the impact of
+some intervention is often not entirely captured by a single, well-defined
+outcome. Instead there may be a large number of outcome variables that are
+potentially affected and of interest. In this paper, we propose a data-driven
+approach rooted in machine learning to the problem of testing effects on such
+groups of outcome variables. It is based on two simple observations. First, the
+'false-positive' problem that a group of outcomes is similar to the concern of
+'over-fitting,' which has been the focus of a large literature in statistics
+and computer science. We can thus leverage sample-splitting methods from the
+machine-learning playbook that are designed to control over-fitting to ensure
+that statistical models express generalizable insights about treatment effects.
+The second simple observation is that the question whether treatment affects a
+group of variables is equivalent to the question whether treatment is
+predictable from these variables better than some trivial benchmark (provided
+treatment is assigned randomly). This formulation allows us to leverage
+data-driven predictors from the machine-learning literature to flexibly mine
+for effects, rather than rely on more rigid approaches like multiple-testing
+corrections and pre-analysis plans. We formulate a specific methodology and
+present three kinds of results: first, our test is exactly sized for the null
+hypothesis of no effect; second, a specific version is asymptotically
+equivalent to a benchmark joint Wald test in a linear regression; and third,
+this methodology can guide inference on where an intervention has effects.
+Finally, we argue that our approach can naturally deal with typical features of
+real-world experiments, and be adapted to baseline balance checks.
+</summary>
+    <author>
+      <name>Jens Ludwig</name>
+    </author>
+    <author>
+      <name>Sendhil Mullainathan</name>
+    </author>
+    <author>
+      <name>Jann Spiess</name>
+    </author>
+    <link href="http://arxiv.org/abs/1707.01473v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.01473v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.2931v4</id>
+    <updated>2011-11-01T18:11:34Z</updated>
+    <published>2009-04-19T20:15:07Z</published>
+    <title>L1-Penalized Quantile Regression in High-Dimensional Sparse Models</title>
+    <summary>  We consider median regression and, more generally, a possibly infinite
+collection of quantile regressions in high-dimensional sparse models. In these
+models the overall number of regressors $p$ is very large, possibly larger than
+the sample size $n$, but only $s$ of these regressors have non-zero impact on
+the conditional quantile of the response variable, where $s$ grows slower than
+$n$. We consider quantile regression penalized by the $\ell_1$-norm of
+coefficients ($\ell_1$-QR). First, we show that $\ell_1$-QR is consistent at
+the rate $\sqrt{s/n} \sqrt{\log p}$. The overall number of regressors $p$
+affects the rate only through the $\log p$ factor, thus allowing nearly
+exponential growth in the number of zero-impact regressors. The rate result
+holds under relatively weak conditions, requiring that $s/n$ converges to zero
+at a super-logarithmic speed and that regularization parameter satisfies
+certain theoretical constraints. Second, we propose a pivotal, data-driven
+choice of the regularization parameter and show that it satisfies these
+theoretical constraints. Third, we show that $\ell_1$-QR correctly selects the
+true minimal model as a valid submodel, when the non-zero coefficients of the
+true model are well separated from zero. We also show that the number of
+non-zero coefficients in $\ell_1$-QR is of same stochastic order as $s$.
+Fourth, we analyze the rate of convergence of a two-step estimator that applies
+ordinary quantile regression to the selected model. Fifth, we evaluate the
+performance of $\ell_1$-QR in a Monte-Carlo experiment, and illustrate its use
+on an international economic growth application.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Annals of Statistics, Volume 39, Number 1, 2011, 82-130</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0904.2931v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0904.2931v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.4345v5</id>
+    <updated>2015-04-19T19:39:38Z</updated>
+    <published>2010-10-21T00:49:43Z</published>
+    <title>Sparse Models and Methods for Optimal Instruments with an Application to
+  Eminent Domain</title>
+    <summary>  We develop results for the use of Lasso and Post-Lasso methods to form
+first-stage predictions and estimate optimal instruments in linear instrumental
+variables (IV) models with many instruments, $p$. Our results apply even when
+$p$ is much larger than the sample size, $n$. We show that the IV estimator
+based on using Lasso or Post-Lasso in the first stage is root-n consistent and
+asymptotically normal when the first-stage is approximately sparse; i.e. when
+the conditional expectation of the endogenous variables given the instruments
+can be well-approximated by a relatively small set of variables whose
+identities may be unknown. We also show the estimator is semi-parametrically
+efficient when the structural error is homoscedastic. Notably our results allow
+for imperfect model selection, and do not rely upon the unrealistic "beta-min"
+conditions that are widely used to establish validity of inference following
+model selection. In simulation experiments, the Lasso-based IV estimator with a
+data-driven penalty performs well compared to recently advocated
+many-instrument-robust procedures. In an empirical example dealing with the
+effect of judicial eminent domain decisions on economic outcomes, the
+Lasso-based IV estimator outperforms an intuitive benchmark.
+  In developing the IV results, we establish a series of new results for Lasso
+and Post-Lasso estimators of nonparametric conditional expectation functions
+which are of independent theoretical and practical interest. We construct a
+modification of Lasso designed to deal with non-Gaussian, heteroscedastic
+disturbances which uses a data-weighted $\ell_1$-penalty function. Using
+moderate deviation theory for self-normalized sums, we provide convergence
+rates for the resulting Lasso and Post-Lasso estimators that are as sharp as
+the corresponding rates in the homoscedastic Gaussian case under the condition
+that $\log p = o(n^{1/3})$.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Daniel Chen</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Econometrica 80, no. 6 (2012): 2369-2429</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1010.4345v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1010.4345v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.6154v3</id>
+    <updated>2017-07-28T21:00:12Z</updated>
+    <published>2011-05-31T03:15:37Z</published>
+    <title>Conditional Quantile Processes based on Series or Many Regressors</title>
+    <summary>  Quantile regression (QR) is a principal regression method for analyzing the
+impact of covariates on outcomes. The impact is described by the conditional
+quantile function and its functionals. In this paper we develop the
+nonparametric QR-series framework, covering many regressors as a special case,
+for performing inference on the entire conditional quantile function and its
+linear functionals. In this framework, we approximate the entire conditional
+quantile function by a linear combination of series terms with
+quantile-specific coefficients and estimate the function-valued coefficients
+from the data. We develop large sample theory for the QR-series coefficient
+process, namely we obtain uniform strong approximations to the QR-series
+coefficient process by conditionally pivotal and Gaussian processes. Based on
+these strong approximations, or couplings, we develop four resampling methods
+(pivotal, gradient bootstrap, Gaussian, and weighted bootstrap) that can be
+used for inference on the entire QR-series coefficient function.
+  We apply these results to obtain estimation and inference methods for linear
+functionals of the conditional quantile function, such as the conditional
+quantile function itself, its partial derivatives, average partial derivatives,
+and conditional average partial derivatives. Specifically, we obtain uniform
+rates of convergence and show how to use the four resampling methods mentioned
+above for inference on the functionals. All of the above results are for
+function-valued parameters, holding uniformly in both the quantile index and
+the covariate value, and covering the pointwise case as a by-product. We
+demonstrate the practical utility of these results with an example, where we
+estimate the price elasticity function and test the Slutsky condition of the
+individual demand for gasoline, as indexed by the individual unobserved
+propensity for gasoline consumption.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Denis Chetverikov</name>
+    </author>
+    <author>
+      <name>Iván Fernández-Val</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">130 pages, 2 tables, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1105.6154v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1105.6154v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.0442v4</id>
+    <updated>2015-06-17T17:11:01Z</updated>
+    <published>2012-12-03T16:43:08Z</published>
+    <title>Some New Asymptotic Theory for Least Squares Series: Pointwise and
+  Uniform Results</title>
+    <summary>  In applications it is common that the exact form of a conditional expectation
+is unknown and having flexible functional forms can lead to improvements.
+Series method offers that by approximating the unknown function based on $k$
+basis functions, where $k$ is allowed to grow with the sample size $n$. We
+consider series estimators for the conditional mean in light of: (i) sharp LLNs
+for matrices derived from the noncommutative Khinchin inequalities, (ii) bounds
+on the Lebesgue factor that controls the ratio between the $L^\infty$ and
+$L_2$-norms of approximation errors, (iii) maximal inequalities for processes
+whose entropy integrals diverge, and (iv) strong approximations to series-type
+processes.
+  These technical tools allow us to contribute to the series literature,
+specifically the seminal work of Newey (1997), as follows. First, we weaken the
+condition on the number $k$ of approximating functions used in series
+estimation from the typical $k^2/n \to 0$ to $k/n \to 0$, up to log factors,
+which was available only for spline series before. Second, we derive $L_2$
+rates and pointwise central limit theorems results when the approximation error
+vanishes. Under an incorrectly specified model, i.e. when the approximation
+error does not vanish, analogous results are also shown. Third, under stronger
+conditions we derive uniform rates and functional central limit theorems that
+hold if the approximation error vanishes or not. That is, we derive the strong
+approximation for the entire estimate of the nonparametric function.
+  We derive uniform rates, Gaussian approximations, and uniform confidence
+bands for a wide collection of linear functionals of the conditional
+expectation function.
+</summary>
+    <author>
+      <name>Alexandre Belloni</name>
+    </author>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Denis Chetverikov</name>
+    </author>
+    <author>
+      <name>Kengo Kato</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Econometrics 186 (2015) 345-366</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1212.0442v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.0442v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6906v5</id>
+    <updated>2013-12-30T21:09:59Z</updated>
+    <published>2012-12-31T15:14:12Z</published>
+    <title>Gaussian approximations and multiplier bootstrap for maxima of sums of
+  high-dimensional random vectors</title>
+    <summary>  We derive a Gaussian approximation result for the maximum of a sum of
+high-dimensional random vectors. Specifically, we establish conditions under
+which the distribution of the maximum is approximated by that of the maximum of
+a sum of the Gaussian random vectors with the same covariance matrices as the
+original vectors. This result applies when the dimension of random vectors
+($p$) is large compared to the sample size ($n$); in fact, $p$ can be much
+larger than $n$, without restricting correlations of the coordinates of these
+vectors. We also show that the distribution of the maximum of a sum of the
+random vectors with unknown covariance matrices can be consistently estimated
+by the distribution of the maximum of a sum of the conditional Gaussian random
+vectors obtained by multiplying the original vectors with i.i.d. Gaussian
+multipliers. This is the Gaussian multiplier (or wild) bootstrap procedure.
+Here too, $p$ can be large or even much larger than $n$. These distributional
+approximations, either Gaussian or conditional Gaussian, yield a high-quality
+approximation to the distribution of the original maximum, often with
+approximation error decreasing polynomially in the sample size, and hence are
+of interest in many applications. We demonstrate how our Gaussian
+approximations and the multiplier bootstrap can be used for modern
+high-dimensional estimation, multiple hypothesis testing, and adaptive
+specification testing. All these results contain nonasymptotic bounds on
+approximation errors.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Denis Chetverikov</name>
+    </author>
+    <author>
+      <name>Kengo Kato</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1214/13-AOS1161</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1214/13-AOS1161" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is the full version of the paper published at
+  http://dx.doi.org/10.1214/13-AOS1161 in the Annals of Statistics
+  (http://www.imstat.org/aos/) by the Institute of Mathematical Statistics
+  (http://www.imstat.org). This paper was previously circulated under the title
+  "Central limit theorems and multiplier bootstrap when p is much larger than
+  n"</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Annals of Statistics 2013, Vol. 41, No. 6, 2786-2819</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1212.6906v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.6906v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.03430v3</id>
+    <updated>2015-08-18T15:05:24Z</updated>
+    <published>2015-01-14T18:06:26Z</published>
+    <title>Valid Post-Selection and Post-Regularization Inference: An Elementary,
+  General Approach</title>
+    <summary>  Here we present an expository, general analysis of valid post-selection or
+post-regularization inference about a low-dimensional target parameter,
+$\alpha$, in the presence of a very high-dimensional nuisance parameter,
+$\eta$, which is estimated using modern selection or regularization methods.
+Our analysis relies on high-level, easy-to-interpret conditions that allow one
+to clearly see the structures needed for achieving valid post-regularization
+inference. Simple, readily verifiable sufficient conditions are provided for a
+class of affine-quadratic models. We focus our discussion on estimation and
+inference procedures based on using the empirical analog of theoretical
+equations $$M(\alpha, \eta)=0$$ which identify $\alpha$. Within this structure,
+we show that setting up such equations in a manner such that the
+orthogonality/immunization condition $$\partial_\eta M(\alpha, \eta) = 0$$ at
+the true parameter values is satisfied, coupled with plausible conditions on
+the smoothness of $M$ and the quality of the estimator $\hat \eta$, guarantees
+that inference on for the main parameter $\alpha$ based on testing or point
+estimation methods discussed below will be regular despite selection or
+regularization biases occurring in estimation of $\eta$. In particular, the
+estimator of $\alpha$ will often be uniformly consistent at the root-$n$ rate
+and uniformly asymptotically normal even though estimators $\hat \eta$ will
+generally not be asymptotically linear and regular. The uniformity holds over
+large classes of models that do not impose highly implausible "beta-min"
+conditions. We also show that inference can be carried out by inverting tests
+formed from Neyman's $C(\alpha)$ (orthogonal score) statistics.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <author>
+      <name>Martin Spindler</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1146/annurev-economics-012315-015826</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1146/annurev-economics-012315-015826" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">47 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Annual Review of Economics, Vol. 7: 649-688 (August 2015)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1501.03430v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.03430v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.03365v3</id>
+    <updated>2017-04-29T19:10:36Z</updated>
+    <published>2015-08-13T21:39:11Z</published>
+    <title>Optimal Sup-norm Rates and Uniform Inference on Nonlinear Functionals of
+  Nonparametric IV Regression</title>
+    <summary>  This paper makes several important contributions to the literature about
+nonparametric instrumental variables (NPIV) estimation and inference on a
+structural function $h_0$ and its functionals. First, we derive sup-norm
+convergence rates for computationally simple sieve NPIV (series 2SLS)
+estimators of $h_0$ and its derivatives. Second, we derive a lower bound that
+describes the best possible (minimax) sup-norm rates of estimating $h_0$ and
+its derivatives, and show that the sieve NPIV estimator can attain the minimax
+rates when $h_0$ is approximated via a spline or wavelet sieve. Our optimal
+sup-norm rates surprisingly coincide with the optimal root-mean-squared rates
+for severely ill-posed problems, and are only a logarithmic factor slower than
+the optimal root-mean-squared rates for mildly ill-posed problems. Third, we
+use our sup-norm rates to establish the uniform Gaussian process strong
+approximations and the score bootstrap uniform confidence bands (UCBs) for
+collections of nonlinear functionals of $h_0$ under primitive conditions,
+allowing for mildly and severely ill-posed problems. Fourth, as applications,
+we obtain the first asymptotic pointwise and uniform inference results for
+plug-in sieve t-statistics of exact consumer surplus (CS) and deadweight loss
+(DL) welfare functionals under low-level conditions when demand is estimated
+via sieve NPIV. Empiricists could read our real data application of UCBs for
+exact CS and DL functionals of gasoline demand that reveals interesting
+patterns and is applicable to other markets.
+</summary>
+    <author>
+      <name>Xiaohong Chen</name>
+    </author>
+    <author>
+      <name>Timothy M. Christensen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper is a major extension of Sections 2 and 3 of our Cowles
+  Foundation Discussion Paper CFDP1923, Cemmap Working Paper CWP56/13 and arXiv
+  preprint arXiv:1311.0412 [math.ST]. Section 3 of the previous version of this
+  paper (dealing with data-driven choice of sieve dimension) is currently being
+  revised as a separate paper</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.03365v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.03365v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00060v5</id>
+    <updated>2017-06-21T06:27:04Z</updated>
+    <published>2016-07-30T01:58:04Z</published>
+    <title>Double/Debiased Machine Learning for Treatment and Causal Parameters</title>
+    <summary>  Most modern supervised statistical/machine learning (ML) methods are
+explicitly designed to solve prediction problems very well. Achieving this goal
+does not imply that these methods automatically deliver good estimators of
+causal parameters. Examples of such parameters include individual regression
+coefficients, average treatment effects, average lifts, and demand or supply
+elasticities. In fact, estimates of such causal parameters obtained via naively
+plugging ML estimators into estimating equations for such parameters can behave
+very poorly due to the regularization bias. Fortunately, this regularization
+bias can be removed by solving auxiliary prediction problems via ML tools.
+Specifically, we can form an orthogonal score for the target low-dimensional
+parameter by combining auxiliary and main ML predictions. The score is then
+used to build a de-biased estimator of the target parameter which typically
+will converge at the fastest possible 1/root(n) rate and be approximately
+unbiased and normal, and from which valid confidence intervals for these
+parameters of interest may be constructed. The resulting method thus could be
+called a "double ML" method because it relies on estimating primary and
+auxiliary predictive models. In order to avoid overfitting, our construction
+also makes use of the K-fold sample splitting, which we call cross-fitting.
+This allows us to use a very broad set of ML predictive methods in solving the
+auxiliary and main prediction problems, such as random forest, lasso, ridge,
+deep neural nets, boosted trees, as well as various hybrids and aggregators of
+these methods.
+</summary>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Denis Chetverikov</name>
+    </author>
+    <author>
+      <name>Mert Demirer</name>
+    </author>
+    <author>
+      <name>Esther Duflo</name>
+    </author>
+    <author>
+      <name>Christian Hansen</name>
+    </author>
+    <author>
+      <name>Whitney Newey</name>
+    </author>
+    <author>
+      <name>James Robins</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">80 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.00060v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.00060v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62G" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

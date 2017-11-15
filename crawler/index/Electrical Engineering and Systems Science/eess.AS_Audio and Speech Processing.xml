@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Aeess.AS%26id_list%3D%26start%3D0%26max_results%3D500" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:eess.AS&amp;id_list=&amp;start=0&amp;max_results=500</title>
+  <id>http://arxiv.org/api/3hNIETc8zV+laDznKAH2bHevS1U</id>
+  <updated>2017-10-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">25</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">500</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.01457v2</id>
+    <updated>2017-05-15T15:26:54Z</updated>
+    <published>2017-05-01T21:23:22Z</published>
+    <title>Comparison of Uniform and Random Sampling for Speech and Music Signals</title>
+    <summary>  In this paper, we will provide a comparison between uniform and random
+sampling for speech and music signals. There are various sampling and recovery
+methods for audio signals. Here, we only investigate uniform and random schemes
+for sampling and basic low-pass filtering and iterative method with adaptive
+thresholding for recovery. The simulation results indicate that uniform
+sampling with cubic spline interpolation outperforms other sampling and
+recovery methods.
+</summary>
+    <author>
+      <name>Nematollah Zarmehi</name>
+    </author>
+    <author>
+      <name>Sina Shahsavari</name>
+    </author>
+    <author>
+      <name>Farokh Marvasti</name>
+    </author>
+    <link href="http://arxiv.org/abs/1705.01457v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.01457v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05291v1</id>
+    <updated>2017-08-17T14:08:09Z</updated>
+    <published>2017-08-17T14:08:09Z</published>
+    <title>Automatic Organisation and Quality Analysis of User-Generated Content
+  with Audio Fingerprinting</title>
+    <summary>  The increase of the quantity of user-generated content experienced in social
+media has boosted the importance of analysing and organising the content by its
+quality. Here, we propose a method that uses audio fingerprinting to organise
+and infer the quality of user-generated audio content. The proposed method
+detects the overlapping segments between different audio clips to organise and
+cluster the data according to events, and to infer the audio quality of the
+samples. A test setup with concert recordings manually crawled from YouTube is
+used to validate the presented method. The results show that the proposed
+method achieves better results than previous methods.
+</summary>
+    <author>
+      <name>Gonçalo Mordido</name>
+    </author>
+    <author>
+      <name>João Magalhães</name>
+    </author>
+    <author>
+      <name>Sofia Cavaco</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">EUSIPCO 2017 - 25th European Signal Processing Conference</arxiv:comment>
+    <link href="http://arxiv.org/abs/1708.05291v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.05291v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01904v1</id>
+    <updated>2017-10-05T07:58:23Z</updated>
+    <published>2017-10-05T07:58:23Z</published>
+    <title>Head shadow enhancement with fixed beamformers improves sound
+  localization based on interaural level differences</title>
+    <summary>  A new method to enhance head shadow in low frequencies is presented,
+resulting in interaural level differences that can be used to unambiguously
+localize sounds. Enhancement is achieved with a fixed beamformer with
+ipsilateral directionality in each ear. The microphone array consists of one
+microphone per device. The method naturally handles multiple sources without
+sound location estimations. In a localization experiment with simulated bimodal
+listeners, performance improved from 51{\deg} to 28{\deg} root-mean-square
+error compared with standard omni-directional microphones. The method is also
+promising for bilateral cochlear implant or hearing aid users and for improved
+speech perception in multi-talker environments.
+</summary>
+    <author>
+      <name>Benjamin Dieudonné</name>
+    </author>
+    <author>
+      <name>Tom Francart</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.01904v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01904v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.08765v1</id>
+    <updated>2017-04-20T07:16:44Z</updated>
+    <published>2017-04-20T07:16:44Z</published>
+    <title>Audio-based performance evaluation of squash players</title>
+    <summary>  In competitive sports it is often very hard to quantify the performance. A
+player to score or overtake may depend on only millesimal of seconds or
+millimeters. In racquet sports like tennis, table tennis and squash many events
+will occur in a short time duration, whose recording and analysis can help
+reveal the differences in performance. In this paper we show that it is
+possible to architect a framework that utilizes the characteristic sound
+patterns to precisely classify the types of and localize the positions of these
+events. From these basic information the shot types and the ball speed along
+the trajectories can be estimated. Comparing these estimates with the optimal
+speed and target the precision of the shot can be defined. The detailed shot
+statistics and precision information significantly enriches and improves data
+available today. Feeding them back to the players and the coaches facilitates
+to describe playing performance objectively and to improve strategy skills. The
+framework is implemented, its hardware and software components are installed
+and tested in a squash court.
+</summary>
+    <author>
+      <name>Katalin Hajdu-Szucs</name>
+    </author>
+    <author>
+      <name>Nora Fenyvesi</name>
+    </author>
+    <author>
+      <name>Jozsef Steger</name>
+    </author>
+    <author>
+      <name>Gabor Vattay</name>
+    </author>
+    <link href="http://arxiv.org/abs/1704.08765v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.08765v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05302v1</id>
+    <updated>2017-08-17T14:19:17Z</updated>
+    <published>2017-08-17T14:19:17Z</published>
+    <title>Automatic Organisation, Segmentation, and Filtering of User-Generated
+  Audio Content</title>
+    <summary>  Using solely the information retrieved by audio fingerprinting techniques, we
+propose methods to treat a possibly large dataset of user-generated audio
+content, that (1) enable the grouping of several audio files that contain a
+common audio excerpt (i.e., are relative to the same event), and (2) give
+information about how those files are correlated in terms of time and quality
+inside each event. Furthermore, we use supervised learning to detect incorrect
+matches that may arise from the audio fingerprinting algorithm itself, whilst
+ensuring our model learns with previous predictions. All the presented methods
+were further validated by user-generated recordings of several different
+concerts manually crawled from YouTube.
+</summary>
+    <author>
+      <name>Gonçalo Mordido</name>
+    </author>
+    <author>
+      <name>João Magalhães</name>
+    </author>
+    <author>
+      <name>Sofia Cavaco</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">MMSP 2017 - IEEE 19th International Workshop on Multimedia Signal
+  Processing</arxiv:comment>
+    <link href="http://arxiv.org/abs/1708.05302v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.05302v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07269v2</id>
+    <updated>2017-10-05T17:01:38Z</updated>
+    <published>2017-09-21T11:46:14Z</published>
+    <title>Broadband Multizone Sound Rendering by Jointly Optimizing the Sound
+  Pressure and Particle Velocity</title>
+    <summary>  In this paper, a recently proposed approach to multizone sound field
+synthesis, referred to as Joint Pressure and Velocity Matching (JPVM), is
+investigated analytically using a spherical harmonics representation of the
+sound field. The approach is motivated by the Kirchhoff-Helmholtz integral
+equation and aims at controlling the sound field inside the local listening
+zones by evoking the sound pressure and particle velocity on surrounding
+contours. Based on the findings of the modal analysis, an improved version of
+JPVM is proposed which provides both better performance and lower complexity.
+In particular, it is shown analytically that the optimization of the tangential
+component of the particle velocity vector, as is done in the original JPVM
+approach, is very susceptible to errors and thus not pursued anymore. The
+analysis furthermore provides fundamental insights as to how the spherical
+harmonics used to describe the 3D variant sound field translate into 2D basis
+functions as observed on the contours surrounding the zones. By means of
+simulations, it is verified that discarding the tangential component of the
+particle velocity vector ultimately leads to an improved performance. Finally,
+the impact of sensor noise on the reproduction performance is assessed.
+</summary>
+    <author>
+      <name>Michael Buerger</name>
+    </author>
+    <author>
+      <name>Christian Hofmann</name>
+    </author>
+    <author>
+      <name>Walter Kellermann</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.07269v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07269v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00113v1</id>
+    <updated>2017-09-29T22:42:01Z</updated>
+    <published>2017-09-29T22:42:01Z</published>
+    <title>UTD-CRSS Submission for MGB-3 Arabic Dialect Identification: Front-end
+  and Back-end Advancements on Broadcast Speech</title>
+    <summary>  This study presents systems submitted by the University of Texas at Dallas,
+Center for Robust Speech Systems (UTD-CRSS) to the MGB-3 Arabic Dialect
+Identification (ADI) subtask. This task is defined to discriminate between five
+dialects of Arabic, including Egyptian, Gulf, Levantine, North African, and
+Modern Standard Arabic. We develop multiple single systems with different
+front-end representations and back-end classifiers. At the front-end level,
+feature extraction methods such as Mel-frequency cepstral coefficients (MFCCs)
+and two types of bottleneck features (BNF) are studied for an i-Vector
+framework. As for the back-end level, Gaussian back-end (GB), and Generative
+Adversarial Networks (GANs) classifiers are applied alternately. The best
+submission (contrastive) is achieved for the ADI subtask with an accuracy of
+76.94% by augmenting the randomly chosen part of the development dataset.
+Further, with a post evaluation correction in the submitted system, final
+accuracy is increased to 79.76%, which represents the best performance achieved
+so far for the challenge on the test dataset.
+</summary>
+    <author>
+      <name>Ahmet E. Bulut</name>
+    </author>
+    <author>
+      <name>Qian Zhang</name>
+    </author>
+    <author>
+      <name>Chunlei Zhang</name>
+    </author>
+    <author>
+      <name>Fahimeh Bahmaninezhad</name>
+    </author>
+    <author>
+      <name>John H. L. Hansen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.00113v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00113v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00116v1</id>
+    <updated>2017-09-29T23:12:27Z</updated>
+    <published>2017-09-29T23:12:27Z</published>
+    <title>PLDA-Based Diarization of Telephone Conversations</title>
+    <summary>  This paper investigates the application of the probabilistic linear
+discriminant analysis (PLDA) to speaker diarization of telephone conversations.
+We introduce using a variational Bayes (VB) approach for inference under a PLDA
+model for modeling segmental i-vectors in speaker diarization. Deterministic
+annealing (DA) algorithm is imposed in order to avoid local optimal solutions
+in VB iterations. We compare our proposed system with a well-known system that
+applies k-means clustering on principal component analysis (PCA) coefficients
+of segmental i-vectors. We used summed channel telephone data from the National
+Institute of Standards and Technology (NIST) 2008 Speaker Recognition
+Evaluation (SRE) as the test set in order to evaluate the performance of the
+proposed system. We achieve about 20% relative improvement in Diarization Error
+Rate (DER) compared to the baseline system.
+</summary>
+    <author>
+      <name>Ahmet E. Bulut</name>
+    </author>
+    <author>
+      <name>Hakan Demir</name>
+    </author>
+    <author>
+      <name>Yusuf Ziya Isik</name>
+    </author>
+    <author>
+      <name>Hakan Erdogan</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1109/ICASSP.2015.7178884</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1109/ICASSP.2015.7178884" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">ICASSP, IEEE International Conference on Acoustics, Speech and
+  Signal Processing - Proceedings 1 (2015) 4809-4813</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1710.00116v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00116v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07908v1</id>
+    <updated>2017-09-20T20:45:53Z</updated>
+    <published>2017-09-20T20:45:53Z</published>
+    <title>Neural Network Alternatives to Convolutive Audio Models for Source
+  Separation</title>
+    <summary>  Convolutive Non-Negative Matrix Factorization model factorizes a given audio
+spectrogram using frequency templates with a temporal dimension. In this paper,
+we present a convolutional auto-encoder model that acts as a neural network
+alternative to convolutive NMF. Using the modeling flexibility granted by
+neural networks, we also explore the idea of using a Recurrent Neural Network
+in the encoder. Experimental results on speech mixtures from TIMIT dataset
+indicate that the convolutive architecture provides a significant improvement
+in separation performance in terms of BSSeval metrics.
+</summary>
+    <author>
+      <name>Shrikant Venkataramani</name>
+    </author>
+    <author>
+      <name>Y. Cem Subakan</name>
+    </author>
+    <author>
+      <name>Paris Smaragdis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Published in MLSP 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07908v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07908v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08243v1</id>
+    <updated>2017-09-24T19:23:22Z</updated>
+    <published>2017-09-24T19:23:22Z</published>
+    <title>A Hybrid DSP/Deep Learning Approach to Real-Time Full-Band Speech
+  Enhancement</title>
+    <summary>  Despite noise suppression being a mature area in signal processing, it
+remains highly dependent on fine tuning of estimator algorithms and parameters.
+In this paper, we demonstrate a hybrid DSP/deep learning approach to noise
+suppression. A deep neural network is used to estimate ideal critical band
+gains, while a more traditional pitch filter attenuates noise between pitch
+harmonics. The approach achieves significantly higher quality than a
+traditional minimum mean squared error spectral estimator, while keeping the
+complexity low enough for real-time operation at 48 kHz on a low-power
+processor.
+</summary>
+    <author>
+      <name>Jean-Marc Valin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08243v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08243v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09868v1</id>
+    <updated>2017-09-28T09:32:10Z</updated>
+    <published>2017-09-28T09:32:10Z</published>
+    <title>A Generative Model for Score Normalization in Speaker Recognition</title>
+    <summary>  We propose a theoretical framework for thinking about score normalization,
+which confirms that normalization is not needed under (admittedly fragile)
+ideal conditions. If, however, these conditions are not met, e.g. under
+data-set shift between training and runtime, our theory reveals dependencies
+between scores that could be exploited by strategies such as score
+normalization. Indeed, it has been demonstrated over and over experimentally,
+that various ad-hoc score normalization recipes do work. We present a first
+attempt at using probability theory to design a generative score-space
+normalization model which gives similar improvements to ZT-norm on the
+text-dependent RSR 2015 database.
+</summary>
+    <author>
+      <name>Albert Swart</name>
+    </author>
+    <author>
+      <name>Niko Brummer</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">InterSpeech 2017</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1709.09868v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09868v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.01703v2</id>
+    <updated>2017-09-07T06:07:30Z</updated>
+    <published>2017-09-06T07:51:18Z</published>
+    <title>Conditional Generative Adversarial Networks for Speech Enhancement and
+  Noise-Robust Speaker Verification</title>
+    <summary>  Improving speech system performance in noisy environments remains a
+challenging task, and speech enhancement (SE) is one of the effective
+techniques to solve the problem. Motivated by the promising results of
+generative adversarial networks (GANs) in a variety of image processing tasks,
+we explore the potential of conditional GANs (cGANs) for SE, and in particular,
+we make use of the image processing framework proposed by Isola et al. [1] to
+learn a mapping from the spectrogram of noisy speech to an enhanced
+counterpart. The SE cGAN consists of two networks, trained in an adversarial
+manner: a generator that tries to enhance the input noisy spectrogram, and a
+discriminator that tries to distinguish between enhanced spectrograms provided
+by the generator and clean ones from the database using the noisy spectrogram
+as a condition. We evaluate the performance of the cGAN method in terms of
+perceptual evaluation of speech quality (PESQ), short-time objective
+intelligibility (STOI), and equal error rate (EER) of speaker verification (an
+example application). Experimental results show that the cGAN method overall
+outperforms the classical short-time spectral amplitude minimum mean square
+error (STSA-MMSE) SE algorithm, and is comparable to a deep neural
+network-based SE approach (DNN-SE).
+</summary>
+    <author>
+      <name>Daniel Michelsanti</name>
+    </author>
+    <author>
+      <name>Zheng-Hua Tan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">INTERSPEECH 2017 August 20-24, 2017, Stockholm, Sweden</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.01703v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.01703v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06298v1</id>
+    <updated>2017-09-19T08:49:40Z</updated>
+    <published>2017-09-19T08:49:40Z</published>
+    <title>MuseGAN: Symbolic-domain Music Generation and Accompaniment with
+  Multi-track Sequential Generative Adversarial Networks</title>
+    <summary>  Generating music has a few notable differences from generating images and
+videos. First, music is an art of time, necessitating a temporal model. Second,
+music is usually composed of multiple instruments/tracks, with close
+interaction with one another. Each track has its own temporal dynamics, but
+collectively they unfold over time interdependently. Lastly, for symbolic
+domain music generation, the targeted output is sequences of discrete musical
+events, not continuous values. In this paper, we propose and study three
+generative adversarial networks (GANs) for symbolic-domain multi-track music
+generation, using a data set of 127,731 MIDI bars of pop/rock music. The three
+models, which differ in the underlying model assumption and accordingly the
+network architecture, are referred to as the jamming model, composer model, and
+hybrid model, respectively. We propose a few intra-track and inter-track
+objective metrics to examine and compare their generation result, in addition
+to a subjective evaluation. We show that our models can learn from the noisy
+MIDI files and generate coherent music of four bars right from scratch (i.e.
+without human inputs). We also propose extensions of our models to facilitate
+human-AI cooperative music creation: given the piano track composed by human we
+can generate four additional tracks in return to accompany it.
+</summary>
+    <author>
+      <name>Hao-Wen Dong</name>
+    </author>
+    <author>
+      <name>Wen-Yi Hsiao</name>
+    </author>
+    <author>
+      <name>Li-Chia Yang</name>
+    </author>
+    <author>
+      <name>Yi-Hsuan Yang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.06298v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06298v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07902v1</id>
+    <updated>2017-09-22T18:36:50Z</updated>
+    <published>2017-09-22T18:36:50Z</published>
+    <title>Unsupervised Learning of Disentangled and Interpretable Representations
+  from Sequential Data</title>
+    <summary>  We present a factorized hierarchical variational autoencoder, which learns
+disentangled and interpretable representations from sequential data without
+supervision. Specifically, we exploit the multi-scale nature of information in
+sequential data by formulating it explicitly within a factorized hierarchical
+graphical model that imposes sequence-dependent priors and sequence-independent
+priors to different sets of latent variables. The model is evaluated on two
+speech corpora to demonstrate, qualitatively, its ability to transform speakers
+or linguistic content by manipulating different sets of latent variables; and
+quantitatively, its ability to outperform an i-vector baseline for speaker
+verification and reduce the word error rate by as much as 35% in mismatched
+train/test scenarios for automatic speech recognition tasks.
+</summary>
+    <author>
+      <name>Wei-Ning Hsu</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>James Glass</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted to NIPS 2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07902v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07902v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08344v1</id>
+    <updated>2017-09-25T06:52:42Z</updated>
+    <published>2017-09-25T06:52:42Z</published>
+    <title>Predicting interviewee attitude and body language from speech
+  descriptors</title>
+    <summary>  This present research investigated the relationship between personal
+impressions and the acoustic nonverbal communication conveyed by employees
+being interviewed. First, we investigated the extent to which different
+conversation topics addressed during the interview induced changes in the
+interviewees' acoustic parameters. Next, we attempted to predict the observed
+and self-assessed attitudes and body language of the interviewees based on the
+acoustic data. The results showed that topicality caused significant deviations
+in the acoustic parameters statistics, but the ability to predict the personal
+perceptions of the interviewees based on their acoustic non-verbal
+communication was relatively independent of topicality, due to the natural
+redundancy inherent in acoustic attributes. Our findings suggest that joint
+modeling of speech and visual cues may improve the assessment of interviewee
+profiles.
+</summary>
+    <author>
+      <name>Yosef Solewicz</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Israel National Police</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chagay Orenshtein</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Tel Hai College</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Avital Friedland</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.08344v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08344v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08842v1</id>
+    <updated>2017-09-26T05:47:43Z</updated>
+    <published>2017-09-26T05:47:43Z</published>
+    <title>Learning a Predictive Model for Music Using PULSE</title>
+    <summary>  Predictive models for music are studied by researchers of algorithmic
+composition, the cognitive sciences and machine learning. They serve as base
+models for composition, can simulate human prediction and provide a
+multidisciplinary application domain for learning algorithms. A particularly
+well established and constantly advanced subtask is the prediction of
+monophonic melodies. As melodies typically involve non-Markovian dependencies
+their prediction requires a capable learning algorithm. In this thesis, I apply
+the recent feature discovery and learning method PULSE to the realm of symbolic
+music modeling. PULSE is comprised of a feature generating operation and
+L1-regularized optimization. These are used to iteratively expand and cull the
+feature set, effectively exploring feature spaces that are too large for common
+feature selection approaches. I design a general Python framework for PULSE,
+propose task-optimized feature generating operations and various
+music-theoretically motivated features that are evaluated on a standard corpus
+of monophonic folk and chorale melodies. The proposed method significantly
+outperforms comparable state-of-the-art models. I further discuss the free
+parameters of the learning algorithm and analyze the feature composition of the
+learned models. The models learned by PULSE afford an easy inspection and are
+musicologically interpreted for the first time.
+</summary>
+    <author>
+      <name>Jonas Langhabel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Master's Thesis</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08842v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08842v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09708v1</id>
+    <updated>2017-09-13T15:04:30Z</updated>
+    <published>2017-09-13T15:04:30Z</published>
+    <title>On the Complex Network Structure of Musical Pieces: Analysis of Some Use
+  Cases from Different Music Genres</title>
+    <summary>  This paper focuses on the modeling of musical melodies as networks. Notes of
+a melody can be treated as nodes of a network. Connections are created whenever
+notes are played in sequence. We analyze some main tracks coming from different
+music genres, with melodies played using different musical instruments. We find
+out that the considered networks are, in general, scale free networks and
+exhibit the small world property. We measure the main metrics and assess
+whether these networks can be considered as formed by sub-communities. Outcomes
+confirm that peculiar features of the tracks can be extracted from this
+analysis methodology. This approach can have an impact in several multimedia
+applications such as music didactics, multimedia entertainment, and digital
+music generation.
+</summary>
+    <author>
+      <name>Stefano Ferretti</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s11042-017-5175-y</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s11042-017-5175-y" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">accepted to Multimedia Tools and Applications, Springer</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.09708v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09708v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00082v1</id>
+    <updated>2017-09-29T20:33:38Z</updated>
+    <published>2017-09-29T20:33:38Z</published>
+    <title>Real-Time Wind Noise Detection and Suppression with Neural-Based Signal
+  Reconstruction for Mult-Channel, Low-Power Devices</title>
+    <summary>  Active wind noise detection and suppression techniques are a new and
+essential paradigm for enhancing ASR-based functionality with smart glasses, in
+addition to other wearable and smart devices in the broader IoT (Internet of
+things). In this paper, we develop two separate algorithms for wind noise
+detection and suppression, respectively, operational in a challenging,
+low-energy regime. Together, these algorithms comprise a robust wind noise
+suppression system. In the first case, we advance a real-time wind detection
+algorithm (RTWD) that uses two distinct sets of low-dimensional signal features
+to discriminate the presence of wind noise with high accuracy. For wind noise
+suppression, we employ an additional algorithm - attentive neural wind
+suppression (ANWS) - that utilizes a neural network to reconstruct the wearer
+speech signal from wind-corrupted audio in the spectral regions that are most
+adversely affected by wind noise. Finally, we test our algorithms through
+real-time experiments using low-power, multi-microphone devices with a wind
+simulator under challenging detection criteria and a variety of wind
+intensities.
+</summary>
+    <author>
+      <name>Anthony D. Rhodes</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00082v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00082v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00343v1</id>
+    <updated>2017-10-01T12:57:45Z</updated>
+    <published>2017-10-01T12:57:45Z</published>
+    <title>Large-scale weakly supervised audio classification using gated
+  convolutional neural network</title>
+    <summary>  In this paper, we present a gated convolutional neural network and a temporal
+attention-based localization method for audio classification, which won the 1st
+place in the large-scale weakly supervised sound event detection task of
+Detection and Classification of Acoustic Scenes and Events (DCASE) 2017
+challenge. The audio clips in this task, which are extracted from YouTube
+videos, are manually labeled with one or a few audio tags but without
+timestamps of the audio events, which is called as weakly labeled data. Two
+sub-tasks are defined in this challenge including audio tagging and sound event
+detection using this weakly labeled data. A convolutional recurrent neural
+network (CRNN) with learnable gated linear units (GLUs) non-linearity applied
+on the log Mel spectrogram is proposed. In addition, a temporal attention
+method is proposed along the frames to predicate the locations of each audio
+event in a chunk from the weakly labeled data. We ranked the 1st and the 2nd as
+a team in these two sub-tasks of DCASE 2017 challenge with F value 55.6\% and
+Equal error 0.73, respectively.
+</summary>
+    <author>
+      <name>Yong Xu</name>
+    </author>
+    <author>
+      <name>Qiuqiang Kong</name>
+    </author>
+    <author>
+      <name>Wenwu Wang</name>
+    </author>
+    <author>
+      <name>Mark D. Plumbley</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">submitted to ICASSP2018, summary on the 1st place system in DCASE2017
+  task4 challenge</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.00343v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00343v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00683v1</id>
+    <updated>2017-09-28T00:39:25Z</updated>
+    <published>2017-09-28T00:39:25Z</published>
+    <title>The Dependence of Frequency Distributions on Multiple Meanings of Words,
+  Codes and Signs</title>
+    <summary>  The dependence of the frequency distributions due to multiple meanings of
+words in a text is investigated by deleting letters. By coding the words with
+fewer letters the number of meanings per coded word increases. This increase is
+measured and used as an input in a predictive theory. For a text written in
+English, the word-frequency distribution is broad and fat-tailed, whereas if
+the words are only represented by their first letter the distribution becomes
+exponential. Both distribution are well predicted by the theory, as is the
+whole sequence obtained by consecutively representing the words by the first
+L=6,5,4,3,2,1 letters. Comparisons of texts written by Chinese characters and
+the same texts written by letter-codes are made and the similarity of the
+corresponding frequency-distributions are interpreted as a consequence of the
+multiple meanings of Chinese characters. This further implies that the
+difference of the shape for word-frequencies for an English text written by
+letters and a Chinese text written by Chinese characters is due to the coding
+and not to the language per se.
+</summary>
+    <author>
+      <name>Xiaoyong Yan</name>
+    </author>
+    <author>
+      <name>Petter Minnhagen</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.physa.2017.08.133</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.physa.2017.08.133" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 12 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Physica A 490, 554-564 (2018)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1710.00683v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.00683v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01446v1</id>
+    <updated>2017-10-04T03:11:31Z</updated>
+    <published>2017-10-04T03:11:31Z</published>
+    <title>Improving Compression Based Dissimilarity Measure for Music Score
+  Analysis</title>
+    <summary>  In this paper, we propose a way to improve the compression based
+dissimilarity measure, CDM. We propose to use a modified value of the file
+size, where the original CDM uses an unmodified file size. Our application is a
+music score analysis. We have chosen piano pieces from five different
+composers. We have selected 75 famous pieces (15 pieces for each composer). We
+computed the distances among all pieces by using the modified CDM. We use the
+K-nearest neighbor method when we estimate the composer of each piece of music.
+The modified CDM shows improved accuracy. The difference is statistically
+significant.
+</summary>
+    <author>
+      <name>Ayaka Takamoto</name>
+    </author>
+    <author>
+      <name>Mayu Umemura</name>
+    </author>
+    <author>
+      <name>Mitsuo Yoshida</name>
+    </author>
+    <author>
+      <name>Kyoji Umemura</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The 2016 International Conference On Advanced Informatics: Concepts,
+  Theory And Application (ICAICTA2016)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01446v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01446v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01589v1</id>
+    <updated>2017-10-04T13:12:44Z</updated>
+    <published>2017-10-04T13:12:44Z</published>
+    <title>Independent Low-Rank Matrix Analysis Based on Parametric
+  Majorization-Equalization Algorithm</title>
+    <summary>  In this paper, we propose a new optimization method for independent low-rank
+matrix analysis (ILRMA) based on a parametric majorization-equalization
+algorithm. ILRMA is an efficient blind source separation technique that
+simultaneously estimates a spatial demixing matrix (spatial model) and the
+power spectrograms of each estimated source (source model). In ILRMA, since
+both models are alternately optimized by iterative update rules, the difference
+in the convergence speeds between these models often results in a poor local
+solution. To solve this problem, we introduce a new parameter that controls the
+convergence speed of the source model and find the best balance between the
+optimizations in the spatial and source models for ILRMA.
+</summary>
+    <author>
+      <name>Yoshiki Mitsui</name>
+    </author>
+    <author>
+      <name>Daichi Kitamura</name>
+    </author>
+    <author>
+      <name>Norihiro Takamune</name>
+    </author>
+    <author>
+      <name>Hiroshi Saruwatari</name>
+    </author>
+    <author>
+      <name>Yu Takahashi</name>
+    </author>
+    <author>
+      <name>Kazunobu Kondo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Preprint Manuscript of 2017 IEEE International Workshop on
+  Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP 2017)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01589v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01589v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07552v1</id>
+    <updated>2017-09-22T00:45:12Z</updated>
+    <published>2017-09-22T00:45:12Z</published>
+    <title>Techniques and Challenges in Speech Synthesis</title>
+    <summary>  The aim of this project was to develop and implement an English language
+Text-to-Speech synthesis system. This involved a study of mechanisms of human
+speech production, a review of techniques in speech synthesis, and analysis of
+tests used to evaluate the effectiveness of synthesized speech. It was
+determined that a diphone synthesis system was the most effective choice for
+the scope of this project. A method of automatically identifying and extracting
+diphones from prompted speech was designed, allowing for the creation of a
+diphone database by a speaker in less than 40 minutes. CMUdict was used to
+determine the pronunciation of known words. A system for smoothing the
+transitions between diphone recordings was designed and implemented. CMUdict
+was then used to train a maximum-likelihood prediction system to determine the
+correct pronunciation of unknown English language alphabetic words. Then, a
+Part Of Speech tagger was designed to find the lexical class of words within a
+sentence.
+  A method of altering the pitch, duration, and volume of the produced voice
+over time was designed, being a combination of the TD-PSOLA algorithm and a
+novel approach referred to as Unvoiced Speech Duration Shifting. This minimises
+distortion of the voice when shifting the pitch or duration, while maximising
+computational efficiency by operating in the time domain. This approach was
+used to add correct lexical stress to vowels within words. A text tokenisation
+system was developed to handle arbitrary text input, allowing pronunciation of
+numerical input tokens and use of appropriate pauses for punctuation. Methods
+for further improving sentence level speech naturalness were discussed.
+Finally, the system was tested with listeners for its intelligibility and
+naturalness.
+</summary>
+    <author>
+      <name>David Ferris</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">138 pages, 46 figures, Undergraduate Honours Thesis towards a
+  Bachelor of Electrical Engineering, November 2016, The University of
+  Newcastle, Australia</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.07552v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07552v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08041v1</id>
+    <updated>2017-09-23T12:10:32Z</updated>
+    <published>2017-09-23T12:10:32Z</published>
+    <title>Statistical Parametric Speech Synthesis Incorporating Generative
+  Adversarial Networks</title>
+    <summary>  A method for statistical parametric speech synthesis incorporating generative
+adversarial networks (GANs) is proposed. Although powerful deep neural networks
+(DNNs) techniques can be applied to artificially synthesize speech waveform,
+the synthetic speech quality is low compared with that of natural speech. One
+of the issues causing the quality degradation is an over-smoothing effect often
+observed in the generated speech parameters. A GAN introduced in this paper
+consists of two neural networks: a discriminator to distinguish natural and
+generated samples, and a generator to deceive the discriminator. In the
+proposed framework incorporating the GANs, the discriminator is trained to
+distinguish natural and generated speech parameters, while the acoustic models
+are trained to minimize the weighted sum of the conventional minimum generation
+loss and an adversarial loss for deceiving the discriminator. Since the
+objective of the GANs is to minimize the divergence (i.e., distribution
+difference) between the natural and generated speech parameters, the proposed
+method effectively alleviates the over-smoothing effect on the generated speech
+parameters. We evaluated the effectiveness for text-to-speech and voice
+conversion, and found that the proposed method can generate more natural
+spectral parameters and $F_0$ than conventional minimum generation error
+training algorithm regardless its hyper-parameter settings. Furthermore, we
+investigated the effect of the divergence of various GANs, and found that a
+Wasserstein GAN minimizing the Earth-Mover's distance works the best in terms
+of improving synthetic speech quality.
+</summary>
+    <author>
+      <name>Yuki Saito</name>
+    </author>
+    <author>
+      <name>Shinnosuke Takamichi</name>
+    </author>
+    <author>
+      <name>Hiroshi Saruwatari</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Preprint manuscript of IEEE/ACM Transactions on Audio, Speech and
+  Language Processing</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.08041v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.08041v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09364v1</id>
+    <updated>2017-09-27T07:21:26Z</updated>
+    <published>2017-09-27T07:21:26Z</published>
+    <title>Research on several key technologies in practical speech emotion
+  recognition</title>
+    <summary>  In this dissertation the practical speech emotion recognition technology is
+studied, including several cognitive related emotion types, namely fidgetiness,
+confidence and tiredness. The high quality of naturalistic emotional speech
+data is the basis of this research. The following techniques are used for
+inducing practical emotional speech: cognitive task, computer game, noise
+stimulation, sleep deprivation and movie clips.
+  A practical speech emotion recognition system is studied based on Gaussian
+mixture model. A two-class classifier set is adopted for performance
+improvement under the small sample case. Considering the context information in
+continuous emotional speech, a Gaussian mixture model embedded with Markov
+networks is proposed.
+  A further study is carried out for system robustness analysis. First, noise
+reduction algorithm based on auditory masking properties is fist introduced to
+the practical speech emotion recognition. Second, to deal with the complicated
+unknown emotion types under real situation, an emotion recognition method with
+rejection ability is proposed, which enhanced the system compatibility against
+unknown emotion samples. Third, coping with the difficulties brought by a large
+number of unknown speakers, an emotional feature normalization method based on
+speaker-sensitive feature clustering is proposed. Fourth, by adding the
+electrocardiogram channel, a bi-modal emotion recognition system based on
+speech signals and electrocardiogram signals is first introduced.
+  The speech emotion recognition methods studied in this dissertation may be
+extended into the cross-language speech emotion recognition and the whispered
+speech emotion recognition.
+</summary>
+    <author>
+      <name>Chengwei Huang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">in Chinese</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.09364v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.09364v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
