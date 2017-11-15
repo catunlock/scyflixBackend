@@ -4,10 +4,13 @@ from magpie import MagpieModel
 data = 'computer_science_magpie/'
 
 def load_labels():
+    labels = []
     with open('categories.txt', 'r') as label_files:
         lines = label_files.readlines()
         for l in lines:
-            yield l
+            labels.append(l)
+
+    return labels
 
 magpie = MagpieModel()
 
