@@ -14,11 +14,9 @@ nodeJSServer.use(function (req, res, next) {
 });
 
 nodeJSServer.get('/', function (req, res) {
-    //res.send('Hello World!');
-
-    
+    var url = 'http://127.0.0.1:5000/similarity?doc_id='+req.query.doc;
     const options = {  
-    url: 'http://127.0.0.1:5000/similarity',
+    url: url,
     method: 'GET',
         headers: {
             'Accept': 'application/json',
@@ -30,9 +28,11 @@ nodeJSServer.get('/', function (req, res) {
 
     const request = require("request");
 
-
+    
     request.get(options, (error, response, body) => {
     let json = JSON.parse(body);
+    console.log(req);
+    console.log('Gensim on '+req.query.doc);
     res.send(json);
     });
 });

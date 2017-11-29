@@ -3,19 +3,21 @@
 </head>
 
 <body>
+    Insert doc id:<input type="text" value="" id="textbox">
     <button id='button'  style="margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;">Execute GENSIM</button>
     <div id='table'>
     </div>
     <script src="jquery.js"></script>
     <script>
-    var gensimData;
-    var txt = "";
     var pdfRoute = "/home/segmentation-fault/uni/PAE/";
-    txt += "<table border='1'>";
         $('#button').click(function() {
+            document.getElementById("table").innerHTML = "";
+            var url = "http://localhost:3000/?doc="+document.getElementById("textbox").value;
+            var gensimData;
+            var txt = "<table border='1'>";
             jQuery.support.cors = true;
             $.ajax ({
-                url: 'http://localhost:3000/',
+                url: url,
                 datatype: "json",
                 crossDomain: true,
                 success: function (data) {
