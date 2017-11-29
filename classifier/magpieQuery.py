@@ -1,8 +1,8 @@
-from magpie import MagpieModel
+from magpie import Magpie
 import sys, glob, os
 
 def main():
-    magpie = MagpieModel(
+    magpie = Magpie(
         keras_model='./model.h5',word2vec_model='./embeddings',scaler='./scaler')
     magpie.labels = ['computer vision', 'cryptography', 'machine learning']
     os.chdir("./test")
