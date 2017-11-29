@@ -60,7 +60,10 @@ class GensimSimilarity:
             entry = {}
             entry["id"] = str(id)
             entry["arxiv"] = str(self.getDocumentName(id))
-            entry["document"] = str(self.getDocument((id)))
+            entry["document"] = self.getDocument((id))
+            (a,b) = self.getDocument((id))
+            #para mostrar los datos me va mejor no tener un TaggedDocument y que me vengan como lista de strings
+            entry["document"] = str(a)
             entry["prob"] = str(prob)
             result.append(entry)
 
