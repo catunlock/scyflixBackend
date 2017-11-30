@@ -1,7 +1,7 @@
 import os
 from magpie import Magpie
 
-data = 'computer_science_magpie/'
+data = 'papers_magpie/'
 
 def load_labels():
     labels = []
