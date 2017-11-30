@@ -25,7 +25,7 @@ def main():
     out_stream.close()
 
     #convierto en jpg y elimino el pdf residuo
-    os.system("convert "+output_filepath+" "+output_filepath[:-5]+".jpg")
+    os.system("convert -density 300 "+output_filepath+" "+output_filepath[:-5]+".jpg")
     os.system("rm "+output_filepath)
     os.system("mv "+output_filepath[:-5]+".jpg "+ sys.argv[2])
  
