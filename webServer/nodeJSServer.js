@@ -13,6 +13,25 @@ nodeJSServer.use(function (req, res, next) {
     next();
 });
 
+nodeJSServer.get('/login/', function (req, res) {
+    var MongoClient = require('mongodb').MongoClient;
+    var url = "mongodb://localhost:27017/database";
+
+    console.log(req);
+    var name = req.query.name;
+    var pswd = req.query.password
+    MongoClient.connect(url,(err,database) =>{ 
+        const userDb = database.db('database')
+        userDb.collection('users').find({"user.nickname": name, "user.password":pswd}).toArray(function(err, result) {
+            if (err) throw err;
+            console.log(result);
+            res.send(result);
+            console.log("User found");
+        });
+    });
+});
+
+
 nodeJSServer.get('/', function (req, res) {
     var url = 'http://127.0.0.1:5000/similarity?doc_id='+req.query.doc;
     const options = {  
