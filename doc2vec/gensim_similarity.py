@@ -10,6 +10,7 @@ train_file = 'cs.AI.txt'
 test_file = 'cs.AI_test.txt'
 model_file = 'cs.AI.model'
 
+papers_path = '/home/xaloc/computer_science_magpie/'
 """
 read the file line-by-line, The file is a corpus and each line is a document, pre-process each line using a simple gensim pre-processing tool, and return a list of words. 
 """
@@ -65,6 +66,7 @@ class GensimSimilarity:
             entry = {}
             entry["id"] = str(id)
             entry["arxiv"] = str(self.getDocumentName(id))
+            entry["file_path"] = papers_path + str(self.getDocumentName(id))[:-4] + '.pdf'
             entry["document"] = self.getDocument((id))
             (a,b) = self.getDocument((id))
             #para mostrar los datos me va mejor no tener un TaggedDocument y que me vengan como lista de strings
@@ -81,6 +83,7 @@ class GensimSimilarity:
             entry = {}
             entry["id"] = str(id)
             entry["arxiv"] = str(self.getDocumentName(id))
+            entry["file_path"] = papers_path + str(self.getDocumentName(id))[:-4] + '.pdf'
             entry["document"] = self.getDocument((id))
             (a, b) = self.getDocument((id))
             # para mostrar los datos me va mejor no tener un TaggedDocument y que me vengan como lista de strings
