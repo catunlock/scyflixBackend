@@ -183,6 +183,14 @@ a {
     outline: none;
     background-color: #42DCA3; }
 
+.btn-inner {
+  color: #42DCA3;
+  border: 0px solid #42DCA3;
+  background-color: transparent; }
+.btn-inner:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {
