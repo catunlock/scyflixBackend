@@ -27,6 +27,11 @@ class GensimSimilarity:
         return self.model.docvecs.most_similar([inferred_vector], topn=len(self.model.docvecs))
 
 
+    def getSimilarityText(self, str_text):
+        print("Searching similar papers to: ", str_text)
+        inferred_vector = self.model.infer_vector(str_text)
+        return self.model.docvecs.most_similar([inferred_vector], topn=len(self.model.docvecs))
+
     def asses_model(self):
         ranks = []
 
@@ -69,7 +74,21 @@ class GensimSimilarity:
 
         return result
 
+    def generate_json_similars_from_text(self, str_text):
+        result = []
+        sims = self.getSimilarityText(str_text)[0:20]
+        for id, prob in sims:
+            entry = {}
+            entry["id"] = str(id)
+            entry["arxiv"] = str(self.getDocumentName(id))
+            entry["document"] = self.getDocument((id))
+            (a, b) = self.getDocument((id))
+            # para mostrar los datos me va mejor no tener un TaggedDocument y que me vengan como lista de strings
+            entry["document"] = str(a)
+            entry["prob"] = str(prob)
+            result.append(entry)
 
+        return result
 
 class GensimCorpus:
     def __init__(self):

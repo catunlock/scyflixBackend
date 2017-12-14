@@ -33,16 +33,16 @@ def remove_stopwords(stopwords, list_words):
 
 def process_doc(doc):
     list_words = doc.split(" ")
-    list_words = preprocess(list_words)
+    #list_words = preprocess(list_words)
 
-    stops = set(stopwords.words("english"))
-    list_words = remove_stopwords(stops, list_words)
+    #stops = set(stopwords.words("english"))
+    #list_words = remove_stopwords(stops, list_words)
 
-    stemmer = PorterStemmer()
-    list_words = stemm(stemmer, list_words)
+    #stemmer = PorterStemmer()
+    #list_words = stemm(stemmer, list_words)
 
-    lemmatizer = WordNetLemmatizer()
-    list_words = lemmatize(lemmatizer, list_words)
+    #lemmatizer = WordNetLemmatizer()
+    #list_words = lemmatize(lemmatizer, list_words)
 
     return " ".join(list_words).replace('\n', ' ')
     

@@ -35,6 +35,16 @@ def similarity():
         status=200,
         mimetype='application/json')
 
+@app.route('/similarity_text')
+def similarity_text():
+    str_text = str(request.args.get('text', ""))
+    cosa = gs.generate_json_similars_from_text(str_text)
+    print(cosa)
+    return app.response_class(
+        response=json.dumps(cosa, separators=(',', " : "), indent=4),
+        status=200,
+        mimetype='application/json')
+
 @app.route('/kmeans')
 def kmeans():
     num_clusters = int(request.args.get('num_clusters', 20))
