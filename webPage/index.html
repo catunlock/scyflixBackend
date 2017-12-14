@@ -21,7 +21,8 @@
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
     <link href="css/manolito.css" rel="stylesheet">
-    <script src="jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script>
       function login() {
         var name = document.getElementById('name').value;
@@ -43,7 +44,7 @@
                 }
             })
           }
-        }
+      }
     </script>
   </head>
 
@@ -61,7 +62,6 @@
 
 
     <section id="Login-section " class="content-section" style="margin-left: 450px">
-      <form>
           <div class="container">
             <label><b>Usuario</b></label><br>
             <input id="name" type="text" placeholder="Introducir Nombre" name="uname" required> 
@@ -72,8 +72,6 @@
             <input id="password" type="password" placeholder="Introducir Contraseña" name="psw" required>
             <button id="btnSubmit" onclick="login()" style="margin-left: 50px">Login</button>
           </div>
-
-        </form>
     </section>
         
 
