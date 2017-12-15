@@ -1,5 +1,9 @@
 import nltk, math, codecs
 from gensim.models import Doc2Vec
+from gensim.models import tfidfmodel
+from gensim.corpora.dictionary import Dictionary
+import gensim.corpora.dictionary
+from gensim.utils import simple_preprocess
 from nltk.cluster.kmeans import KMeansClusterer
 import re
 from nltk.corpus import stopwords
@@ -65,13 +69,68 @@ def do_kmeans(NUM_CLUSTERS = 20):
                 words.append(word)
 
         count = collections.Counter(words)
-        print(count.most_common()[:5])
+        print(count.most_common()[:20])
 
-        results[id_cluster] = (count.most_common()[:5], docs)
+        results[id_cluster] = (count.most_common()[:20], docs)
 
+    print("Doing tf_idf of the common words of the clusters.")
+    tf_idf(results)
 
     print("Kmeans done")
     return results
 
+
+def tf_idf(patatas):
+    cluster_corpus = []
+
+    for _, (l_words, _) in patatas.items():
+        cluster_doc = ""
+        for w, t in l_words:
+            cluster_doc += w + " "
+
+        print("Cluster doc: ", cluster_doc)
+        cluster_corpus.append(cluster_doc) #gensim.utils.simple_preprocess
+
+    # remove stop words
+    stoplist = set('for a of the and to in set use let '.split())
+    texts = [[word for word in document.lower().split() if word not in stoplist] for document in cluster_corpus]
+
+    # remove words that appear only once
+    from collections import defaultdict
+
+    frequency = defaultdict(int)
+    for text in texts:
+        for token in text:
+            frequency[token] += 1
+
+    texts = [[token for token in text if frequency[token] > 1] for text in texts]
+
+    from pprint import pprint  # pretty-printer
+    pprint(texts)
+
+
+    cdic = Dictionary(texts)
+
+
+
+    corpus = [cdic.doc2bow(text) for text in texts]
+
+
+    tfidf = tfidfmodel.TfidfModel(corpus)
+
+
+    print("TEST TFIDF:")
+
+    result_clusters = {}
+    for i in range(len(corpus)):
+        result_clusters[i] = []
+        for w, v in tfidf[corpus[i]]:
+            result_clusters[i].append((v, cdic[w]))
+
+        result_clusters[i].sort()
+
+    pprint(result_clusters)
+
+
 if __name__ == "__main__":
-    do_kmeans()
+    clusters = do_kmeans()
