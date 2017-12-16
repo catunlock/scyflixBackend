@@ -22,7 +22,9 @@ def read_corpus(fname, tokens_only=False):
         documents = list()
 
         for i, c in corpus:
-            index[i] = c[0]
+            paper_file_name = c[0]
+            index[i] = paper_file_name
+            index[paper_file_name] = i
             doc = c[1]
             if tokens_only:
                 documents.append(gensim.utils.simple_preprocess(doc))
