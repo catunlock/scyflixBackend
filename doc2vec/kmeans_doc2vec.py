@@ -35,34 +35,10 @@ def do_kmeans(vectors, NUM_CLUSTERS = 20):
         if assigned_clusters[i] not in clusters:
             clusters[assigned_clusters[i]] = []
 
-        # TODO: Cambiar el train_corpus o el vector por el texto de verdad en el mismo formato claro.
         clusters[assigned_clusters[i]].append((i, train_corpus[i], vectors[i]))
 
     return clusters
 
-
-def common_words(clusters):
-    # Obtener topic con las palabras mas comunes.
-
-    print("Obtaining names")
-
-    results = {}
-    for id_cluster, list_documents in clusters.items():
-        words = []
-        docs = []
-
-        for doc in list_documents:
-            docs.append(index_corpus[doc[0]])
-            for word in doc[1].words:
-                words.append(word)
-
-        count = collections.Counter(words)
-        print(count.most_common()[:20])
-
-        results[id_cluster] = (count.most_common()[:40], docs)
-
-    print("Kmeans done")
-    return results
 
 def preprocess(list_words):
     words = []
@@ -93,7 +69,7 @@ def filter_doc(d):
     return words
 
 
-def tf_idf(cluster):
+def tf_idf(cluster, max_keywords=20):
     cluster_corpus = []
 
     for id_doc, tagged_document, weights in cluster:
@@ -114,35 +90,40 @@ def tf_idf(cluster):
 
     texts = [[token for token in text if frequency[token] > 1] for text in texts]
 
-    from pprint import pprint  # pretty-printer
-    pprint(texts)
-
-
     cdic = Dictionary(texts)
 
-
-
     corpus = [cdic.doc2bow(text) for text in texts]
-
 
     tfidf = tfidfmodel.TfidfModel(corpus)
 
 
-    print("TEST TFIDF:")
-
     result_clusters = {}
     for i in range(len(corpus)):
-        result_clusters[i] = []
+        key = index_corpus[i]
+        result_clusters[key] = []
         for w, v in tfidf[corpus[i]]:
-            result_clusters[i].append((v, cdic[w]))
+            result_clusters[key].append((v, cdic[w]))
 
-        result_clusters[i].sort()
+        result_clusters[key].sort()
+        result_clusters[key] = result_clusters[key][-max_keywords:]
 
-    pprint(result_clusters)
+    return result_clusters
 
 
-if __name__ == "__main__":
+def prepare_to_json(clusters, max_keywords):
+    result = dict()
 
+    print("Doing tf_idf of the common words of the clusters.")
+    for id_cluster, c in clusters.items():
+        result[id_cluster] = {}
+        result[id_cluster]['keywords'] = tf_idf(c, max_keywords)
+        result[id_cluster]['documents'] = []
+        for (id_doc, _, _) in c:
+            result[id_cluster]['documents'].append(index_corpus[id_doc])
+
+    return result
+
+def extract_clusters(NUM_CLUSTERS = 20, max_keywords=20):
     print("File for training:", train_file)
     print("File for test:", test_file)
 
@@ -164,8 +145,11 @@ if __name__ == "__main__":
         vectors.append(model.infer_vector(doc.words))
 
 
-    clusters = do_kmeans(vectors, NUM_CLUSTERS=20)
+    clusters = do_kmeans(vectors, NUM_CLUSTERS)
+    #clusters = id_doc, tagged_document, weights
 
-    print("Doing tf_idf of the common words of the clusters.")
-    for id_cluster, c in clusters.items():
-        tf_idf(c)
+    return prepare_to_json(clusters, max_keywords)
+
+if __name__ == "__main__":
+    print(extract_clusters())
+

@@ -6,7 +6,7 @@ from gensim.models import Doc2Vec
 import sys
 
 from gensim_similarity import GensimSimilarity, GensimCorpus
-from kmeans_doc2vec import do_kmeans
+from kmeans_doc2vec import extract_clusters
 
 app = Flask(__name__)
 
@@ -48,7 +48,9 @@ def similarity_text():
 @app.route('/kmeans')
 def kmeans():
     num_clusters = int(request.args.get('num_clusters', 20))
-    cosa = do_kmeans(num_clusters)
+    max_keywords = int(request.args.get('max_keywords', 20))
+
+    cosa = extract_clusters(num_clusters, max_keywords)
     return app.response_class(
         response=json.dumps(cosa, separators=(',', " : "), indent=4),
         status=200,
