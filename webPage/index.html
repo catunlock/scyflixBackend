@@ -40,6 +40,7 @@
                   var userData = data;
                   if (userData.length == 0) alert("Usuario o Contraseña incorrectos.");
                   else{
+                    document.cookie = "username="+name;
                     window.location.replace("mainPage.html");
                   }
                 }

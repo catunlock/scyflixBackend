@@ -28,6 +28,58 @@
 
   <body id="page-top">
 
+  <script type="text/javascript">
+    var dict = new Object();
+    var x = document.cookie; 
+    var userName = x.substring(9, x.length);
+    var url = 'http://localhost:3000/getFirstRecomendation?user='+userName;
+    jQuery.support.cors = true;
+    $.ajax ({
+        url: url,
+        datatype: "json",
+        crossDomain: true,
+        success: function (data) {
+
+          var image1 = data[0].paper.image;
+          var image2 = data[1].paper.image;
+          var image3 = data[2].paper.image;
+
+          var pdf1 = data[0].paper.pdf;
+          dict[pdf1] = data[0].paper.id;
+          dict[0] = pdf1;
+          var pdf2 = data[1].paper.pdf;
+          dict[pdf2] = data[1].paper.id;
+          dict[1] = pdf2;
+          var pdf3 = data[2].paper.pdf;
+          dict[pdf3] = data[2].paper.id;
+          dict[2] = pdf3;
+
+          /*var html ='<div class="carousel-inner"><div class="item active"><a href="'+pdf1+'"><img src="'+image1+'" style="width: 100%"></a></div><div class="item"><a href="'+pdf2+'"><img src="'+image2+'" style="width: 100%"></a></div><div class="item"><a href="'+pdf3+'"><img src="'+image3+'" style="width: 100%"></a></div></div>';*/
+          var html ='<div class="carousel-inner"><div class="item active"><img onclick="clickImage(0);" src="'+image1+'" style="width: 100%"></div><div class="item"><img onclick="clickImage(1);" src="'+image2+'" style="width: 100%"></div><div class="item"><img onclick="clickImage(2);" src="'+image3+'" style="width: 100%"></div></div>';
+          
+          document.getElementById("carrousel").innerHTML = html;
+        }
+    })
+
+    function clickImage(a) {
+      var paperId = dict[dict[a]];
+      var x = document.cookie; 
+      var userName = x.substring(9, x.length);
+      var url = 'http://localhost:3000/updateLastPaper?user='+userName+'&paper='+paperId;
+      jQuery.support.cors = true;
+      $.ajax ({
+          url: url,
+          datatype: "json",
+          crossDomain: true,
+          success: function (data) {
+            alert("DB updated");
+          }
+      })
+      var win = window.open(dict[a], '_blank');
+      win.focus();
+    }
+
+  </script>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -113,26 +165,9 @@
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                          <div class="item active">
-                            <a href="pdfs/1711.10566.pdf">
-                              <img src="images/1711.10566.jpg" style="width: 100%">
-                            </a>
-                          </div>
 
-                          <div class="item">
-                            <a href="pdfs/1711.10574.pdf">
-                              <img src="images/1711.10574.jpg" style="width: 100%">
-                            </a>
-                          </div>
-
-                          <div class="item">
-                            <a href="pdfs/1711.10768.pdf">
-                              <img src="images/1711.10768.jpg" style="width: 100%">
-                            </a>
-                          </div>
+                        <div id = "carrousel">
                         </div>
-
                         <!-- Left and right controls -->
                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                           <span class="glyphicon glyphicon-chevron-left"></span>
@@ -146,7 +181,7 @@
                   </div>
                 </div>
               </div>
-               <a href="page2.html" class="btn btn-default btn-lg" style = "margin: 20px">
+               <a href="sciflixExplore.html" class="btn btn-default btn-lg" style = "margin: 20px">
                   <span class="network-name">Explorar ScyFlix</span>
                 </a>
             </div>
