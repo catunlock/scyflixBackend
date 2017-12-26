@@ -12,7 +12,7 @@ result = db.papers.insert_one(
     {
     	#formato para guardar papers en base de datos
         "paper": {
-            "id": "501",
+            "id": "356",
             "title": "Como sumar 2 + 1",
             "pdf": "/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/pdfs/1711.10566.pdf",
             "image": "/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/images/1711.10566.jpg",
@@ -24,7 +24,7 @@ result = db.papers.insert_one(
     {
     	#formato para guardar papers en base de datos
         "paper": {
-            "id": "406",
+            "id": "169",
             "title": "Que pasa pajaro",
             "pdf": "/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/pdfs/1711.10574.pdf",
             "image": "/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/images/1711.10574.jpg",
@@ -36,7 +36,7 @@ result = db.papers.insert_one(
     {
     	#formato para guardar papers en base de datos
         "paper": {
-            "id": "588",
+            "id": "661",
             "title": "Hola amigos",
             "pdf": "/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/pdfs/1711.10768.pdf",
             "image": "/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/images/1711.10768.jpg",
