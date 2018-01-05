@@ -15,7 +15,11 @@ from datetime import datetime
 INDEX_PATH = "./index/"
 PAPERS_PATH = "./papers/"
 
+PAPERS_STORAGE = "/home/xaloc/computer_science_magpie/"
+
 LABELS = set(["cs.AI", "cs.CR", "cs.CV", "cs.DB", "cs.LG"])
+
+
 
 def populate_index_file(path_file):
     print("Populating:", str(path_file))
@@ -28,6 +32,8 @@ def populate_index_file(path_file):
 
     entries = []
 
+
+
     for entry in root.iter('{http://www.w3.org/2005/Atom}entry'):
 
         properties = dict()
@@ -36,7 +42,17 @@ def populate_index_file(path_file):
         for c in entry:
 
             if c.tag == '{http://www.w3.org/2005/Atom}id':
-                properties['id'] = c.text.split('/')[-1]
+                id = c.text.split('/')[-1]
+                properties['id'] = id
+
+                try:
+                    with open(PAPERS_STORAGE + id + ".txt") as paper_file:
+                        content = paper_file.read()
+                        properties['content'] = content
+                except FileNotFoundError:
+                    print("File not found:" + PAPERS_STORAGE + id + ".txt")
+                    file_pendings.write(id+'\n')
+
             
             if c.tag == '{http://www.w3.org/2005/Atom}link':
                 if 'type' in c.attrib and c.attrib['type'] == 'application/pdf':
@@ -68,6 +84,7 @@ def populate_index_file(path_file):
 
         entries.append(properties)
 
+
     print(entries)
 
     client = MongoClient()
@@ -88,7 +105,10 @@ def travel_index(path_file):
         populate_index_file(path_file)
 
 def main():
+    global file_pendings
+    file_pendings = open('notyetdownloaded.txt', 'w')
     travel_index(Path(INDEX_PATH))
+    file_pendings.close()
 
 if __name__ == "__main__":
     main()
