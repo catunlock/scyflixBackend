@@ -7,6 +7,7 @@ import sys
 
 from gensim_similarity import GensimSimilarity, GensimCorpus
 from kmeans_doc2vec import extract_clusters
+from pymongo import MongoClient
 
 app = Flask(__name__)
 
@@ -56,6 +57,25 @@ def kmeans():
         status=200,
         mimetype='application/json')
 
+@app.route('/search')
+def search():
+    query = request.args.get('query', '')
+    print("Query:", query)
+    result = db.papers.find({'$text': {'$search': query}}, {'score': {'$meta': 'textScore'}}).sort([('score', {'$meta':'textScore'})])
+    lista = []
+    for r in result:
+        print("result:", r)
+        r['_id'] = str(r['_id'])
+        lista.append(r)
+
+    print(lista[0])
+
+    return app.response_class(
+        response=json.dumps(lista, separators=(',', " : "), indent=4),
+        status=200,
+        mimetype='application/json')
+
+
 if __name__ == '__main__':
     global gs
     corpus_train = GensimCorpus()
@@ -64,4 +84,8 @@ if __name__ == '__main__':
     model = Doc2Vec.load(model_file)
 
     gs = GensimSimilarity(model, corpus_train)
+
+    client = MongoClient()
+    db = client.database
+
     app.run()

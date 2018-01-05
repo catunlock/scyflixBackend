@@ -12,6 +12,14 @@ from datetime import datetime
 # Finb by summary:
 # db.getCollection('papers').find({'summary': {$regex: ".*has.*"}})
 
+# Create index
+# db.papers.createIndex({"title":"text", "summary":"text", "content":"text"})
+
+
+
+# Search
+# db.papers.find({$text: {$search: "Fractional Moments"}}, {score: {$meta: "textScore"}}).sort({score:{$meta:"textScore"}})
+
 INDEX_PATH = "./index/"
 PAPERS_PATH = "./papers/"
 
@@ -77,7 +85,7 @@ def populate_index_file(path_file):
                 properties['summary'] = c.text
 
             if c.tag == '{http://www.w3.org/2005/Atom}author':
-                properties['author'] = c.text
+                properties['author'] = c[0].text
 
             if c.tag == '{http://arxiv.org/schemas/atom}comment':
                 properties['comment'] = c.text
@@ -92,6 +100,10 @@ def populate_index_file(path_file):
 
     db.papers.insert(entries)
     print("Get of bd:", db.papers.find_one())
+
+    print("Creating index.")
+    result = db.papers.create_index([('title', 'text'), ('summary', 'text'), ('content', 'text')])
+    print("Result:", result)
 
 def travel_index(path_file):
     print("Entering directory:" + str(path_file))
