@@ -5,7 +5,7 @@ import os
 import argparse
 import pyPdf
 import os
- 
+
  
 def main():
 
@@ -13,7 +13,7 @@ def main():
         print ('Usage: extractFirstPage XXXXXX.pdf destination')
         exit()
     output_filepath = sys.argv[1][:-4]+"X.pdf"
-    print ('Extracted first page from '+ sys.argv[1] + ' in '+output_filepath[:-5]+'.jpg')
+    print ('Extracted first page from '+ sys.argv[1] + ' in '+output_filepath[:-5]+'.png')
 
     pdf_in = pyPdf.PdfFileReader(open(sys.argv[1],'r'))
     pdf_out = pyPdf.PdfFileWriter()
@@ -25,9 +25,9 @@ def main():
     out_stream.close()
 
     #convierto en jpg y elimino el pdf residuo
-    os.system("convert -density 300 "+output_filepath+" "+output_filepath[:-5]+".jpg")
+    os.system("convert -density 300 "+output_filepath+" "+output_filepath[:-5]+".png")
     os.system("rm "+output_filepath)
-    os.system("mv "+output_filepath[:-5]+".jpg "+ sys.argv[2])
+    os.system("mv "+output_filepath[:-5]+".png "+ sys.argv[2])
  
 if __name__ == '__main__':
     main()
