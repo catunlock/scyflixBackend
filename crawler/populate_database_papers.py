@@ -23,7 +23,7 @@ from datetime import datetime
 INDEX_PATH = "./index/"
 PAPERS_PATH = "./papers/"
 
-PAPERS_STORAGE = "/home/xaloc/computer_science_magpie/"
+PAPERS_STORAGE = "/home/sunlock/computer_science_magpie/"
 
 LABELS = set(["cs.AI", "cs.CR", "cs.CV", "cs.DB", "cs.LG"])
 
