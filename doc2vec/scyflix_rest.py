@@ -28,8 +28,8 @@ def hello_world():
 
 @app.route('/similarity')
 def similarity():
-    doc_id = int(request.args.get('doc_id', 10))
-    cosa = gs.generate_json_similars(int(doc_id))
+    doc_id = request.args.get('doc_id', '')
+    cosa = gs.generate_json_similars(doc_id)
     print(cosa)
     return app.response_class(
         response=json.dumps(cosa, separators=(',', " : "), indent=4),
