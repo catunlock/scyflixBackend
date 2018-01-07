@@ -10,8 +10,8 @@ import multiprocessing
 stopwords = set(stopwords.words("english"))
 stemmer = LancasterStemmer()
 
-path_pdf = 'papers/index/Computer Science/'
-path_output = path_pdf
+path_pdf = '/home/sunlock/computer_science_magpie/'
+path_output = '/home/sunlock/txt_papers/'
 
 def remove_stopwords(list_words):
     processed_word_list = []
@@ -71,9 +71,13 @@ def processInput(f):
 def main():
     nltk.download('stopwords')
 
-    num_cores = multiprocessing.cpu_count()
-    results = Parallel(n_jobs=num_cores)(delayed(processInput)(f) for f in os.listdir(path_pdf))
+    print(os.listdir(path_pdf))
 
+    num_cores = multiprocessing.cpu_count()
+    # results = Parallel(n_jobs=num_cores)(delayed(processInput)(f) for f in os.listdir(path_pdf))
+
+    for f in os.listdir(path_pdf):
+        processInput(f)
         
     
 if __name__ == "__main__":

@@ -23,7 +23,7 @@ from datetime import datetime
 INDEX_PATH = "./index/"
 PAPERS_PATH = "./papers/"
 
-PAPERS_STORAGE = "/home/sunlock/computer_science_magpie/"
+PAPERS_STORAGE = "/home/sunlock/txt_papers/"
 
 LABELS = set(["cs.AI", "cs.CR", "cs.CV", "cs.DB", "cs.LG"])
 
@@ -46,6 +46,7 @@ def populate_index_file(path_file):
 
         properties = dict()
         properties['categories'] = []
+        skip = False
 
         for c in entry:
 
@@ -60,6 +61,7 @@ def populate_index_file(path_file):
                 except FileNotFoundError:
                     print("File not found:" + PAPERS_STORAGE + id + ".txt")
                     file_pendings.write(id+'\n')
+                    skip = True
 
             
             if c.tag == '{http://www.w3.org/2005/Atom}link':
@@ -90,7 +92,8 @@ def populate_index_file(path_file):
             if c.tag == '{http://arxiv.org/schemas/atom}comment':
                 properties['comment'] = c.text
 
-        entries.append(properties)
+        if not skip:
+            entries.append(properties)
 
 
     print(entries)

@@ -6,6 +6,8 @@ import argparse
 import pyPdf
 import os
 
+def extractFirstPage(file_path):
+    pass
  
 def main():
 
@@ -13,6 +15,7 @@ def main():
         print ('Usage: extractFirstPage XXXXXX.pdf destination')
         exit()
     output_filepath = sys.argv[1][:-4]+"X.pdf"
+
     print ('Extracted first page from '+ sys.argv[1] + ' in '+output_filepath[:-5]+'.png')
 
     pdf_in = pyPdf.PdfFileReader(open(sys.argv[1],'r'))

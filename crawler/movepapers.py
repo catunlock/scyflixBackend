@@ -5,8 +5,12 @@ download_path = "/home/sunlock/computer_science_magpie/"
 selecteds_path = "/home/sunlock/selected_papers/"
 
 def move_paper(paper_id):
-    os.rename(download_path + paper_id + '.pdf', selecteds_path + paper_id + 'pdf')
-
+    origen = download_path + paper_id + '.pdf'
+    destino = selecteds_path + paper_id + '.pdf'
+    try:
+        os.rename(origen, destino)
+    except FileNotFoundError:
+        print("File not found:", origen)
 
 def main():
     client = MongoClient()
