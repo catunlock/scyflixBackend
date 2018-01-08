@@ -1,8 +1,12 @@
+import os
 import gensim
 import collections
 import smart_open
 import random
+import textract
 from gensim.models import Doc2Vec
+from util_make_corpus_from_clasified import process_doc
+
 
 # Set file names for train and test data
 
@@ -32,6 +36,16 @@ class GensimSimilarity:
         print("Searching similar papers to: ", str_text)
         inferred_vector = self.model.infer_vector(str_text)
         return self.model.docvecs.most_similar([inferred_vector], topn=len(self.model.docvecs))
+
+    def getSimilarityFromFile(self, file_path):
+        file_path = file_path.strip('"')
+        print("Get similarity from file:", file_path)
+        if os.path.isfile(file_path):
+
+            text = textract.process(file_path).decode('utf-8')
+            return self.generate_json_similars_from_text(text)
+        else:
+            return {'Error': 'File not found'}
 
     def asses_model(self):
         ranks = []

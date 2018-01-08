@@ -36,6 +36,20 @@ def similarity():
         status=200,
         mimetype='application/json')
 
+# /getSimilarFromPdf?file=
+@app.route('/getSimilarFromPdf')
+def getSimilarFromPdf():
+    file_path = request.args.get('file', '')
+
+    result = gs.getSimilarityFromFile(file_path)
+
+    return app.response_class(
+        response=json.dumps(result, separators=(',', " : "), indent=4),
+        status=200,
+        mimetype='application/json')
+
+
+
 @app.route('/similarity_text')
 def similarity_text():
     str_text = str(request.args.get('text', ""))
