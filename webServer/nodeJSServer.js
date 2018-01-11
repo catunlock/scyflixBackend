@@ -135,7 +135,7 @@ nodeJSServer.get('/getFirstRecomendation/', function (req, res) {
             lastPaper = user.user["lastpaper"];//.user.lastPaper;
             console.log("Last paper");
             console.log(lastPaper);
-            if (lastPaper > 0){
+            if (lastPaper != ""){
                 var url = 'http://127.0.0.1:5000/similarity?doc_id='+lastPaper;
                 const options = {  
                 url: url,

@@ -109,6 +109,9 @@ class GensimSimilarity:
 
         return result
 
+    def contains(self, id_paper):
+        return self.corpus.contains(id_paper)
+
 class GensimCorpus:
     def __init__(self):
         self.index = dict()
@@ -137,6 +140,9 @@ class GensimCorpus:
 
     def accessIndex(self, id):
         return self.index[id]
+
+    def contains(self, id_paper):
+        return id_paper in self.index
 
 
 
