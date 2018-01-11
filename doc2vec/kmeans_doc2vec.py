@@ -9,7 +9,6 @@ from nltk.cluster.kmeans import KMeansClusterer
 import re
 from nltk.corpus import stopwords
 import collections
-
 from tutorial_gensim import read_corpus
 
 # Set file names for train and test data
@@ -17,9 +16,9 @@ from tutorial_gensim import read_corpus
 train_file = 'cs.AI.txt'
 test_file = 'cs.AI_test.txt'
 model_file = "cs.AI.model"
-path_papers = "/home/xaloc/computer_science_magpie/"
+path_papers = "/home/sunlock/computer_science_magpie_full/"
 
-def do_kmeans(vectors, NUM_CLUSTERS = 20):
+def do_kmeans(vectors, NUM_CLUSTERS = 40):
 
     print("Clustering documents with k-means for", NUM_CLUSTERS, "clusters.")
 
@@ -97,17 +96,15 @@ def tf_idf(cluster, max_keywords=20):
     tfidf = tfidfmodel.TfidfModel(corpus)
 
 
-    result_clusters = {}
+    result_words = []
     for i in range(len(corpus)):
-        key = index_corpus[i]
-        result_clusters[key] = []
         for w, v in tfidf[corpus[i]]:
-            result_clusters[key].append((v, cdic[w]))
+            result_words.append((v, cdic[w]))
 
-        result_clusters[key].sort()
-        result_clusters[key] = result_clusters[key][-max_keywords:]
+    result_words.sort()
+    result_words = result_words[-40:]
 
-    return result_clusters
+    return result_words
 
 
 def prepare_to_json(clusters, max_keywords):
@@ -123,7 +120,7 @@ def prepare_to_json(clusters, max_keywords):
 
     return result
 
-def extract_clusters(NUM_CLUSTERS = 20, max_keywords=20):
+def extract_clusters(NUM_CLUSTERS = 40, max_keywords=20):
     print("File for training:", train_file)
     print("File for test:", test_file)
 
@@ -146,7 +143,6 @@ def extract_clusters(NUM_CLUSTERS = 20, max_keywords=20):
 
 
     clusters = do_kmeans(vectors, NUM_CLUSTERS)
-    #clusters = id_doc, tagged_document, weights
 
     return prepare_to_json(clusters, max_keywords)
 
