@@ -10,12 +10,11 @@ import re
 from nltk.corpus import stopwords
 import collections
 from tutorial_gensim import read_corpus
+from pymongo import MongoClient
 
 # Set file names for train and test data
 
-train_file = 'cs.AI.txt'
-test_file = 'cs.AI_test.txt'
-model_file = "cs.AI.model"
+category_list = ['cs.AI', 'cs.CR', 'cs.CV', 'cs.DB', 'cs.LG']
 path_papers = "/home/sunlock/computer_science_magpie_full/"
 
 def do_kmeans(vectors, NUM_CLUSTERS = 40):
@@ -112,27 +111,25 @@ def prepare_to_json(clusters, max_keywords):
 
     print("Doing tf_idf of the common words of the clusters.")
     for id_cluster, c in clusters.items():
+        id_cluster = str(id_cluster)
         result[id_cluster] = {}
         result[id_cluster]['keywords'] = tf_idf(c, max_keywords)
         result[id_cluster]['documents'] = []
         for (id_doc, _, _) in c:
-            result[id_cluster]['documents'].append(index_corpus[id_doc])
+            result[id_cluster]['documents'].append(index_corpus[id_doc][:-4])
 
     return result
 
-def extract_clusters(NUM_CLUSTERS = 40, max_keywords=20):
-    print("File for training:", train_file)
-    print("File for test:", test_file)
 
-    #data = <sparse matrix that you would normally give to scikit>.toarray()
-
-    model = Doc2Vec.load(model_file)
+def extract_clusters(category, NUM_CLUSTERS = 40, max_keywords=20):
+    print("File for training:", category + '.txt')
+    model = Doc2Vec.load(category + '.model')
 
     print("Loading documents.")
 
     # list of documents prepareds for train and test.
     global index_corpus, train_corpus
-    index_corpus, train_corpus = read_corpus(train_file)
+    index_corpus, train_corpus = read_corpus(category + '.txt')
 
 
     print("Inferring vectors of documents.")
@@ -146,6 +143,27 @@ def extract_clusters(NUM_CLUSTERS = 40, max_keywords=20):
 
     return prepare_to_json(clusters, max_keywords)
 
+
+def update_papers_db(db, clusters):
+    for id_cluster, cluster in clusters.items():
+        try:
+            for doc_id in cluster['documents']:
+                print("Cluster", id_cluster, "doc_id", doc_id)
+        except TypeError:
+            print(cluster)
+
 if __name__ == "__main__":
-    print(extract_clusters())
+    for c in category_list:
+        print("Extracting clusters of: ", c)
+
+        clusters = extract_clusters(c)
+        print(clusters)
+
+        client = MongoClient()
+        db = client.database
+
+        db.clusters.insert({'category': c, 'clusters':clusters})
+
+        update_papers_db(db, clusters)
+        #db.papers.find(
 
