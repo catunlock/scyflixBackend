@@ -15,7 +15,7 @@ from pymongo import MongoClient
 # Set file names for train and test data
 
 category_list = ['cs.AI', 'cs.CR', 'cs.CV', 'cs.DB', 'cs.LG']
-path_papers = "/home/sunlock/computer_science_magpie_full/"
+path_papers = "/home/xaloc/computer_science_magpie_full/"
 
 def do_kmeans(vectors, NUM_CLUSTERS = 40):
 
@@ -149,6 +149,15 @@ def update_papers_db(db, clusters):
         try:
             for doc_id in cluster['documents']:
                 print("Cluster", id_cluster, "doc_id", doc_id)
+
+                paper = db.papers.find_one({'id':doc_id})
+
+                paper['cluster_id'] = id_cluster
+                paper['cluster_words'] = cluster['keywords']
+                print("Paper:", paper)
+
+                db.papers.replace_one({'id':doc_id}, paper)
+
         except TypeError:
             print(cluster)
 
@@ -162,6 +171,7 @@ if __name__ == "__main__":
         client = MongoClient()
         db = client.database
 
+        db.clusters.delete_one({'category': c})
         db.clusters.insert({'category': c, 'clusters':clusters})
 
         update_papers_db(db, clusters)
