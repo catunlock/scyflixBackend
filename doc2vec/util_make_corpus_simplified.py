@@ -11,7 +11,7 @@ f_input = '/home/sunlock/classifier/papers_clasified/'
 f_labels = 'computer_science_labels'
 f_output = 'corpus'
 
-corpus_list = ['cs.AI', 'cs.CR', 'cs.CV', 'cs.DB', 'cs.LG']
+corpus_list = ['cs.AI', 'cs.CR', 'cs.CV', 'cs.DB', 'cs.LG', 'cs.ALL']
 
 def preprocess(list_words):
     for word in list_words:
@@ -34,7 +34,7 @@ def remove_stopwords(stopwords, list_words):
 
 def process_doc(doc):
     list_words = doc.split(" ")
-    #list_words = preprocess(list_words)
+    list_words = preprocess(list_words)
 
     #stops = set(stopwords.words("english"))
     #list_words = remove_stopwords(stops, list_words)

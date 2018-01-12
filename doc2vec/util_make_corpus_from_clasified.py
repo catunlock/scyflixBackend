@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 import concurrent.futures
 
-f_input = 'computer_science_classified'
+f_input = '/home/sunlock/classifier/papers_clasified'
 f_labels = 'computer_science_labels'
 f_output = 'corpus'
 
