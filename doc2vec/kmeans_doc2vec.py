@@ -106,7 +106,7 @@ def tf_idf(cluster, max_keywords=20):
     return result_words
 
 
-def prepare_to_json(clusters, max_keywords):
+def prepare_to_json(clusters, db, max_keywords):
     result = dict()
 
     print("Doing tf_idf of the common words of the clusters.")
@@ -116,12 +116,27 @@ def prepare_to_json(clusters, max_keywords):
         result[id_cluster]['keywords'] = tf_idf(c, max_keywords)
         result[id_cluster]['documents'] = []
         for (id_doc, _, _) in c:
-            result[id_cluster]['documents'].append(index_corpus[id_doc][:-4])
+            arxiv_id = index_corpus[id_doc][:-4]
+            paper = {}
+            paper['id'] = arxiv_id
+            paper['title'] = ''
+            paper['published'] = ''
+
+            try:
+                paper_db = db.papers.find_one({'id': arxiv_id})
+                print("Paper encontrado")
+                paper['title'] = paper_db['title']
+                paper['published'] = paper_db['published']
+            except TypeError:
+                print("No encontrado")
+
+
+            result[id_cluster]['documents'].append(paper)
 
     return result
 
 
-def extract_clusters(category, NUM_CLUSTERS = 40, max_keywords=20):
+def extract_clusters(category, db, NUM_CLUSTERS = 40, max_keywords=20):
     print("File for training:", category + '.txt')
     model = Doc2Vec.load(category + '.model')
 
@@ -141,7 +156,7 @@ def extract_clusters(category, NUM_CLUSTERS = 40, max_keywords=20):
 
     clusters = do_kmeans(vectors, NUM_CLUSTERS)
 
-    return prepare_to_json(clusters, max_keywords)
+    return prepare_to_json(clusters, db, max_keywords)
 
 
 def update_papers_db(db, clusters):
@@ -162,14 +177,17 @@ def update_papers_db(db, clusters):
             print(cluster)
 
 if __name__ == "__main__":
+
+    client = MongoClient()
+    db = client.database
+
     for c in category_list:
         print("Extracting clusters of: ", c)
 
-        clusters = extract_clusters(c)
+        clusters = extract_clusters(c, db)
         print(clusters)
 
-        client = MongoClient()
-        db = client.database
+
 
         db.clusters.delete_one({'category': c})
         db.clusters.insert({'category': c, 'clusters':clusters})
