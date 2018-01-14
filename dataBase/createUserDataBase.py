@@ -12,6 +12,6 @@ result = db.users.insert_one(
         "user": {
             "nickname": "Admin",
             "password": "123456",
-            "lastpaper": "10",
+            "lastpaper": "0706.0300v1",
         }
     })

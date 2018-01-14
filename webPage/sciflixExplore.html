@@ -26,8 +26,8 @@
     <script>
 
     	var searchResults;
-
-    	function showTopic(s)
+    	var dict = {};
+	   	function showTopic(s)
 		{
 		   var topics = '#topics'+s;
 		   $(topics).show();
@@ -38,6 +38,7 @@
 		   var topics = '#topics'+s;
 		   $(topics).hide();
 		}
+
 		var psr = '#resultados';
 		$(psr).hide();
 	    var x = document.cookie; 
@@ -51,20 +52,20 @@
 	        success: function (data) {
 
 				var i;
-				var html ='<div class="carousel-inner" style = "min-height: 1000px;"><div class="item active">';
+				var html ='<div class="carousel-inner" style = "min-height: 1000px;background-color: #white;"><div class="item active">';
 				for (i=0; i < data.length && i < 3; ++i){
-					var image1 = './images/'+data[i].paper.id+'.jpg';
-					var pdf1 = './pdfs/'+data[i].paper.id+'.pdf';
+					var image1 = './img/'+data[i].id+'.png';
+					var pdf1 = './pdfs/'+data[i].id+'.pdf';
 					if (i != 0) html = html+'<div class="item">';
-					html = html + '<img onclick="clickImage('+data[i].paper.id+');" src="'+image1+'" style="width: 100%"></div></a>';
+					//html = html + '<img onclick="clickImage("'+data[i].id+'");" src="'+image1+'" style="width: 100%"></div></a>';
+					html = html + '<img onclick="clickImage(\''+data[i].id+'\');" src="'+image1+'" style="width: 100%"></div>';
 				}
 				html = html + '</div>';
 				document.getElementById("carrousel").innerHTML = html;
 	        }
-	    })
+	    });
 
 	    function getRelated(j,id){
-	    	/*
 	    	var url = 'http://localhost:3000/getThreeSimilar?paper='+id;
 		    jQuery.support.cors = true;
 		    $.ajax ({
@@ -74,17 +75,19 @@
 		        success: function (data) {
 
 					var i;
-					var html ='<div id="myCarousel'+id+'" class="carousel slide" data-ride="carousel"><div class="carousel-inner"><div class="item active">';
-					for (i=0; i < data.length && i < 3; ++i){
-						var image1 = './images/'+data[i].paper.id+'.jpg';
-						var pdf1 = './pdfs/'+data[i].paper.id+'.pdf';
-						if (i != 0) html = html+'<div class="item">';
-						html = html + '<img onclick="clickImage('+data[i].paper.id+');" src="'+image1+'" style="width: 100%"></div></a>';
+					if (data.length > 0){
+						var html ='<div id="myCarousel'+j+'" class="carousel slide" data-ride="carousel"><div class="carousel-inner" style = "min-height: 1000px;"><div class="item active">';
+						for (i=0; i < data.length && i < 3; ++i){
+							var image1 = './img/'+data[i].id+'.png';
+							var pdf1 = './pdfs/'+data[i].id+'.pdf';
+							if (i != 0) html = html+'<div class="item">';
+							html = html + '<img onclick="clickImage(\''+data[i].id+'\');" src="'+image1+'" style="width: 100%"></div>';
+						}
+						html = html + '</div></div>';
+						document.getElementById('carrousel'+j).innerHTML = html;
 					}
-					html = html + '</div></div>';
-					document.getElementById('carrousel'+j).innerHTML = html;
 		        }
-		    })	*/
+		    });	
 	    }
 	    function clickImage(a) {
 	      var paperId = a;
@@ -99,13 +102,16 @@
 	          success: function (data) {
 	            alert("DB updated");
 	          }
-	      })
-	      var win = window.open(dict[a], '_blank');
+	      });
+	      var win = window.open('./pdfs/'+a+'.pdf', '_blank');
 	      win.focus();
 	    }
 
 	    function showPaper(i, id){
-	    	getRelated(i,id);
+	    	if (dict[id] == undefined){
+	    		getRelated(i,id);
+	    		dict[id] = 1;
+	    	}
 			var p = '#paper'+i;
 			$(p).show();
 	    }
@@ -116,8 +122,9 @@
 	    }
 	    function searchSimilar(){
 	    	var path = './testPdfs/'+document.getElementById("fileInput").files[0].name; //POR MOTIVOS DE SEGURIDAD EL EXPLORADOR NO TE DEVUELVE LA RUTA, HABRA QUE ESCOGER PAPERS QUE ESTEN EN EL DIRECTORIO ./testPdfs
+	    	//OJO!! -> CAMBIAR ./ por ruta absoluta 
 	    	alert('Find similar to '+path);
-			/*var url = 'http://localhost:3000/getSimilarFromPdf?file='+path;
+			var url = 'http://localhost:3000/getSimilarFromPdf?file='+path;
 			jQuery.support.cors = true;
 			$.ajax ({
 				url: url,
@@ -133,7 +140,7 @@
       						//FICHA DEL PAPER - INI
       						html = html +"<p class='btn-inner'>Autor</p><p style ='margin-left:110px;'>"+data[i].author+"</p>";
       						html = html +"<p class='btn-inner'>Fecha publicación</p><p style ='margin-left:110px;'>"+data[i].published.substring(0, 10)+"</p>";
-      						html = html +'<img class="carousel-inner" onclick="clickImage('+data[i].id+');" src="./images/'+data[i].id+'.jpg" style="width: 100%;">';
+      						html = html +'<img class="carousel-inner" onclick="clickImage(\''+data[i].id+'\');" src="./images/'+data[i].id+'.jpg" style="width: 100%;">';
       						html = html + '<div class="btn-inner" style ="margin-top:20px; font-size: 1.5rem;">';
       						html = html + 'Artículos más similares';
 				            html = html + '<div class="col-sm-8e" id ="Cards" style="background-color:#42DCA3; border-radius: 20px; margin: auto; width:60%">'
@@ -165,8 +172,7 @@
 						for (i = 0; i < data.length; ++i) $('#paper'+i).hide();
 						window.location.hash = "resultados";
 					}
-			}
-			})*/	    	
+			});	    	
 	    }
 	    function filtrar(){
 	    	var fechaDesde = document.getElementById("fechaDesde").value;
@@ -193,17 +199,17 @@
 						for (i = 0; i < data.length; ++i){
 							html = html + '<div onmouseover="showPaper('+i+', \''+data[i].id+'\');" onmouseout="hidePaper('+i+');"  id = "'+data[i].id+'" class="btn-inner" style ="margin-top:20px; font-size: 3rem;">';
       						html = html + '· '+data[i].title;
-      						html = html + '<div id="paper'+i+'" class="btn-inner" style = "font-size: 0.8rem; margin-left:60px; margin-top:20px;">';
+      						html = html + '<div id="paper'+i+'" class="btn-inner" style = "font-size: 0.8rem; margin-left:60px; margin-top:20px;">';//
       						//FICHA DEL PAPER - INI
       						html = html +"<p class='btn-inner'>Autor</p><p style ='margin-left:110px;'>"+data[i].author+"</p>";
       						html = html +"<p class='btn-inner'>Fecha publicación</p><p style ='margin-left:110px;'>"+data[i].published.substring(0, 10)+"</p>";
-      						html = html +'<img class="carousel-inner" onclick="clickImage('+data[i].id+');" src="./images/'+data[i].id+'.jpg" style="width: 100%;">';
-      						html = html + '<div class="btn-inner" style ="margin-top:20px; font-size: 1.5rem;">';
+      						html = html +'<div style = "background-color:#FFFFFF;width: 70%;margin:auto"><img class="carousel-inner" onclick="clickImage(\''+data[i].id+'\');" src="./img/'+data[i].id+'.png" style="width: 100%;"></div>';
+      						html = html + '<div class="btn-inner" style ="margin-top:20px; font-size: 1.5rem;">';//
       						html = html + 'Artículos más similares';
-				            html = html + '<div class="col-sm-8e" id ="Cards" style="background-color:#42DCA3; border-radius: 20px; margin: auto; width:60%">'
-				            html = html +    '<div id="myCarousel'+i+'" class="carousel slide" data-ride="carousel">'
-				            html = html +        '<div id = "carrousel'+i+'">'                    	
-				            html = html +        '</div>'
+				            html = html + '<div class="col-sm-8e" id ="Cards" style="background-color:#FFFFFF; border-radius: 20px; margin: auto; width:60%">'//
+				            html = html +    '<div id="myCarousel'+i+'" class="carousel slide" data-ride="carousel">'//
+				            html = html +        '<div id = "carrousel'+i+'">' //                   	
+				            html = html +        '</div>'//
 
 				            html = html +        '<a class="left carousel-control" href="#myCarousel'+i+'" data-slide="prev">'
 				            html = html +          '<span class="glyphicon glyphicon-chevron-left"></span>'
@@ -213,12 +219,12 @@
 				            html = html +          '<span class="glyphicon glyphicon-chevron-right"></span>'
 				            html = html +          '<span class="sr-only">Next</span>'
 				            html = html +        '</a>'
-				            html = html +    '</div>'
-				            html = html + '</div>' 
-				            html = html + '</div>'
-							html = html + '</div>'
+				            html = html +    '</div>'//
+				            html = html + '</div>'// 
+				            html = html + '</div>'//
+							html = html + '</div>'//
 
-      						html = html + '</div>'
+      						html = html + '</div>'//
 
       						
 						}
@@ -245,7 +251,7 @@
 
 
             <!-- The slideshow -->
-            <div class="col-sm-8e" id ="Cards" style="background-color:#42DCA3; border-radius: 20px; margin: auto; width:60%">
+            <div class="col-sm-8e" id ="Cards" style="background-color:#FFFFFF; border-radius: 20px; margin: auto; width:60%">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <div id = "carrousel">                    	
                     </div>
@@ -284,9 +290,11 @@
     		</div>
     		<div style = "width: 33%;float: right;">
 	    		<div style="margin: 10px;font-size: 100%;">CATEGORÍA</div>
-	    		<label class="btn-default" style = "width: 100%; border-style: none"><input type="checkbox" name="cb1"> MACHINE LEARNING</label>
-	    		<label class="btn-default" style = "width: 100%;border-style: none"><input type="checkbox" name="cb2"> ARTIFICIAL INTELIGENCE</label>
-	    		<label class="btn-default" style = "width: 100%;border-style: none"><input type="checkbox" name="cb3"> CRYPTOGRAPHY</label>
+	    		<label class="btn-default" style = "width: 100%; border-style: none"><input type="checkbox" name="cb1"> APRENDIZAJE AUTOMÁTICO</label>
+	    		<label class="btn-default" style = "width: 100%;border-style: none"><input type="checkbox" name="cb2"> INTELIGENCIA ARTIFICIAL</label>
+	    		<label class="btn-default" style = "width: 100%;border-style: none"><input type="checkbox" name="cb3"> BASES DE DATOS</label>
+	    		<label class="btn-default" style = "width: 100%;border-style: none"><input type="checkbox" name="cb3"> CRIPTOGRAFÍA</label>
+	    		<label class="btn-default" style = "width: 100%;border-style: none"><input type="checkbox" name="cb3"> VISIÓN POR COMPUTADOR</label>
     		</div>
     		  		
     		<div style = "width: 100%; float:right;">
