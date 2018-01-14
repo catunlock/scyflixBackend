@@ -11,8 +11,8 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-train_file = 'cs.AI.txt'
-model_file = 'cs.AI.model'
+train_file = 'cs.ALL.txt'
+model_file = 'cs.ALL.model'
 
 
 @app.route('/')
