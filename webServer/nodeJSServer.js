@@ -240,10 +240,10 @@ nodeJSServer.get('/getSimilarFromPdf/', function (req, res) {
         var i = 0;
         var ids = []
         for (i = 1; i < papers.length; ++i){
-            ids.push(papers[i].id);
-            console.log("IDS "+papers[i].id);
+            ids.push(papers[i].arxiv);
+            console.log("IDS "+papers[i].arxiv);
         }
-        userDb.collection('papers').find({"paper.id": { $in : ids }}).toArray(function(err, result) {
+        userDb.collection('papers').find({"id": { $in : ids }}).toArray(function(err, result) {
             if (err) throw err;
             console.log(result);
             res.send(result);

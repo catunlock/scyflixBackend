@@ -29,13 +29,13 @@
     	var dict = {};
 	   	function showTopic(s)
 		{
-		   var topics = '#topics'+s;
+		   var topics = '#'+s;
 		   $(topics).show();
 		}
 
 		function hideTopic(s)
 		{
-		   var topics = '#topics'+s;
+		   var topics = '#'+s;
 		   $(topics).hide();
 		}
 
@@ -62,6 +62,98 @@
 				}
 				html = html + '</div>';
 				document.getElementById("carrousel").innerHTML = html;
+	        }
+	    });
+
+	    url = 'http://localhost:3000/getClusters'
+	    jQuery.support.cors = true;
+	    $.ajax ({
+	        url: url,
+	        datatype: "json",
+	        crossDomain: true,
+	        success: function (data) {
+
+				var html = "";
+				var i;
+				var mustBeHidden = [];
+				nameDict = {};
+				nameDict['AI'] = 'INTELIGENCIA ARTIFICIAL';
+				nameDict['LG'] = 'APRENDIZAJE AUTOMÁTICO';
+				nameDict['CR'] = 'CRIPTOGRAFÍA';
+				nameDict['CV'] = 'VISIÓN POR COMPUTADOR'
+				nameDict['DB'] = 'BASES DE DATOS'
+				nameDict
+				for (i = 0; i < data.length; ++i){
+					var cat = data[i].category.substring(data[i].category.length - 2, data[i].category.length);
+					html = html + '<div onmouseover="showTopic(\''+cat+'topics\');" onmouseout="hideTopic(\''+cat+'topics\');" >';
+			        html = html + '   <div id = "category" class="btn-default" tag = "'+cat+'" style = "padding: 10px;text-align: center;">'
+			        html = html + nameDict[cat]; //USAR DICCIONARIO
+			        html = html + '   </div>';
+					html = html + '   <div id = "'+cat+'" class="btn-inner ">';
+					//TOPICS - INI
+					html = html + '<div onmouseover="showTopic(\''+cat+'topics\');" onmouseout="hideTopic(\''+cat+'topics\');" >';
+					html = html + '<div id ="'+cat+'topics">'
+					mustBeHidden.push('#'+cat+'topics');
+					for (var cluster in data[i].clusters){
+						var j = cluster;
+						var topic  = 'topic'+cat+j;
+						html = html + '		<div id = "'+topic+'" style = "border-style: solid;" onmouseover="showTopic(\''+cat+'topics\');" onmouseout="hideTopic(\''+cat+'topics\');"><h1>Palabras clave del cluster: ';
+						var keyWords;
+						for (keyWords = data[i].clusters[cluster].keywords.length - 5; keyWords < data[i].clusters[cluster].keywords.length ; ++keyWords){
+							if (data[i].clusters[cluster].keywords[keyWords] != undefined){
+								html = html + data[i].clusters[cluster].keywords[keyWords][1] + ' ';
+							}
+						}
+						html = html + '			</h1><div id ="papersCluster'+cluster+'"';
+						//PAPERS DEL CLUSTER - INI
+						for (var papers in data[i].clusters[cluster].documents){
+							if (data[i].clusters[cluster].documents[papers].title != ''){
+								html = html + '<div onmouseover="showPaper(\'paper'+papers+'Cluster'+i+'_'+cluster+'\', \''+data[i].clusters[cluster].documents[papers].id+'\');" onmouseout="hidePaper(\'paper'+papers+'Cluster'+i+'_'+cluster+'\');"  id = "'+data[i].clusters[cluster].documents[papers].id+'" class="btn-inner" style ="margin-top:20px; margin-left:100px; font-size: 3rem;">';							
+	      						html = html + '· '+data[i].clusters[cluster].documents[papers].title;
+	      						html = html + '<div id="paper'+papers+'Cluster'+i+'_'+cluster+'" class="btn-inner" style = "font-size: 0.8rem; margin-left:60px; margin-top:20px;">';//
+	      						mustBeHidden.push('#'+'paper'+papers+'Cluster'+i+'_'+cluster);
+	      						//FICHA DEL PAPER - INI
+	      						html = html +"<p class='btn-inner'>Fecha publicación</p><p style ='margin-left:110px;'>"+data[i].clusters[cluster].documents[papers].published.substring(0, 10)+"</p>";
+	      						html = html +'<div style = "background-color:#FFFFFF;width: 70%;margin:auto"><img class="carousel-inner" onclick="clickImage(\''+data[i].clusters[cluster].documents[papers].id+'\');" src="./img/'+data[i].clusters[cluster].documents[papers].id+'.png" style="width: 100%;"></div>';
+	      						html = html + '<div class="btn-inner" style ="margin-top:20px; font-size: 1.5rem;">';//
+	      						html = html + 'Artículos más similares';
+					            html = html + '<div class="col-sm-8e" id ="Cards" style="background-color:#FFFFFF; border-radius: 20px; margin: auto; width:60%">'//
+					            html = html +    '<div id="myCarouselpaper'+papers+'Cluster'+i+'_'+cluster+'" class="carousel slide" data-ride="carousel">'//
+					            html = html +        '<div id = "carrouselpaper'+papers+'Cluster'+i+'_'+cluster+'">' //                   	
+					            html = html +        '</div>'//
+
+					            html = html +        '<a class="left carousel-control" href="#myCarousel'+papers+'" data-slide="prev">'
+					            html = html +          '<span class="glyphicon glyphicon-chevron-left"></span>'
+					            html = html +          '<span class="sr-only">Previous</span>'
+					            html = html +        '</a>'
+					            html = html +        '<a class="right carousel-control" href="#myCarousel'+papers+'" data-slide="next">'
+					            html = html +          '<span class="glyphicon glyphicon-chevron-right"></span>'
+					            html = html +          '<span class="sr-only">Next</span>'
+					            html = html +        '</a>'
+					            html = html +    '</div>'//
+					            html = html + '</div>'// 
+					            html = html + '</div>'//
+								html = html + '</div>'//
+
+	      						html = html + '</div>'//	
+	      					}						
+						}
+						//PAPERS DEL CLUSTER - FIN
+						//html = html + '			</div>'
+						html = html + '		</div>';					
+					}
+					html = html + '</div>';
+					html = html + '</div>';
+					//html = html + '<script>$(\'#'+cat+'topics\').hide();<\/script>';
+					//TOPICS - FIN
+					html = html + '	  </div>';
+					//html = html + '<script>$(\'#topics'+cat+'\').hide();<\/script>';
+					html = html + '</div>';
+				}
+				document.getElementById("menu").innerHTML = html;
+				for (var hide in mustBeHidden){
+					$(mustBeHidden[hide]).hide();
+				}
 	        }
 	    });
 
@@ -112,18 +204,18 @@
 	    		getRelated(i,id);
 	    		dict[id] = 1;
 	    	}
-			var p = '#paper'+i;
+			var p = '#'+i;
 			$(p).show();
 	    }
 
+
 	    function hidePaper(i){
-			var p = '#paper'+i;
+			var p = '#'+i;
 			$(p).hide();
 	    }
 	    function searchSimilar(){
-	    	var path = './testPdfs/'+document.getElementById("fileInput").files[0].name; //POR MOTIVOS DE SEGURIDAD EL EXPLORADOR NO TE DEVUELVE LA RUTA, HABRA QUE ESCOGER PAPERS QUE ESTEN EN EL DIRECTORIO ./testPdfs
+	    	var path = '/home/segmentation-fault/uni/PAE/scyflixBackend/webPage/testPdfs/'+document.getElementById("fileInput").files[0].name; //POR MOTIVOS DE SEGURIDAD EL EXPLORADOR NO TE DEVUELVE LA RUTA, HABRA QUE ESCOGER PAPERS QUE ESTEN EN EL DIRECTORIO ./testPdfs
 	    	//OJO!! -> CAMBIAR ./ por ruta absoluta 
-	    	alert('Find similar to '+path);
 			var url = 'http://localhost:3000/getSimilarFromPdf?file='+path;
 			jQuery.support.cors = true;
 			$.ajax ({
@@ -134,19 +226,19 @@
 						var i;
 						var html = "";
 						for (i = 0; i < data.length; ++i){
-							html = html + '<div onmouseover="showPaper('+i+', \''+data[i].id+'\');" onmouseout="hidePaper('+i+');"  id = "'+data[i].id+'" class="btn-inner" style ="margin-top:20px; font-size: 3rem;">';
+							html = html + '<div onmouseover="showPaper(\'paper'+i+'\', \''+data[i].id+'\');" onmouseout="hidePaper(\'paper'+i+'\');"  id = "'+data[i].id+'" class="btn-inner" style ="margin-top:20px; font-size: 3rem;">';
       						html = html + '· '+data[i].title;
       						html = html + '<div id="paper'+i+'" class="btn-inner" style = "font-size: 0.8rem; margin-left:60px; margin-top:20px;">';
       						//FICHA DEL PAPER - INI
       						html = html +"<p class='btn-inner'>Autor</p><p style ='margin-left:110px;'>"+data[i].author+"</p>";
       						html = html +"<p class='btn-inner'>Fecha publicación</p><p style ='margin-left:110px;'>"+data[i].published.substring(0, 10)+"</p>";
-      						html = html +'<img class="carousel-inner" onclick="clickImage(\''+data[i].id+'\');" src="./images/'+data[i].id+'.jpg" style="width: 100%;">';
-      						html = html + '<div class="btn-inner" style ="margin-top:20px; font-size: 1.5rem;">';
+      						html = html +'<div style = "background-color:#FFFFFF;width: 70%;margin:auto"><img class="carousel-inner" onclick="clickImage(\''+data[i].id+'\');" src="./img/'+data[i].id+'.png" style="width: 100%;"></div>';
+      						html = html + '<div class="btn-inner" style ="margin-top:20px; font-size: 1.5rem;">';//
       						html = html + 'Artículos más similares';
-				            html = html + '<div class="col-sm-8e" id ="Cards" style="background-color:#42DCA3; border-radius: 20px; margin: auto; width:60%">'
-				            html = html +    '<div id="myCarousel'+i+'" class="carousel slide" data-ride="carousel">'
-				            html = html +        '<div id = "carrousel'+i+'">'                    	
-				            html = html +        '</div>'
+				            html = html + '<div class="col-sm-8e" id ="Cards" style="background-color:#FFFFFF; border-radius: 20px; margin: auto; width:60%">'//
+				            html = html +    '<div id="myCarouselpaper'+i+'" class="carousel slide" data-ride="carousel">'//
+				            html = html +        '<div id = "carrouselpaper'+i+'">' //                   	
+				            html = html +        '</div>'//
 
 				            html = html +        '<a class="left carousel-control" href="#myCarousel'+i+'" data-slide="prev">'
 				            html = html +          '<span class="glyphicon glyphicon-chevron-left"></span>'
@@ -156,12 +248,12 @@
 				            html = html +          '<span class="glyphicon glyphicon-chevron-right"></span>'
 				            html = html +          '<span class="sr-only">Next</span>'
 				            html = html +        '</a>'
-				            html = html +    '</div>'
-				            html = html + '</div>' 
-				            html = html + '</div>'
-							html = html + '</div>'
+				            html = html +    '</div>'//
+				            html = html + '</div>'// 
+				            html = html + '</div>'//
+							html = html + '</div>'//
 
-      						html = html + '</div>'
+      						html = html + '</div>'//
 
       						
 						}
@@ -197,8 +289,8 @@
 						var i;
 						var html = "";
 						for (i = 0; i < data.length; ++i){
-							html = html + '<div onmouseover="showPaper('+i+', \''+data[i].id+'\');" onmouseout="hidePaper('+i+');"  id = "'+data[i].id+'" class="btn-inner" style ="margin-top:20px; font-size: 3rem;">';
-      						html = html + '· '+data[i].title;
+							html = html + '<div onmouseover="showPaper(\'paper'+i+'\', \''+data[i].id+'\');" onmouseout="hidePaper(\'paper'+i+'\');"  id = "'+data[i].id+'" class="btn-inner" style ="margin-top:20px; font-size: 3rem;">';      	
+							html = html + '· '+data[i].title;
       						html = html + '<div id="paper'+i+'" class="btn-inner" style = "font-size: 0.8rem; margin-left:60px; margin-top:20px;">';//
       						//FICHA DEL PAPER - INI
       						html = html +"<p class='btn-inner'>Autor</p><p style ='margin-left:110px;'>"+data[i].author+"</p>";
@@ -307,34 +399,15 @@
 		</div>  
         <div class="row">
           <!-- Left Col -->
-          	<div class="col-sm-4">
+
 	            <div class="dropdown">
 	            	<br>
 	            	<div style="margin: 10px;font-size: 200%;">CATEGORÍAS</div><br>
-	            	<div onmouseover="showTopic('ML');" onmouseout="hideTopic('ML');" >
-			            <div id = "category" class="btn-default" tag = "ML" style = "padding: 10px;text-align: center;">
-			            	MACHINE LEARNING
-			            </div>
-						<div id = "topicsML" class="btn-inner ">
-							<a href="#">Topic 1</a><br>
-							<a href="#">Topic 2</a><br>
-							<a href="#">Topic 3</a><br>
-						</div>
-						<script>$('#topicsML').hide();</script>
-					</div>
-					<div onmouseover="showTopic('AI');" onmouseout="hideTopic('AI');" >
-						<div id = "category" class="btn-default" tag = "AI" style = "padding: 10px;text-align: center;">
-							ARTIFICIAL INTELIGENCE
-						</div>
-						<div id = "topicsAI" class="btn-inner">
-							<a href="#">Topic 1</a><br>
-							<a href="#">Topic 2</a><br>
-							<a href="#">Topic 3</a><br>
-						</div>
-						<script>$('#topicsAI').hide();</script>
+	            	<div id="menu">
+
 					</div>
 	            </div>
-            </div>
+
 
             
       	</div>
